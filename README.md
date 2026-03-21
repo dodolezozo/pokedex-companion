@@ -14,7 +14,7 @@ An interactive progression guide for Pokémon games — shows available Pokémon
 - Capture tracking saved locally per game
 - Multilingual: Français · English · 日本語
 
-Currently supported: FireRed / LeafGreen · Ruby / Sapphire / Emerald · Diamond / Pearl / Platinum
+Currently supported: FireRed / LeafGreen
 
 ---
 
