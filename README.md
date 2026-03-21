@@ -1,84 +1,34 @@
-# Pokémon Guide Progression
+# Pokédex Companion
 
-Un guide interactif qui affiche les Pokémon disponibles selon ta progression dans le jeu.
+An interactive progression guide for Pokémon games — shows available Pokémon based on your story progress.
 
-**[Voir le site →](https://ton-pseudo.github.io/pokemon-guide)**
+**[→ Open the site](https://dodolezozo.github.io/pokedex-companion)**
 
-## Fonctionnalités
+---
 
-- Slider de progression par arène / événement majeur
-- Affichage des Pokémon disponibles à chaque étape
-- Grisage des Pokémon nécessitant une condition non remplie (pierre, échange...)
-- Sprites officiels via PokéAPI
-- Support multilingue : Français · English · 日本語
-- Jeux supportés : Rouge Feu/Vert Feuille · Rubis/Saphir/Émeraude · Diamant/Perle/Platine
+### Features
 
-## Structure
+- Progress through badges, HMs, and major events
+- Pokémon filtered by unlocked areas, with obtain methods (wild, surf, fishing, trades...)
+- Evolutions inferred automatically — catch Pikachu and Raichu appears, grayed out until Thunder Stone is available
+- Capture tracking saved locally per game
+- Multilingual: Français · English · 日本語
 
-```
-pokemon-guide/
-├── index.html
-├── css/style.css
-├── js/app.js
-├── i18n/           ← Traductions (fr/en/ja)
-└── data/
-    ├── games.json  ← Liste des jeux
-    ├── frlg/       ← Rouge Feu / Vert Feuille
-    │   ├── meta.json     (milestones + zones)
-    │   └── pokemon.json  (pokémon + conditions)
-    ├── rse/        ← Rubis / Saphir / Émeraude
-    └── dp/         ← Diamant / Perle / Platine
-```
+Currently supported: FireRed / LeafGreen · Ruby / Sapphire / Emerald · Diamond / Pearl / Platinum
 
-## Ajouter un Pokémon
+---
 
-Dans `data/{jeu}/pokemon.json`, ajoute une entrée :
+### Credits & Rights
 
-```json
-{
-  "id": 25,
-  "names": { "fr": "Pikachu", "en": "Pikachu", "ja": "ピカチュウ" },
-  "availableFrom": "gym1",
-  "obtain": {
-    "type": "wild",
-    "locations": [{ "zone": "viridian-forest", "rarity": "uncommon" }]
-  },
-  "lock": null,
-  "notes": null
-}
-```
+Pokémon names, sprites, and data are the property of **Nintendo / Game Freak / Creatures Inc.**
+No assets are included in this repository — sprites are loaded dynamically from [PokéAPI](https://pokeapi.co) and remain hosted by their authors.
 
-### Types d'obtention (`type`)
+This is a fan-made, non-commercial project.
 
-| Type | Description |
-|------|-------------|
-| `starter` | Pokémon de départ |
-| `wild` | Attrapable dans la nature |
-| `evolution` | Par niveau (`level`) ou condition (`condition`) |
-| `stone` | Pierre évolutive |
-| `trade` | Échange |
-| `gift` | Cadeau PNJ |
-| `special` | Condition particulière |
+Code license: [CC BY-NC 4.0](LICENSE)
 
-### Verrou (`lock`)
+---
 
-Si un Pokémon est disponible à l'étape `gym1` mais nécessite une pierre disponible seulement à `gym4` :
+### Support
 
-```json
-"lock": {
-  "type": "stone",
-  "item": "moon-stone",
-  "names": { "fr": "Pierre Lune", "en": "Moon Stone", "ja": "つきのいし" },
-  "availableFrom": "gym4"
-}
-```
-
-## Hébergement GitHub Pages
-
-1. Push le dossier sur un repo GitHub public
-2. Settings → Pages → Source: `main` / `/ (root)`
-3. Le site est disponible à `https://ton-pseudo.github.io/pokemon-guide`
-
-## Licence
-
-[CC BY-NC 4.0](LICENSE) — Usage non-commercial uniquement.
+[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/dodolezozo)

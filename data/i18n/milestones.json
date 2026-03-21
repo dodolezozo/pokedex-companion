@@ -1,38 +1,188 @@
 {
   "frlg": {
-    "start":    { "fr": "Bourg Palette",              "en": "Pallet Town",           "ja": "マサラタウン" },
-    "gym1":     { "fr": "Arène 1 — Pierre Grise",     "en": "Gym 1 — Pewter City",   "ja": "ジム1 — ニビシティ" },
-    "gym2":     { "fr": "Arène 2 — Cerulean",         "en": "Gym 2 — Cerulean City", "ja": "ジム2 — ハナダシティ" },
-    "gym3":     { "fr": "Arène 3 — Vermilion",        "en": "Gym 3 — Vermilion City","ja": "ジム3 — クチバシティ" },
-    "gym4":     { "fr": "Arène 4 — Celadonia",        "en": "Gym 4 — Celadon City",  "ja": "ジム4 — タマムシシティ" },
-    "gym5":     { "fr": "Arène 5 — Parmanie",         "en": "Gym 5 — Fuchsia City",  "ja": "ジム5 — セキチクシティ" },
-    "gym6":     { "fr": "Arène 6 — Cramois'Île",      "en": "Gym 6 — Saffron City",  "ja": "ジム6 — ヤマブキシティ" },
-    "gym7":     { "fr": "Arène 7 — Carmin sur Mer",   "en": "Gym 7 — Cinnabar Island","ja": "ジム7 — グレンタウン" },
-    "gym8":     { "fr": "Arène 8 — Jadielle",         "en": "Gym 8 — Viridian City", "ja": "ジム8 — トキワシティ" },
-    "champion": { "fr": "Champion — Plateau Indigo",  "en": "Champion — Indigo Plateau","ja": "チャンピオン — セキエイこうげん" }
+    "start": {
+      "fr": "Bourg Palette",
+      "en": "Pallet Town",
+      "ja": "マサラタウン"
+    },
+    "gym1": {
+      "fr": "Arène 1 — Pierre Grise",
+      "en": "Gym 1 — Pewter City",
+      "ja": "ジム1 — ニビシティ"
+    },
+    "gym2": {
+      "fr": "Arène 2 — Cerulean",
+      "en": "Gym 2 — Cerulean City",
+      "ja": "ジム2 — ハナダシティ"
+    },
+    "gym3": {
+      "fr": "Arène 3 — Vermilion",
+      "en": "Gym 3 — Vermilion City",
+      "ja": "ジム3 — クチバシティ"
+    },
+    "gym4": {
+      "fr": "Arène 4 — Celadonia",
+      "en": "Gym 4 — Celadon City",
+      "ja": "ジム4 — タマムシシティ"
+    },
+    "gym5": {
+      "fr": "Arène 5 — Parmanie",
+      "en": "Gym 5 — Fuchsia City",
+      "ja": "ジム5 — セキチクシティ"
+    },
+    "gym6": {
+      "fr": "Arène 6 — Cramois'Île",
+      "en": "Gym 6 — Saffron City",
+      "ja": "ジム6 — ヤマブキシティ"
+    },
+    "gym7": {
+      "fr": "Arène 7 — Carmin sur Mer",
+      "en": "Gym 7 — Cinnabar Island",
+      "ja": "ジム7 — グレンタウン"
+    },
+    "gym8": {
+      "fr": "Arène 8 — Jadielle",
+      "en": "Gym 8 — Viridian City",
+      "ja": "ジム8 — トキワシティ"
+    },
+    "champion": {
+      "fr": "Champion — Plateau Indigo",
+      "en": "Champion — Indigo Plateau",
+      "ja": "チャンピオン — セキエイこうげん"
+    },
+    "hm-cut": {
+      "fr": "CS Coupe obtenue",
+      "en": "HM Cut obtained",
+      "ja": "ひでん「いあいぎり」入手"
+    },
+    "hm-surf": {
+      "fr": "CS Surf obtenue",
+      "en": "HM Surf obtained",
+      "ja": "ひでん「なみのり」入手"
+    }
   },
   "rse": {
-    "start":    { "fr": "Bourg en Vol",               "en": "Littleroot Town",       "ja": "ミシロタウン" },
-    "gym1":     { "fr": "Arène 1 — Rochebouton",      "en": "Gym 1 — Rustboro City", "ja": "ジム1 — カナズミシティ" },
-    "gym2":     { "fr": "Arène 2 — Barkolome",        "en": "Gym 2 — Dewford Town",  "ja": "ジム2 — ムロタウン" },
-    "gym3":     { "fr": "Arène 3 — Littroots",        "en": "Gym 3 — Mauville City", "ja": "ジム3 — キンセツシティ" },
-    "gym4":     { "fr": "Arène 4 — Lavandia",         "en": "Gym 4 — Lavaridge Town","ja": "ジム4 — フエンタウン" },
-    "gym5":     { "fr": "Arène 5 — Petalburg",        "en": "Gym 5 — Petalburg City","ja": "ジム5 — トウカシティ" },
-    "gym6":     { "fr": "Arène 6 — Acacie",           "en": "Gym 6 — Fortree City",  "ja": "ジム6 — ハジツゲタウン" },
-    "gym7":     { "fr": "Arène 7 — Chlorobourg",      "en": "Gym 7 — Mossdeep City", "ja": "ジム7 — トクサネシティ" },
-    "gym8":     { "fr": "Arène 8 — Lentillas",        "en": "Gym 8 — Sootopolis City","ja": "ジム8 — ルネシティ" },
-    "champion": { "fr": "Champion — Ligue Pokémon",   "en": "Champion — Pokémon League","ja": "チャンピオン — ポケモンリーグ" }
+    "start": {
+      "fr": "Bourg en Vol",
+      "en": "Littleroot Town",
+      "ja": "ミシロタウン"
+    },
+    "gym1": {
+      "fr": "Arène 1 — Rochebouton",
+      "en": "Gym 1 — Rustboro City",
+      "ja": "ジム1 — カナズミシティ"
+    },
+    "gym2": {
+      "fr": "Arène 2 — Barkolome",
+      "en": "Gym 2 — Dewford Town",
+      "ja": "ジム2 — ムロタウン"
+    },
+    "gym3": {
+      "fr": "Arène 3 — Littroots",
+      "en": "Gym 3 — Mauville City",
+      "ja": "ジム3 — キンセツシティ"
+    },
+    "gym4": {
+      "fr": "Arène 4 — Lavandia",
+      "en": "Gym 4 — Lavaridge Town",
+      "ja": "ジム4 — フエンタウン"
+    },
+    "gym5": {
+      "fr": "Arène 5 — Petalburg",
+      "en": "Gym 5 — Petalburg City",
+      "ja": "ジム5 — トウカシティ"
+    },
+    "gym6": {
+      "fr": "Arène 6 — Acacie",
+      "en": "Gym 6 — Fortree City",
+      "ja": "ジム6 — ハジツゲタウン"
+    },
+    "gym7": {
+      "fr": "Arène 7 — Chlorobourg",
+      "en": "Gym 7 — Mossdeep City",
+      "ja": "ジム7 — トクサネシティ"
+    },
+    "gym8": {
+      "fr": "Arène 8 — Lentillas",
+      "en": "Gym 8 — Sootopolis City",
+      "ja": "ジム8 — ルネシティ"
+    },
+    "champion": {
+      "fr": "Champion — Ligue Pokémon",
+      "en": "Champion — Pokémon League",
+      "ja": "チャンピオン — ポケモンリーグ"
+    },
+    "hm-cut": {
+      "fr": "CS Coupe obtenue",
+      "en": "HM Cut obtained",
+      "ja": "ひでん「いあいぎり」入手"
+    },
+    "hm-surf": {
+      "fr": "CS Surf obtenue",
+      "en": "HM Surf obtained",
+      "ja": "ひでん「なみのり」入手"
+    }
   },
   "dp": {
-    "start":    { "fr": "Lac Flegme",                 "en": "Twinleaf Town",         "ja": "フタバタウン" },
-    "gym1":     { "fr": "Arène 1 — Joliberges",       "en": "Gym 1 — Oreburgh City", "ja": "ジム1 — クロガネシティ" },
-    "gym2":     { "fr": "Arène 2 — Vestigion",        "en": "Gym 2 — Eterna City",   "ja": "ジム2 — ハクタイシティ" },
-    "gym3":     { "fr": "Arène 3 — Veilstone",        "en": "Gym 3 — Veilstone City","ja": "ジム3 — トバリシティ" },
-    "gym4":     { "fr": "Arène 4 — Coeur-Nacre",      "en": "Gym 4 — Pastoria City", "ja": "ジム4 — ノモセシティ" },
-    "gym5":     { "fr": "Arène 5 — Onixi",            "en": "Gym 5 — Hearthome City","ja": "ジム5 — ヨスガシティ" },
-    "gym6":     { "fr": "Arène 6 — Joliberges (port)","en": "Gym 6 — Canalave City", "ja": "ジム6 — コテブキシティ" },
-    "gym7":     { "fr": "Arène 7 — Blanche-Neige",    "en": "Gym 7 — Snowpoint City","ja": "ジム7 — キッサキシティ" },
-    "gym8":     { "fr": "Arène 8 — Pivoine",          "en": "Gym 8 — Sunyshore City","ja": "ジム8 — ナギサシティ" },
-    "champion": { "fr": "Champion — Ligue Sinnoh",    "en": "Champion — Sinnoh League","ja": "チャンピオン — シンオウリーグ" }
+    "start": {
+      "fr": "Lac Flegme",
+      "en": "Twinleaf Town",
+      "ja": "フタバタウン"
+    },
+    "gym1": {
+      "fr": "Arène 1 — Joliberges",
+      "en": "Gym 1 — Oreburgh City",
+      "ja": "ジム1 — クロガネシティ"
+    },
+    "gym2": {
+      "fr": "Arène 2 — Vestigion",
+      "en": "Gym 2 — Eterna City",
+      "ja": "ジム2 — ハクタイシティ"
+    },
+    "gym3": {
+      "fr": "Arène 3 — Veilstone",
+      "en": "Gym 3 — Veilstone City",
+      "ja": "ジム3 — トバリシティ"
+    },
+    "gym4": {
+      "fr": "Arène 4 — Coeur-Nacre",
+      "en": "Gym 4 — Pastoria City",
+      "ja": "ジム4 — ノモセシティ"
+    },
+    "gym5": {
+      "fr": "Arène 5 — Onixi",
+      "en": "Gym 5 — Hearthome City",
+      "ja": "ジム5 — ヨスガシティ"
+    },
+    "gym6": {
+      "fr": "Arène 6 — Joliberges (port)",
+      "en": "Gym 6 — Canalave City",
+      "ja": "ジム6 — コテブキシティ"
+    },
+    "gym7": {
+      "fr": "Arène 7 — Blanche-Neige",
+      "en": "Gym 7 — Snowpoint City",
+      "ja": "ジム7 — キッサキシティ"
+    },
+    "gym8": {
+      "fr": "Arène 8 — Pivoine",
+      "en": "Gym 8 — Sunyshore City",
+      "ja": "ジム8 — ナギサシティ"
+    },
+    "champion": {
+      "fr": "Champion — Ligue Sinnoh",
+      "en": "Champion — Sinnoh League",
+      "ja": "チャンピオン — シンオウリーグ"
+    },
+    "hm-cut": {
+      "fr": "CS Coupe obtenue",
+      "en": "HM Cut obtained",
+      "ja": "ひでん「いあいぎり」入手"
+    },
+    "hm-surf": {
+      "fr": "CS Surf obtenue",
+      "en": "HM Surf obtained",
+      "ja": "ひでん「なみのり」入手"
+    }
   }
 }

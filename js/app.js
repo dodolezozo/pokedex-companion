@@ -67,14 +67,68 @@ function toggleCaptured(pokemonId) {
   if (set.has(pokemonId)) set.delete(pokemonId);
   else set.add(pokemonId);
   saveCaptured(state.gameId);
-  // Mise à jour visuelle sans re-render complet
+
+  // Mise à jour visuelle de la carte sans re-render complet
   const card = document.querySelector(`.poke-card[data-id="${pokemonId}"]`);
   if (card) {
     const isCaptured = set.has(pokemonId);
     card.classList.toggle('captured', isCaptured);
     const cb = card.querySelector('.capture-cb');
-    if (cb) cb.checked = isCaptured;
+    if (cb) {
+      cb.checked = isCaptured;
+      const box = cb.closest('.capture-label')?.querySelector('.capture-box');
+      if (box) box.textContent = isCaptured ? '✓' : '';
+    }
   }
+
+  // Mise à jour en temps réel du compteur
+  updateCapturedStat();
+}
+
+function updateCapturedStat() {
+  const captured = loadCaptured(state.gameId);
+  const allCards = document.querySelectorAll('.poke-card:not(.locked):not(.version-hidden)');
+  const total = allCards.length;
+  const count = [...allCards].filter(c => captured.has(Number(c.dataset.id))).length;
+
+  document.getElementById('stat-captured').textContent = count;
+
+  // Confettis si tous capturés (et qu'il y en a au moins un)
+  if (total > 0 && count === total) launchConfetti();
+}
+
+function launchConfetti() {
+  const colors = ['#1D9E75', '#EF9F27', '#378ADD', '#D4537E', '#7F77DD', '#E24B4A'];
+  const container = document.createElement('div');
+  container.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;overflow:hidden;';
+  document.body.appendChild(container);
+
+  for (let i = 0; i < 120; i++) {
+    const piece = document.createElement('div');
+    const color = colors[Math.floor(Math.random() * colors.length)];
+    const size = 6 + Math.random() * 8;
+    const left = Math.random() * 100;
+    const delay = Math.random() * 0.8;
+    const duration = 2.5 + Math.random() * 1.5;
+    const rotation = Math.random() * 720;
+    const isRect = Math.random() > 0.5;
+
+    piece.style.cssText = `
+      position:absolute;
+      top:-20px;
+      left:${left}%;
+      width:${isRect ? size : size * 0.6}px;
+      height:${isRect ? size * 0.4 : size}px;
+      background:${color};
+      border-radius:${isRect ? '2px' : '50%'};
+      animation:confetti-fall ${duration}s ${delay}s ease-in forwards;
+      transform:rotate(${Math.random() * 360}deg);
+    `;
+    container.appendChild(piece);
+  }
+
+  // Supprimer après l'animation
+  setTimeout(() => container.remove(), 5000);
 }
 
 function resetCaptured() {
@@ -161,10 +215,20 @@ function getCurrentState() {
   return { unlockedZones, unlockedItems };
 }
 
-function getWildPokemon(unlockedZones) {
-  const found = new Set();
+// Retourne un Map { id → source } pour tous les Pokémon des zones débloquées
+function getZonePokemon(unlockedZones) {
+  const found = new Map(); // id → source (wild/surfing/fishing)
   for (const zone of unlockedZones) {
-    (state.zones[zone] ?? []).forEach(id => found.add(id));
+    const zoneData = state.zones[zone];
+    if (!zoneData) continue;
+    // Support ancien format (tableau) et nouveau format (objet par méthode)
+    if (Array.isArray(zoneData)) {
+      zoneData.forEach(id => { if (!found.has(id)) found.set(id, 'wild'); });
+    } else {
+      for (const [method, ids] of Object.entries(zoneData)) {
+        ids.forEach(id => { if (!found.has(id)) found.set(id, method); });
+      }
+    }
   }
   return found;
 }
@@ -195,20 +259,28 @@ function isVersionFiltered(id) {
   return !state.activeVersions.has(version);
 }
 
-// Retourne les zones débloquées où spawn ce pokémon
+// Retourne les zones débloquées où spawn ce pokémon, avec la méthode
 function getSpawnZones(id, unlockedZones) {
   const zones = [];
   for (const zone of unlockedZones) {
-    if ((state.zones[zone] ?? []).includes(id)) zones.push(zone);
+    const zoneData = state.zones[zone];
+    if (!zoneData) continue;
+    if (Array.isArray(zoneData)) {
+      if (zoneData.includes(id)) zones.push({ zone, method: 'wild' });
+    } else {
+      for (const [method, ids] of Object.entries(zoneData)) {
+        if (ids.includes(id)) zones.push({ zone, method });
+      }
+    }
   }
   return zones;
 }
 
 function categorizePokemon() {
   const { unlockedZones, unlockedItems } = getCurrentState();
-  const wildIds    = getWildPokemon(unlockedZones);
-  const giftIds    = getGiftPokemon();
-  const starterIds = new Set(state.meta.starters ?? []);
+  const zonePokemon = getZonePokemon(unlockedZones); // Map id → source
+  const giftIds     = getGiftPokemon();
+  const starterIds  = new Set(state.meta.starters ?? []);
 
   const result = { available: [], locked: [] };
   const seen   = new Set();
@@ -248,9 +320,13 @@ function categorizePokemon() {
     }
   }
 
-  for (const id of starterIds) addPokemon(id, 'starter');
-  for (const id of giftIds)    addPokemon(id, 'gift');
-  for (const id of wildIds)    addPokemon(id, 'wild');
+  for (const id of starterIds)             addPokemon(id, 'starter');
+  for (const id of giftIds)               addPokemon(id, 'gift');
+  for (const [id, source] of zonePokemon) addPokemon(id, source);
+
+  // Tri par numéro Pokédex
+  result.available.sort((a, b) => a.id - b.id);
+  result.locked.sort((a, b) => a.id - b.id);
 
   return result;
 }
@@ -320,8 +396,13 @@ function makeCard(entry, isLocked) {
   // Tooltip zones de spawn
   let tooltip = '';
   if (spawnZones && spawnZones.length > 0) {
+    const methodIcons = { wild: '🌿', surfing: '🌊', fishing: '🎣' };
     const zoneItems = spawnZones
-      .map(z => `<span class="tooltip-zone">${state.zoneNames[z]?.[state.lang] ?? state.zoneNames[z]?.en ?? z}</span>`)
+      .map(({ zone, method }) => {
+        const name = state.zoneNames[zone]?.[state.lang] ?? state.zoneNames[zone]?.en ?? zone;
+        const icon = methodIcons[method] ?? '';
+        return `<span class="tooltip-zone">${icon} ${name}</span>`;
+      })
       .join('');
     tooltip = `<div class="spawn-tooltip"><div class="tooltip-title">${t("tooltipTitle")}</div>${zoneItems}</div>`;
   }
@@ -464,8 +545,7 @@ function renderAll() {
 // ── Actions ──────────────────────────────
 async function switchLang(lang) {
   state.lang = lang;
-  const ui = await fetchJSON(`i18n/${lang}.json`);
-  state.ui = ui.ui;
+  await loadI18n();
   renderAll();
 }
 
