@@ -1,78 +1,28 @@
 {
   "starters": [252, 255, 258],
   "gifts": [],
+  "exclusives": {
+    "rubis":    [27, 28, 037, 038, 111, 112, 302, 303, 307, 308, 335, 337],
+    "saphir":   [72, 73, 116, 117, 222, 226, 293, 294, 295, 304, 305, 306, 336, 338],
+    "emeraude": []
+  },
+  "versions": {
+    "rubis":    { "fr": "Rubis",    "en": "Ruby",     "ja": "ルビー" },
+    "saphir":   { "fr": "Saphir",   "en": "Sapphire", "ja": "サファイア" },
+    "emeraude": { "fr": "Émeraude", "en": "Emerald",  "ja": "エメラルド" }
+  },
   "milestones": [
-    {
-      "id": "start",
-      "icon": "🏠",
-      "unlocksZones": ["route-101", "route-102", "route-103"],
-      "unlocksItems": []
-    },
-    {
-      "id": "gym1",
-      "icon": "🪨",
-      "unlocksZones": ["route-104", "route-116", "petalburg-woods"],
-      "unlocksItems": []
-    },
-    {
-      "id": "hm-cut",
-      "icon": "✂️",
-      "unlocksZones": ["route-105", "route-106", "granite-cave"],
-      "unlocksItems": []
-    },
-    {
-      "id": "gym2",
-      "icon": "🥊",
-      "unlocksZones": [],
-      "unlocksItems": []
-    },
-    {
-      "id": "gym3",
-      "icon": "⚡",
-      "unlocksZones": ["route-110", "route-111", "route-112", "new-mauville", "fiery-path"],
-      "unlocksItems": ["thunder-stone"]
-    },
-    {
-      "id": "gym4",
-      "icon": "🔥",
-      "unlocksZones": ["route-113", "route-114", "route-115", "mt-chimney", "jagged-pass"],
-      "unlocksItems": ["fire-stone"]
-    },
-    {
-      "id": "gym5",
-      "icon": "🌿",
-      "unlocksZones": ["route-117"],
-      "unlocksItems": ["leaf-stone"]
-    },
-    {
-      "id": "hm-surf",
-      "icon": "🌊",
-      "unlocksZones": ["route-105", "route-106", "route-107", "route-118", "route-119", "route-122", "route-123", "route-124", "route-125", "route-126", "route-127", "route-128", "safari-zone", "shoal-cave"],
-      "unlocksItems": []
-    },
-    {
-      "id": "gym6",
-      "icon": "👻",
-      "unlocksZones": ["route-119", "route-120", "route-121"],
-      "unlocksItems": []
-    },
-    {
-      "id": "gym7",
-      "icon": "🧠",
-      "unlocksZones": ["route-125", "route-129", "route-130"],
-      "unlocksItems": ["water-stone"]
-    },
-    {
-      "id": "gym8",
-      "icon": "🌊",
-      "unlocksZones": ["route-126", "cave-of-origin", "meteor-falls"],
-      "unlocksItems": ["moon-stone"]
-    },
-    {
-      "id": "champion",
-      "icon": "🏆",
-      "unlocksZones": ["sky-pillar", "victory-road-rse"],
-      "unlocksItems": []
-    }
+    { "id": "start",    "icon": "🏠", "unlocksZones": ["route-101", "route-102", "route-103"], "unlocksItems": [] },
+    { "id": "gym1",     "icon": "🪨", "unlocksZones": ["route-104", "route-116", "petalburg-woods"], "unlocksItems": [] },
+    { "id": "hm-cut",   "icon": "✂️", "unlocksZones": ["route-105", "route-106", "granite-cave"], "unlocksItems": [] },
+    { "id": "gym2",     "icon": "🥊", "unlocksZones": [], "unlocksItems": [] },
+    { "id": "gym3",     "icon": "⚡", "unlocksZones": ["route-110", "route-111", "route-112", "new-mauville", "fiery-path"], "unlocksItems": ["thunder-stone"] },
+    { "id": "gym4",     "icon": "🔥", "unlocksZones": ["route-113", "route-114", "route-115", "mt-chimney", "jagged-pass"], "unlocksItems": ["fire-stone"] },
+    { "id": "gym5",     "icon": "🌿", "unlocksZones": ["route-117"], "unlocksItems": ["leaf-stone"] },
+    { "id": "hm-surf",  "icon": "🌊", "unlocksZones": ["route-105", "route-106", "route-107", "route-118", "route-119", "route-122", "route-123", "route-124", "route-125", "route-126", "route-127", "route-128", "safari-zone", "shoal-cave"], "unlocksItems": [] },
+    { "id": "gym6",     "icon": "👻", "unlocksZones": ["route-119", "route-120", "route-121"], "unlocksItems": [] },
+    { "id": "gym7",     "icon": "🧠", "unlocksZones": ["route-125", "route-129", "route-130"], "unlocksItems": ["water-stone"] },
+    { "id": "gym8",     "icon": "🌊", "unlocksZones": ["route-126", "cave-of-origin", "meteor-falls"], "unlocksItems": ["moon-stone"] },
+    { "id": "champion", "icon": "🏆", "unlocksZones": ["sky-pillar", "victory-road-rse"], "unlocksItems": [] }
   ]
 }

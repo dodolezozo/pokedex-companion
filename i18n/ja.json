@@ -6,6 +6,7 @@
     "statAvailable": "入手可能",
     "statLocked": "ロック中",
     "statTotal": "合計",
+    "statCaptured": "捕まえた",
     "tagLabels": {
       "starter": "最初のポケモン",
       "wild": "野生",
@@ -16,13 +17,12 @@
       "special": "特殊",
       "happiness": "なつき度",
       "time": "時間帯",
-      "locked": "ロック中"
-    },
-    "rarityLabels": {
-      "common": "よく出る",
-      "uncommon": "まあまあ",
-      "rare": "レア",
-      "unique": "1匹限定"
+      "locked": "ロック中",
+      "npcTrade": "NPC交換",
+      "buy": "購入",
+      "surfing": "なみのり",
+      "fishing": "つり",
+      "fossil": "かせき"
     },
     "lockLabel": {
       "stone": "必要：",
@@ -30,6 +30,10 @@
     },
     "levelLabel": "Lv.",
     "evolvesFrom": "進化元",
-    "loading": "読み込み中..."
+    "noGame": "ゲームを選んでください",
+    "versionFilter": "バージョン：",
+    "resetTitle": "捕獲データをリセット",
+    "resetConfirm": "このゲームの捕獲データをリセットしますか？",
+    "tooltipTitle": "出現エリア"
   }
 }

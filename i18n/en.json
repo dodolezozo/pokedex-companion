@@ -6,6 +6,7 @@
     "statAvailable": "Available",
     "statLocked": "Locked",
     "statTotal": "Total",
+    "statCaptured": "Caught",
     "tagLabels": {
       "starter": "Starter",
       "wild": "Wild",
@@ -16,13 +17,12 @@
       "special": "Special",
       "happiness": "Friendship",
       "time": "Time of day",
-      "locked": "Locked"
-    },
-    "rarityLabels": {
-      "common": "Common",
-      "uncommon": "Uncommon",
-      "rare": "Rare",
-      "unique": "Unique"
+      "locked": "Locked",
+      "npcTrade": "NPC Trade",
+      "buy": "Purchase",
+      "surfing": "Surfing",
+      "fishing": "Fishing",
+      "fossil": "Fossil"
     },
     "lockLabel": {
       "stone": "Requires:",
@@ -30,6 +30,10 @@
     },
     "levelLabel": "Lv.",
     "evolvesFrom": "Evolves from",
-    "loading": "Loading..."
+    "noGame": "Select a game to begin",
+    "versionFilter": "Version:",
+    "resetTitle": "Reset captures",
+    "resetConfirm": "Reset all your captures for this game?",
+    "tooltipTitle": "Accessible areas"
   }
 }

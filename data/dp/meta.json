@@ -1,81 +1,30 @@
 {
   "starters": [387, 390, 393],
   "gifts": [
-    { "id": 447, "milestone": "gym6", "zone": "iron-island" },
-    { "id": 175, "milestone": "start", "zone": "route-230" }
+    { "id": 447, "milestone": "gym6", "zone": "iron-island" }
   ],
+  "exclusives": {
+    "diamant": [27, 28, 037, 038, 203, 208, 302, 303, 335, 336, 443, 444, 445],
+    "perle":   [029, 030, 031, 032, 033, 034, 079, 080, 198, 200, 204, 205, 215, 302, 303, 453, 454],
+    "platine": []
+  },
+  "versions": {
+    "diamant": { "fr": "Diamant",  "en": "Diamond",  "ja": "ダイヤモンド" },
+    "perle":   { "fr": "Perle",    "en": "Pearl",    "ja": "パール" },
+    "platine": { "fr": "Platine",  "en": "Platinum", "ja": "プラチナ" }
+  },
   "milestones": [
-    {
-      "id": "start",
-      "icon": "🏠",
-      "unlocksZones": ["route-201", "route-202", "sandgem-beach"],
-      "unlocksItems": []
-    },
-    {
-      "id": "gym1",
-      "icon": "🪨",
-      "unlocksZones": ["route-203", "route-204", "oreburgh-mine"],
-      "unlocksItems": []
-    },
-    {
-      "id": "hm-cut",
-      "icon": "✂️",
-      "unlocksZones": ["route-205", "eterna-forest", "old-chateau"],
-      "unlocksItems": []
-    },
-    {
-      "id": "gym2",
-      "icon": "👊",
-      "unlocksZones": ["route-206", "route-207", "wayward-cave"],
-      "unlocksItems": []
-    },
-    {
-      "id": "gym3",
-      "icon": "🤸",
-      "unlocksZones": ["route-208", "route-209", "route-214", "solaceon-ruins"],
-      "unlocksItems": []
-    },
-    {
-      "id": "gym4",
-      "icon": "💧",
-      "unlocksZones": ["route-210", "route-211", "route-212", "route-213", "great-marsh"],
-      "unlocksItems": []
-    },
-    {
-      "id": "hm-surf",
-      "icon": "🌊",
-      "unlocksZones": ["route-213", "route-218", "route-219", "route-220", "route-221", "lake-verity", "lake-valor", "lake-acuity"],
-      "unlocksItems": []
-    },
-    {
-      "id": "gym5",
-      "icon": "👻",
-      "unlocksZones": ["route-215"],
-      "unlocksItems": []
-    },
-    {
-      "id": "gym6",
-      "icon": "🦺",
-      "unlocksZones": ["route-218", "iron-island"],
-      "unlocksItems": ["metal-coat"]
-    },
-    {
-      "id": "gym7",
-      "icon": "🧊",
-      "unlocksZones": ["route-216", "route-217", "mt-coronet", "snowpoint-temple"],
-      "unlocksItems": []
-    },
-    {
-      "id": "gym8",
-      "icon": "⚡",
-      "unlocksZones": ["route-222", "victory-road-sinnoh"],
-      "unlocksItems": ["thunder-stone", "shiny-stone", "dusk-stone", "dawn-stone"]
-    },
-    {
-      "id": "champion",
-      "icon": "🏆",
-      "unlocksZones": ["route-224", "route-225", "route-226", "route-227", "route-228", "route-229", "route-230", "stark-mountain"],
-      "unlocksItems": ["fire-stone", "water-stone", "leaf-stone", "moon-stone"]
-    }
+    { "id": "start",    "icon": "🏠", "unlocksZones": ["route-201", "route-202", "sandgem-beach"], "unlocksItems": [] },
+    { "id": "gym1",     "icon": "🪨", "unlocksZones": ["route-203", "route-204", "oreburgh-mine"], "unlocksItems": [] },
+    { "id": "hm-cut",   "icon": "✂️", "unlocksZones": ["route-205", "eterna-forest", "old-chateau"], "unlocksItems": [] },
+    { "id": "gym2",     "icon": "👊", "unlocksZones": ["route-206", "route-207", "wayward-cave"], "unlocksItems": [] },
+    { "id": "gym3",     "icon": "🤸", "unlocksZones": ["route-208", "route-209", "route-214", "solaceon-ruins"], "unlocksItems": [] },
+    { "id": "gym4",     "icon": "💧", "unlocksZones": ["route-210", "route-211", "route-212", "route-213", "great-marsh"], "unlocksItems": [] },
+    { "id": "hm-surf",  "icon": "🌊", "unlocksZones": ["route-213", "route-218", "route-219", "route-220", "route-221", "lake-verity", "lake-valor", "lake-acuity"], "unlocksItems": [] },
+    { "id": "gym5",     "icon": "👻", "unlocksZones": ["route-215"], "unlocksItems": [] },
+    { "id": "gym6",     "icon": "🦺", "unlocksZones": ["route-218", "iron-island"], "unlocksItems": ["metal-coat"] },
+    { "id": "gym7",     "icon": "🧊", "unlocksZones": ["route-216", "route-217", "mt-coronet", "snowpoint-temple"], "unlocksItems": [] },
+    { "id": "gym8",     "icon": "⚡", "unlocksZones": ["route-222", "victory-road-sinnoh"], "unlocksItems": ["thunder-stone", "shiny-stone", "dusk-stone", "dawn-stone"] },
+    { "id": "champion", "icon": "🏆", "unlocksZones": ["route-224", "route-225", "route-226", "route-227", "route-228", "route-229", "route-230", "stark-mountain"], "unlocksItems": ["fire-stone", "water-stone", "leaf-stone", "moon-stone"] }
   ]
 }

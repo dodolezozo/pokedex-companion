@@ -6,6 +6,7 @@
     "statAvailable": "Disponibles",
     "statLocked": "En attente",
     "statTotal": "Total",
+    "statCaptured": "Capturés",
     "tagLabels": {
       "starter": "Starter",
       "wild": "Sauvage",
@@ -16,13 +17,12 @@
       "special": "Spécial",
       "happiness": "Bonheur",
       "time": "Heure",
-      "locked": "Verrouillé"
-    },
-    "rarityLabels": {
-      "common": "Commun",
-      "uncommon": "Peu commun",
-      "rare": "Rare",
-      "unique": "Unique"
+      "locked": "Verrouillé",
+      "npcTrade": "Échange PNJ",
+      "buy": "Achat",
+      "surfing": "Surf",
+      "fishing": "Pêche",
+      "fossil": "Fossile"
     },
     "lockLabel": {
       "stone": "Requiert :",
@@ -30,6 +30,10 @@
     },
     "levelLabel": "Niv.",
     "evolvesFrom": "Évolue de",
-    "loading": "Chargement..."
+    "noGame": "Sélectionne un jeu pour commencer",
+    "versionFilter": "Version :",
+    "resetTitle": "Réinitialiser les captures",
+    "resetConfirm": "Réinitialiser toutes tes captures pour ce jeu ?",
+    "tooltipTitle": "Zones accessibles"
   }
 }

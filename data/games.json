@@ -3,6 +3,7 @@
     "id": "frlg",
     "icon": "🔥",
     "color": "#E8401C",
+    "spriteSet": "generation-iii/firered-leafgreen",
     "names": {
       "fr": "Rouge Feu / Vert Feuille",
       "en": "FireRed / LeafGreen",
@@ -13,6 +14,7 @@
     "id": "rse",
     "icon": "💎",
     "color": "#A25EFF",
+    "spriteSet": "generation-iii/ruby-sapphire",
     "names": {
       "fr": "Rubis / Saphir / Émeraude",
       "en": "Ruby / Sapphire / Emerald",
@@ -23,6 +25,7 @@
     "id": "dp",
     "icon": "🌟",
     "color": "#5B8CFF",
+    "spriteSet": "generation-iv/diamond-pearl",
     "names": {
       "fr": "Diamant / Perle / Platine",
       "en": "Diamond / Pearl / Platinum",
