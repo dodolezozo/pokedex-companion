@@ -1,64 +1,80 @@
 {
+  "starters": [1, 4, 7],
+  "gifts": [
+    { "id": 129, "milestone": "gym1", "zone": "mt-moon" }
+  ],
   "milestones": [
     {
       "id": "start",
       "icon": "🏠",
-      "names": { "fr": "Bourg Palette", "en": "Pallet Town", "ja": "マサラタウン" },
-      "unlocksZones": ["route-1", "route-2", "viridian-city"]
+      "unlocksZones": ["route-1", "route-2", "viridian-forest"],
+      "unlocksItems": []
     },
     {
       "id": "gym1",
       "icon": "🥋",
-      "names": { "fr": "Arène 1 — Pierre Grise", "en": "Gym 1 — Pewter City", "ja": "ニビシティ — ジム1" },
-      "unlocksZones": ["route-3", "route-4", "mt-moon", "pewter-city"]
+      "unlocksZones": ["route-3", "route-4", "mt-moon"],
+      "unlocksItems": []
     },
     {
       "id": "gym2",
       "icon": "💧",
-      "names": { "fr": "Arène 2 — Cerulean", "en": "Gym 2 — Cerulean City", "ja": "ハナダシティ — ジム2" },
-      "unlocksZones": ["route-24", "route-25", "cerulean-city", "mt-moon"]
+      "unlocksZones": ["route-24", "route-25"],
+      "unlocksItems": []
+    },
+    {
+      "id": "hm-cut",
+      "icon": "✂️",
+      "unlocksZones": [],
+      "unlocksItems": []
     },
     {
       "id": "gym3",
       "icon": "⚡",
-      "names": { "fr": "Arène 3 — Vermilion", "en": "Gym 3 — Vermilion City", "ja": "クチバシティ — ジム3" },
-      "unlocksZones": ["route-5", "route-6", "route-11", "s-s-anne", "vermilion-city"]
+      "unlocksZones": ["route-5", "route-6", "route-9", "route-10", "route-11", "rock-tunnel"],
+      "unlocksItems": ["thunder-stone"]
     },
     {
       "id": "gym4",
       "icon": "🌿",
-      "names": { "fr": "Arène 4 — Celadonia", "en": "Gym 4 — Celadon City", "ja": "タマムシシティ — ジム4" },
-      "unlocksZones": ["route-7", "route-8", "route-12", "celadon-city", "rocket-hideout"]
+      "unlocksZones": ["route-7", "route-8", "route-16", "route-17", "route-18", "pokemon-tower"],
+      "unlocksItems": ["moon-stone", "fire-stone", "water-stone", "leaf-stone"]
+    },
+    {
+      "id": "hm-surf",
+      "icon": "🌊",
+      "unlocksZones": ["route-12", "route-13", "route-14", "route-15", "route-19", "route-20", "route-21", "safari-zone", "seafoam-islands", "route-22", "route-23"],
+      "unlocksItems": []
     },
     {
       "id": "gym5",
-      "icon": "🌊",
-      "names": { "fr": "Arène 5 — Parmanie", "en": "Gym 5 — Fuchsia City", "ja": "セキチクシティ — ジム5" },
-      "unlocksZones": ["route-13", "route-14", "route-15", "safari-zone", "fuchsia-city"]
+      "icon": "💊",
+      "unlocksZones": [],
+      "unlocksItems": []
     },
     {
       "id": "gym6",
       "icon": "🔮",
-      "names": { "fr": "Arène 6 — Cramois'Île", "en": "Gym 6 — Saffron City", "ja": "ヤマブキシティ — ジム6" },
-      "unlocksZones": ["saffron-city", "silph-co"]
+      "unlocksZones": ["silph-co", "power-plant"],
+      "unlocksItems": []
     },
     {
       "id": "gym7",
       "icon": "🔥",
-      "names": { "fr": "Arène 7 — Carmin sur Mer", "en": "Gym 7 — Cinnabar Island", "ja": "グレンタウン — ジム7" },
-      "unlocksZones": ["cinnabar-island", "pokemon-mansion", "seafoam-islands"]
+      "unlocksZones": ["pokemon-mansion", "seafoam-islands"],
+      "unlocksItems": []
     },
     {
       "id": "gym8",
       "icon": "🧊",
-      "names": { "fr": "Arène 8 — Jadielle", "en": "Gym 8 — Viridian City", "ja": "トキワシティ — ジム8" },
-      "unlocksZones": ["route-22", "route-23", "victory-road"]
+      "unlocksZones": ["victory-road"],
+      "unlocksItems": []
     },
     {
       "id": "champion",
       "icon": "🏆",
-      "names": { "fr": "Champion — Plateau Indigo", "en": "Champion — Indigo Plateau", "ja": "チャンピオンロード" },
-      "unlocksZones": ["cerulean-cave", "sevii-islands"]
+      "unlocksZones": ["cerulean-cave"],
+      "unlocksItems": []
     }
   ]
 }

@@ -1,64 +1,81 @@
 {
+  "starters": [387, 390, 393],
+  "gifts": [
+    { "id": 447, "milestone": "gym6", "zone": "iron-island" },
+    { "id": 175, "milestone": "start", "zone": "route-230" }
+  ],
   "milestones": [
     {
       "id": "start",
       "icon": "🏠",
-      "names": { "fr": "Lac Flegme", "en": "Twinleaf Town", "ja": "フタバタウン" },
-      "unlocksZones": ["route-201", "route-202", "sandgem-town"]
+      "unlocksZones": ["route-201", "route-202", "sandgem-beach"],
+      "unlocksItems": []
     },
     {
       "id": "gym1",
       "icon": "🪨",
-      "names": { "fr": "Arène 1 — Joliberges", "en": "Gym 1 — Oreburgh City", "ja": "クロガネシティ — ジム1" },
-      "unlocksZones": ["route-203", "route-204", "oreburgh-city", "oreburgh-mine"]
+      "unlocksZones": ["route-203", "route-204", "oreburgh-mine"],
+      "unlocksItems": []
+    },
+    {
+      "id": "hm-cut",
+      "icon": "✂️",
+      "unlocksZones": ["route-205", "eterna-forest", "old-chateau"],
+      "unlocksItems": []
     },
     {
       "id": "gym2",
       "icon": "👊",
-      "names": { "fr": "Arène 2 — Vestigion", "en": "Gym 2 — Eterna City", "ja": "ハクタイシティ — ジム2" },
-      "unlocksZones": ["route-205", "route-206", "eterna-city", "eterna-forest", "old-chateau"]
+      "unlocksZones": ["route-206", "route-207", "wayward-cave"],
+      "unlocksItems": []
     },
     {
       "id": "gym3",
       "icon": "🤸",
-      "names": { "fr": "Arène 3 — Veilstone", "en": "Gym 3 — Veilstone City", "ja": "トバリシティ — ジム3" },
-      "unlocksZones": ["route-207", "route-208", "veilstone-city", "route-214"]
+      "unlocksZones": ["route-208", "route-209", "route-214", "solaceon-ruins"],
+      "unlocksItems": []
     },
     {
       "id": "gym4",
       "icon": "💧",
-      "names": { "fr": "Arène 4 — Floaroma / Coeur-Nacre", "en": "Gym 4 — Pastoria City", "ja": "ノモセシティ — ジム4" },
-      "unlocksZones": ["route-212", "route-213", "pastoria-city", "great-marsh"]
+      "unlocksZones": ["route-210", "route-211", "route-212", "route-213", "great-marsh"],
+      "unlocksItems": []
+    },
+    {
+      "id": "hm-surf",
+      "icon": "🌊",
+      "unlocksZones": ["route-213", "route-218", "route-219", "route-220", "route-221", "lake-verity", "lake-valor", "lake-acuity"],
+      "unlocksItems": []
     },
     {
       "id": "gym5",
       "icon": "👻",
-      "names": { "fr": "Arène 5 — Onixi", "en": "Gym 5 — Hearthome City", "ja": "ヨスガシティ — ジム5" },
-      "unlocksZones": ["route-209", "route-210", "hearthome-city", "solaceon-town"]
+      "unlocksZones": ["route-215"],
+      "unlocksItems": []
     },
     {
       "id": "gym6",
       "icon": "🦺",
-      "names": { "fr": "Arène 6 — Joliberges (acier)", "en": "Gym 6 — Canalave City", "ja": "コテブキシティ — ジム6" },
-      "unlocksZones": ["route-218", "canalave-city", "iron-island"]
+      "unlocksZones": ["route-218", "iron-island"],
+      "unlocksItems": ["metal-coat"]
     },
     {
       "id": "gym7",
       "icon": "🧊",
-      "names": { "fr": "Arène 7 — Blanche-Neige", "en": "Gym 7 — Snowpoint City", "ja": "キッサキシティ — ジム7" },
-      "unlocksZones": ["route-216", "route-217", "snowpoint-city", "lake-acuity"]
+      "unlocksZones": ["route-216", "route-217", "mt-coronet", "snowpoint-temple"],
+      "unlocksItems": []
     },
     {
       "id": "gym8",
       "icon": "⚡",
-      "names": { "fr": "Arène 8 — Pivoine", "en": "Gym 8 — Sunyshore City", "ja": "ナギサシティ — ジム8" },
-      "unlocksZones": ["route-222", "sunyshore-city", "victory-road-sinnoh"]
+      "unlocksZones": ["route-222", "victory-road-sinnoh"],
+      "unlocksItems": ["thunder-stone", "shiny-stone", "dusk-stone", "dawn-stone"]
     },
     {
       "id": "champion",
       "icon": "🏆",
-      "names": { "fr": "Champion — Ligue Sinnoh", "en": "Champion — Sinnoh League", "ja": "シンオウリーグ" },
-      "unlocksZones": ["survival-area", "resort-area", "fight-area", "stark-mountain"]
+      "unlocksZones": ["route-224", "route-225", "route-226", "route-227", "route-228", "route-229", "route-230", "stark-mountain"],
+      "unlocksItems": ["fire-stone", "water-stone", "leaf-stone", "moon-stone"]
     }
   ]
 }

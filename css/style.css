@@ -258,7 +258,8 @@ main {
 .tag-stone    { background: var(--amber-light); color: var(--amber-dark); }
 .tag-trade    { background: var(--pink-light); color: var(--pink); }
 .tag-gift     { background: rgba(239,159,39,0.15); color: var(--amber); }
-.tag-special  { background: var(--bg3); color: var(--text2); }
+.tag-special   { background: var(--bg3); color: var(--text2); }
+.tag-happiness { background: #FBEAF0; color: #993556; }
 
 /* ── Divider ── */
 .divider { height: 1px; background: var(--border); margin: 0.5rem 0 1.5rem; }

@@ -1,64 +1,78 @@
 {
+  "starters": [252, 255, 258],
+  "gifts": [],
   "milestones": [
     {
       "id": "start",
       "icon": "🏠",
-      "names": { "fr": "Bourg en Vol", "en": "Littleroot Town", "ja": "ミシロタウン" },
-      "unlocksZones": ["route-101", "route-102", "oldale-town"]
+      "unlocksZones": ["route-101", "route-102", "route-103"],
+      "unlocksItems": []
     },
     {
       "id": "gym1",
       "icon": "🪨",
-      "names": { "fr": "Arène 1 — Petalburg", "en": "Gym 1 — Rustboro City", "ja": "カナズミシティ — ジム1" },
-      "unlocksZones": ["route-104", "route-105", "rustboro-city", "petalburg-woods"]
+      "unlocksZones": ["route-104", "route-116", "petalburg-woods"],
+      "unlocksItems": []
+    },
+    {
+      "id": "hm-cut",
+      "icon": "✂️",
+      "unlocksZones": ["route-105", "route-106", "granite-cave"],
+      "unlocksItems": []
     },
     {
       "id": "gym2",
       "icon": "🥊",
-      "names": { "fr": "Arène 2 — Barkolome", "en": "Gym 2 — Dewford Town", "ja": "ムロタウン — ジム2" },
-      "unlocksZones": ["route-106", "route-107", "dewford-town", "granite-cave"]
+      "unlocksZones": [],
+      "unlocksItems": []
     },
     {
       "id": "gym3",
       "icon": "⚡",
-      "names": { "fr": "Arène 3 — Littroots", "en": "Gym 3 — Mauville City", "ja": "キンセツシティ — ジム3" },
-      "unlocksZones": ["route-110", "route-111", "mauville-city", "new-mauville"]
+      "unlocksZones": ["route-110", "route-111", "route-112", "new-mauville", "fiery-path"],
+      "unlocksItems": ["thunder-stone"]
     },
     {
       "id": "gym4",
       "icon": "🔥",
-      "names": { "fr": "Arène 4 — Lavandia", "en": "Gym 4 — Lavaridge Town", "ja": "フエンタウン — ジム4" },
-      "unlocksZones": ["route-112", "route-113", "mt-chimney", "jagged-pass", "lavaridge-town"]
+      "unlocksZones": ["route-113", "route-114", "route-115", "mt-chimney", "jagged-pass"],
+      "unlocksItems": ["fire-stone"]
     },
     {
       "id": "gym5",
       "icon": "🌿",
-      "names": { "fr": "Arène 5 — Petalburg (papa)", "en": "Gym 5 — Petalburg City", "ja": "トウカシティ — ジム5" },
-      "unlocksZones": ["route-115", "route-116", "petalburg-city"]
+      "unlocksZones": ["route-117"],
+      "unlocksItems": ["leaf-stone"]
+    },
+    {
+      "id": "hm-surf",
+      "icon": "🌊",
+      "unlocksZones": ["route-105", "route-106", "route-107", "route-118", "route-119", "route-122", "route-123", "route-124", "route-125", "route-126", "route-127", "route-128", "safari-zone", "shoal-cave"],
+      "unlocksItems": []
     },
     {
       "id": "gym6",
       "icon": "👻",
-      "names": { "fr": "Arène 6 — Lilycove", "en": "Gym 6 — Fortree City", "ja": "ハジツゲタウン — ジム6" },
-      "unlocksZones": ["route-119", "route-120", "fortree-city", "route-121"]
+      "unlocksZones": ["route-119", "route-120", "route-121"],
+      "unlocksItems": []
     },
     {
       "id": "gym7",
       "icon": "🧠",
-      "names": { "fr": "Arène 7 — Mossdeep", "en": "Gym 7 — Mossdeep City", "ja": "トクサネシティ — ジム7" },
-      "unlocksZones": ["route-124", "route-125", "mossdeep-city", "shoal-cave"]
+      "unlocksZones": ["route-125", "route-129", "route-130"],
+      "unlocksItems": ["water-stone"]
     },
     {
       "id": "gym8",
       "icon": "🌊",
-      "names": { "fr": "Arène 8 — Sootopolis", "en": "Gym 8 — Sootopolis City", "ja": "ルネシティ — ジム8" },
-      "unlocksZones": ["route-126", "sootopolis-city", "cave-of-origin"]
+      "unlocksZones": ["route-126", "cave-of-origin", "meteor-falls"],
+      "unlocksItems": ["moon-stone"]
     },
     {
       "id": "champion",
       "icon": "🏆",
-      "names": { "fr": "Champion — Ligue Pokémon", "en": "Champion — Pokémon League", "ja": "ポケモンリーグ" },
-      "unlocksZones": ["sky-pillar", "battle-frontier"]
+      "unlocksZones": ["sky-pillar", "victory-road-rse"],
+      "unlocksItems": []
     }
   ]
 }

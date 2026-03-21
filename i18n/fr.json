@@ -1,22 +1,22 @@
 {
   "ui": {
     "title": "Pokémon Guide Progression",
-    "selectGame": "Choisir un jeu",
-    "selectLanguage": "Langue",
     "available": "disponibles à cette étape",
     "locked": "en attente d'un débloquage",
     "statAvailable": "Disponibles",
     "statLocked": "En attente",
     "statTotal": "Total",
-    "stepLabel": "Étape actuelle",
     "tagLabels": {
-      "starter": "Départ",
+      "starter": "Starter",
       "wild": "Sauvage",
       "evolution": "Évolution",
       "stone": "Pierre",
       "trade": "Échange",
       "gift": "Cadeau",
-      "special": "Spécial"
+      "special": "Spécial",
+      "happiness": "Bonheur",
+      "time": "Heure",
+      "locked": "Verrouillé"
     },
     "rarityLabels": {
       "common": "Commun",
@@ -26,12 +26,10 @@
     },
     "lockLabel": {
       "stone": "Requiert :",
-      "trade": "Requiert un échange",
-      "happiness": "Requiert le bonheur max"
+      "trade": "Échange requis"
     },
     "levelLabel": "Niv.",
     "evolvesFrom": "Évolue de",
-    "noGame": "Sélectionne un jeu pour commencer",
     "loading": "Chargement..."
   }
 }

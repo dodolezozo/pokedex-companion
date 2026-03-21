@@ -1,14 +1,11 @@
 {
   "ui": {
     "title": "ポケモン 攻略ガイド",
-    "selectGame": "ゲームを選ぶ",
-    "selectLanguage": "言語",
     "available": "このステージで入手可能",
     "locked": "解放待ち",
     "statAvailable": "入手可能",
     "statLocked": "ロック中",
     "statTotal": "合計",
-    "stepLabel": "現在のステージ",
     "tagLabels": {
       "starter": "最初のポケモン",
       "wild": "野生",
@@ -16,7 +13,10 @@
       "stone": "石進化",
       "trade": "通信交換",
       "gift": "もらいもの",
-      "special": "特殊"
+      "special": "特殊",
+      "happiness": "なつき度",
+      "time": "時間帯",
+      "locked": "ロック中"
     },
     "rarityLabels": {
       "common": "よく出る",
@@ -25,13 +25,11 @@
       "unique": "1匹限定"
     },
     "lockLabel": {
-      "stone": "必要なもの：",
-      "trade": "通信交換が必要",
-      "happiness": "なつき度最大が必要"
+      "stone": "必要：",
+      "trade": "通信交換が必要"
     },
     "levelLabel": "Lv.",
     "evolvesFrom": "進化元",
-    "noGame": "ゲームを選んでください",
     "loading": "読み込み中..."
   }
 }
