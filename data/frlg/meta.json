@@ -1,0 +1,64 @@
+{
+  "milestones": [
+    {
+      "id": "start",
+      "icon": "🏠",
+      "names": { "fr": "Bourg Palette", "en": "Pallet Town", "ja": "マサラタウン" },
+      "unlocksZones": ["route-1", "route-2", "viridian-city"]
+    },
+    {
+      "id": "gym1",
+      "icon": "🥋",
+      "names": { "fr": "Arène 1 — Pierre Grise", "en": "Gym 1 — Pewter City", "ja": "ニビシティ — ジム1" },
+      "unlocksZones": ["route-3", "route-4", "mt-moon", "pewter-city"]
+    },
+    {
+      "id": "gym2",
+      "icon": "💧",
+      "names": { "fr": "Arène 2 — Cerulean", "en": "Gym 2 — Cerulean City", "ja": "ハナダシティ — ジム2" },
+      "unlocksZones": ["route-24", "route-25", "cerulean-city", "mt-moon"]
+    },
+    {
+      "id": "gym3",
+      "icon": "⚡",
+      "names": { "fr": "Arène 3 — Vermilion", "en": "Gym 3 — Vermilion City", "ja": "クチバシティ — ジム3" },
+      "unlocksZones": ["route-5", "route-6", "route-11", "s-s-anne", "vermilion-city"]
+    },
+    {
+      "id": "gym4",
+      "icon": "🌿",
+      "names": { "fr": "Arène 4 — Celadonia", "en": "Gym 4 — Celadon City", "ja": "タマムシシティ — ジム4" },
+      "unlocksZones": ["route-7", "route-8", "route-12", "celadon-city", "rocket-hideout"]
+    },
+    {
+      "id": "gym5",
+      "icon": "🌊",
+      "names": { "fr": "Arène 5 — Parmanie", "en": "Gym 5 — Fuchsia City", "ja": "セキチクシティ — ジム5" },
+      "unlocksZones": ["route-13", "route-14", "route-15", "safari-zone", "fuchsia-city"]
+    },
+    {
+      "id": "gym6",
+      "icon": "🔮",
+      "names": { "fr": "Arène 6 — Cramois'Île", "en": "Gym 6 — Saffron City", "ja": "ヤマブキシティ — ジム6" },
+      "unlocksZones": ["saffron-city", "silph-co"]
+    },
+    {
+      "id": "gym7",
+      "icon": "🔥",
+      "names": { "fr": "Arène 7 — Carmin sur Mer", "en": "Gym 7 — Cinnabar Island", "ja": "グレンタウン — ジム7" },
+      "unlocksZones": ["cinnabar-island", "pokemon-mansion", "seafoam-islands"]
+    },
+    {
+      "id": "gym8",
+      "icon": "🧊",
+      "names": { "fr": "Arène 8 — Jadielle", "en": "Gym 8 — Viridian City", "ja": "トキワシティ — ジム8" },
+      "unlocksZones": ["route-22", "route-23", "victory-road"]
+    },
+    {
+      "id": "champion",
+      "icon": "🏆",
+      "names": { "fr": "Champion — Plateau Indigo", "en": "Champion — Indigo Plateau", "ja": "チャンピオンロード" },
+      "unlocksZones": ["cerulean-cave", "sevii-islands"]
+    }
+  ]
+}

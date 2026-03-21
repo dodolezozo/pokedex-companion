@@ -1,0 +1,37 @@
+{
+  "ui": {
+    "title": "Pokémon Progression Guide",
+    "selectGame": "Choose a game",
+    "selectLanguage": "Language",
+    "available": "available at this stage",
+    "locked": "waiting to be unlocked",
+    "statAvailable": "Available",
+    "statLocked": "Locked",
+    "statTotal": "Total",
+    "stepLabel": "Current stage",
+    "tagLabels": {
+      "starter": "Starter",
+      "wild": "Wild",
+      "evolution": "Evolution",
+      "stone": "Stone",
+      "trade": "Trade",
+      "gift": "Gift",
+      "special": "Special"
+    },
+    "rarityLabels": {
+      "common": "Common",
+      "uncommon": "Uncommon",
+      "rare": "Rare",
+      "unique": "Unique"
+    },
+    "lockLabel": {
+      "stone": "Requires:",
+      "trade": "Requires a trade",
+      "happiness": "Requires max happiness"
+    },
+    "levelLabel": "Lv.",
+    "evolvesFrom": "Evolves from",
+    "noGame": "Select a game to begin",
+    "loading": "Loading..."
+  }
+}

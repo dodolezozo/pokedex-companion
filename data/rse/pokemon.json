@@ -1,0 +1,109 @@
+[
+  {
+    "id": 252,
+    "names": { "fr": "Arcko", "en": "Treecko", "ja": "キモリ" },
+    "availableFrom": "start",
+    "obtain": { "type": "starter", "locations": [] },
+    "lock": null,
+    "notes": { "fr": "Choix de départ", "en": "Starter choice", "ja": "最初のポケモン" }
+  },
+  {
+    "id": 255,
+    "names": { "fr": "Poussifeu", "en": "Torchic", "ja": "アチャモ" },
+    "availableFrom": "start",
+    "obtain": { "type": "starter", "locations": [] },
+    "lock": null,
+    "notes": { "fr": "Choix de départ", "en": "Starter choice", "ja": "最初のポケモン" }
+  },
+  {
+    "id": 258,
+    "names": { "fr": "Gobou", "en": "Mudkip", "ja": "ミズゴロウ" },
+    "availableFrom": "start",
+    "obtain": { "type": "starter", "locations": [] },
+    "lock": null,
+    "notes": { "fr": "Choix de départ", "en": "Starter choice", "ja": "最初のポケモン" }
+  },
+  {
+    "id": 261,
+    "names": { "fr": "Medhyèna", "en": "Poochyena", "ja": "ポチエナ" },
+    "availableFrom": "start",
+    "obtain": {
+      "type": "wild",
+      "locations": [
+        { "zone": "route-101", "rarity": "common" },
+        { "zone": "route-102", "rarity": "common" },
+        { "zone": "route-103", "rarity": "common" }
+      ]
+    },
+    "lock": null,
+    "notes": null
+  },
+  {
+    "id": 263,
+    "names": { "fr": "Zigzaton", "en": "Zigzagoon", "ja": "ジグザグマ" },
+    "availableFrom": "start",
+    "obtain": {
+      "type": "wild",
+      "locations": [
+        { "zone": "route-101", "rarity": "common" },
+        { "zone": "route-102", "rarity": "common" },
+        { "zone": "route-103", "rarity": "common" }
+      ]
+    },
+    "lock": null,
+    "notes": null
+  },
+  {
+    "id": 280,
+    "names": { "fr": "Tarsal", "en": "Ralts", "ja": "ラルトス" },
+    "availableFrom": "gym1",
+    "obtain": {
+      "type": "wild",
+      "locations": [
+        { "zone": "route-102", "rarity": "rare" },
+        { "zone": "route-103", "rarity": "rare" }
+      ]
+    },
+    "lock": null,
+    "notes": { "fr": "Très rare, cherche tôt le matin", "en": "Very rare, search early morning", "ja": "非常に珍しい、早朝に探すこと" }
+  },
+  {
+    "id": 302,
+    "names": { "fr": "Mysdibule", "en": "Sableye", "ja": "ヤミラミ" },
+    "availableFrom": "gym2",
+    "obtain": {
+      "type": "wild",
+      "locations": [
+        { "zone": "granite-cave", "rarity": "uncommon" }
+      ]
+    },
+    "lock": null,
+    "notes": { "fr": "Exclusif Rubis/Émeraude", "en": "Ruby/Emerald exclusive", "ja": "ルビー/エメラルド限定" }
+  },
+  {
+    "id": 333,
+    "names": { "fr": "Cotonbée", "en": "Swablu", "ja": "チルット" },
+    "availableFrom": "gym4",
+    "obtain": {
+      "type": "wild",
+      "locations": [
+        { "zone": "route-114", "rarity": "common" },
+        { "zone": "route-115", "rarity": "common" }
+      ]
+    },
+    "lock": null,
+    "notes": null
+  },
+  {
+    "id": 334,
+    "names": { "fr": "Altaria", "en": "Altaria", "ja": "チルタリス" },
+    "availableFrom": "gym4",
+    "obtain": {
+      "type": "evolution",
+      "level": 35,
+      "from": 333
+    },
+    "lock": null,
+    "notes": null
+  }
+]

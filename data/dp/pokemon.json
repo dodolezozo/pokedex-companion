@@ -1,0 +1,120 @@
+[
+  {
+    "id": 387,
+    "names": { "fr": "Tortipouss", "en": "Turtwig", "ja": "ナエトル" },
+    "availableFrom": "start",
+    "obtain": { "type": "starter", "locations": [] },
+    "lock": null,
+    "notes": { "fr": "Choix de départ", "en": "Starter choice", "ja": "最初のポケモン" }
+  },
+  {
+    "id": 390,
+    "names": { "fr": "Ouisticram", "en": "Chimchar", "ja": "ヒコザル" },
+    "availableFrom": "start",
+    "obtain": { "type": "starter", "locations": [] },
+    "lock": null,
+    "notes": { "fr": "Choix de départ", "en": "Starter choice", "ja": "最初のポケモン" }
+  },
+  {
+    "id": 393,
+    "names": { "fr": "Tiplouf", "en": "Piplup", "ja": "ポッチャマ" },
+    "availableFrom": "start",
+    "obtain": { "type": "starter", "locations": [] },
+    "lock": null,
+    "notes": { "fr": "Choix de départ", "en": "Starter choice", "ja": "最初のポケモン" }
+  },
+  {
+    "id": 396,
+    "names": { "fr": "Étourmi", "en": "Starly", "ja": "ムックル" },
+    "availableFrom": "start",
+    "obtain": {
+      "type": "wild",
+      "locations": [
+        { "zone": "route-201", "rarity": "common" },
+        { "zone": "route-202", "rarity": "common" },
+        { "zone": "route-203", "rarity": "common" }
+      ]
+    },
+    "lock": null,
+    "notes": null
+  },
+  {
+    "id": 399,
+    "names": { "fr": "Bidoof", "en": "Bidoof", "ja": "ビッパ" },
+    "availableFrom": "start",
+    "obtain": {
+      "type": "wild",
+      "locations": [
+        { "zone": "route-201", "rarity": "common" },
+        { "zone": "route-202", "rarity": "common" }
+      ]
+    },
+    "lock": null,
+    "notes": null
+  },
+  {
+    "id": 403,
+    "names": { "fr": "Lixy", "en": "Shinx", "ja": "コリンク" },
+    "availableFrom": "gym1",
+    "obtain": {
+      "type": "wild",
+      "locations": [
+        { "zone": "route-202", "rarity": "common" },
+        { "zone": "route-203", "rarity": "uncommon" }
+      ]
+    },
+    "lock": null,
+    "notes": null
+  },
+  {
+    "id": 420,
+    "names": { "fr": "Ceribou", "en": "Cherubi", "ja": "チェリンボ" },
+    "availableFrom": "gym2",
+    "obtain": {
+      "type": "wild",
+      "locations": [
+        { "zone": "eterna-forest", "rarity": "uncommon" }
+      ]
+    },
+    "lock": null,
+    "notes": { "fr": "Aussi obtenu via Miel sur les arbres dorés", "en": "Also found via Honey on golden trees", "ja": "はちみつを木に塗って出現させることも可能" }
+  },
+  {
+    "id": 442,
+    "names": { "fr": "Spiritomb", "en": "Spiritomb", "ja": "ミカルゲ" },
+    "availableFrom": "gym5",
+    "obtain": {
+      "type": "special",
+      "locations": [
+        { "zone": "route-209", "rarity": "unique" }
+      ]
+    },
+    "lock": null,
+    "notes": { "fr": "Nécessite d'interagir 32 fois avec des joueurs via le Métro Souterrain", "en": "Requires 32 underground interactions with players", "ja": "地下道で32回プレイヤーと交流が必要" }
+  },
+  {
+    "id": 447,
+    "names": { "fr": "Riolu", "en": "Riolu", "ja": "リオル" },
+    "availableFrom": "gym6",
+    "obtain": {
+      "type": "gift",
+      "locations": [
+        { "zone": "iron-island", "rarity": "unique" }
+      ]
+    },
+    "lock": null,
+    "notes": { "fr": "Donné par Riley sur Iron Island", "en": "Given by Riley on Iron Island", "ja": "アイアンじまのリュウとのイベントでもらえる" }
+  },
+  {
+    "id": 448,
+    "names": { "fr": "Lucario", "en": "Lucario", "ja": "ルカリオ" },
+    "availableFrom": "gym6",
+    "obtain": {
+      "type": "evolution",
+      "condition": "happiness-day",
+      "from": 447
+    },
+    "lock": null,
+    "notes": { "fr": "Évolue de Riolu avec bonheur max le jour", "en": "Evolves from Riolu with max happiness during daytime", "ja": "リオルを日中に仲良し度最大で進化" }
+  }
+]

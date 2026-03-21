@@ -1,0 +1,64 @@
+{
+  "milestones": [
+    {
+      "id": "start",
+      "icon": "🏠",
+      "names": { "fr": "Bourg en Vol", "en": "Littleroot Town", "ja": "ミシロタウン" },
+      "unlocksZones": ["route-101", "route-102", "oldale-town"]
+    },
+    {
+      "id": "gym1",
+      "icon": "🪨",
+      "names": { "fr": "Arène 1 — Petalburg", "en": "Gym 1 — Rustboro City", "ja": "カナズミシティ — ジム1" },
+      "unlocksZones": ["route-104", "route-105", "rustboro-city", "petalburg-woods"]
+    },
+    {
+      "id": "gym2",
+      "icon": "🥊",
+      "names": { "fr": "Arène 2 — Barkolome", "en": "Gym 2 — Dewford Town", "ja": "ムロタウン — ジム2" },
+      "unlocksZones": ["route-106", "route-107", "dewford-town", "granite-cave"]
+    },
+    {
+      "id": "gym3",
+      "icon": "⚡",
+      "names": { "fr": "Arène 3 — Littroots", "en": "Gym 3 — Mauville City", "ja": "キンセツシティ — ジム3" },
+      "unlocksZones": ["route-110", "route-111", "mauville-city", "new-mauville"]
+    },
+    {
+      "id": "gym4",
+      "icon": "🔥",
+      "names": { "fr": "Arène 4 — Lavandia", "en": "Gym 4 — Lavaridge Town", "ja": "フエンタウン — ジム4" },
+      "unlocksZones": ["route-112", "route-113", "mt-chimney", "jagged-pass", "lavaridge-town"]
+    },
+    {
+      "id": "gym5",
+      "icon": "🌿",
+      "names": { "fr": "Arène 5 — Petalburg (papa)", "en": "Gym 5 — Petalburg City", "ja": "トウカシティ — ジム5" },
+      "unlocksZones": ["route-115", "route-116", "petalburg-city"]
+    },
+    {
+      "id": "gym6",
+      "icon": "👻",
+      "names": { "fr": "Arène 6 — Lilycove", "en": "Gym 6 — Fortree City", "ja": "ハジツゲタウン — ジム6" },
+      "unlocksZones": ["route-119", "route-120", "fortree-city", "route-121"]
+    },
+    {
+      "id": "gym7",
+      "icon": "🧠",
+      "names": { "fr": "Arène 7 — Mossdeep", "en": "Gym 7 — Mossdeep City", "ja": "トクサネシティ — ジム7" },
+      "unlocksZones": ["route-124", "route-125", "mossdeep-city", "shoal-cave"]
+    },
+    {
+      "id": "gym8",
+      "icon": "🌊",
+      "names": { "fr": "Arène 8 — Sootopolis", "en": "Gym 8 — Sootopolis City", "ja": "ルネシティ — ジム8" },
+      "unlocksZones": ["route-126", "sootopolis-city", "cave-of-origin"]
+    },
+    {
+      "id": "champion",
+      "icon": "🏆",
+      "names": { "fr": "Champion — Ligue Pokémon", "en": "Champion — Pokémon League", "ja": "ポケモンリーグ" },
+      "unlocksZones": ["sky-pillar", "battle-frontier"]
+    }
+  ]
+}

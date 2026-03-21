@@ -1,0 +1,64 @@
+{
+  "milestones": [
+    {
+      "id": "start",
+      "icon": "🏠",
+      "names": { "fr": "Lac Flegme", "en": "Twinleaf Town", "ja": "フタバタウン" },
+      "unlocksZones": ["route-201", "route-202", "sandgem-town"]
+    },
+    {
+      "id": "gym1",
+      "icon": "🪨",
+      "names": { "fr": "Arène 1 — Joliberges", "en": "Gym 1 — Oreburgh City", "ja": "クロガネシティ — ジム1" },
+      "unlocksZones": ["route-203", "route-204", "oreburgh-city", "oreburgh-mine"]
+    },
+    {
+      "id": "gym2",
+      "icon": "👊",
+      "names": { "fr": "Arène 2 — Vestigion", "en": "Gym 2 — Eterna City", "ja": "ハクタイシティ — ジム2" },
+      "unlocksZones": ["route-205", "route-206", "eterna-city", "eterna-forest", "old-chateau"]
+    },
+    {
+      "id": "gym3",
+      "icon": "🤸",
+      "names": { "fr": "Arène 3 — Veilstone", "en": "Gym 3 — Veilstone City", "ja": "トバリシティ — ジム3" },
+      "unlocksZones": ["route-207", "route-208", "veilstone-city", "route-214"]
+    },
+    {
+      "id": "gym4",
+      "icon": "💧",
+      "names": { "fr": "Arène 4 — Floaroma / Coeur-Nacre", "en": "Gym 4 — Pastoria City", "ja": "ノモセシティ — ジム4" },
+      "unlocksZones": ["route-212", "route-213", "pastoria-city", "great-marsh"]
+    },
+    {
+      "id": "gym5",
+      "icon": "👻",
+      "names": { "fr": "Arène 5 — Onixi", "en": "Gym 5 — Hearthome City", "ja": "ヨスガシティ — ジム5" },
+      "unlocksZones": ["route-209", "route-210", "hearthome-city", "solaceon-town"]
+    },
+    {
+      "id": "gym6",
+      "icon": "🦺",
+      "names": { "fr": "Arène 6 — Joliberges (acier)", "en": "Gym 6 — Canalave City", "ja": "コテブキシティ — ジム6" },
+      "unlocksZones": ["route-218", "canalave-city", "iron-island"]
+    },
+    {
+      "id": "gym7",
+      "icon": "🧊",
+      "names": { "fr": "Arène 7 — Blanche-Neige", "en": "Gym 7 — Snowpoint City", "ja": "キッサキシティ — ジム7" },
+      "unlocksZones": ["route-216", "route-217", "snowpoint-city", "lake-acuity"]
+    },
+    {
+      "id": "gym8",
+      "icon": "⚡",
+      "names": { "fr": "Arène 8 — Pivoine", "en": "Gym 8 — Sunyshore City", "ja": "ナギサシティ — ジム8" },
+      "unlocksZones": ["route-222", "sunyshore-city", "victory-road-sinnoh"]
+    },
+    {
+      "id": "champion",
+      "icon": "🏆",
+      "names": { "fr": "Champion — Ligue Sinnoh", "en": "Champion — Sinnoh League", "ja": "シンオウリーグ" },
+      "unlocksZones": ["survival-area", "resort-area", "fight-area", "stark-mountain"]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "frlg",
+    "icon": "🔥",
+    "color": "#E8401C",
+    "names": {
+      "fr": "Rouge Feu / Vert Feuille",
+      "en": "FireRed / LeafGreen",
+      "ja": "ファイアレッド / リーフグリーン"
+    }
+  },
+  {
+    "id": "rse",
+    "icon": "💎",
+    "color": "#A25EFF",
+    "names": {
+      "fr": "Rubis / Saphir / Émeraude",
+      "en": "Ruby / Sapphire / Emerald",
+      "ja": "ルビー / サファイア / エメラルド"
+    }
+  },
+  {
+    "id": "dp",
+    "icon": "🌟",
+    "color": "#5B8CFF",
+    "names": {
+      "fr": "Diamant / Perle / Platine",
+      "en": "Diamond / Pearl / Platinum",
+      "ja": "ダイヤモンド / パール / プラチナ"
+    }
+  }
+]
