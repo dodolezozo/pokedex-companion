@@ -778,5 +778,10 @@
     "fr": "Mont Stark",
     "en": "Stark Mountain",
     "ja": "ハードマウンテン"
+  },
+  "birth-island": {
+    "fr": "Île Naissance",
+    "en": "Birth Island",
+    "ja": "たんじょうのしま"
   }
 }

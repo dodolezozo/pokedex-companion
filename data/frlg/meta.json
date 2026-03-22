@@ -44,39 +44,57 @@
       "id": 142,
       "milestone": "gym7",
       "zone": "cinnabar-island"
-    },
-    {
-      "id": 143,
-      "milestone": "hm-surf",
-      "zone": "route-12"
-    },
-    {
-      "id": 143,
-      "milestone": "gym4",
-      "zone": "route-16"
-    },
-    {
-      "id": 144,
-      "milestone": "gym7",
-      "zone": "seafoam-islands"
-    },
-    {
-      "id": 145,
-      "milestone": "gym6",
-      "zone": "power-plant"
-    },
-    {
-      "id": 150,
-      "milestone": "champion",
-      "zone": "cerulean-cave"
     }
   ],
   "exclusives": {
     "rouge-feu": [
-      23,24,43,44,45,182,54,55,58,59,90,91,125,239,123,212,194,195,198,211,225,227
+      23,
+      24,
+      43,
+      44,
+      45,
+      182,
+      54,
+      55,
+      58,
+      59,
+      90,
+      91,
+      125,
+      239,
+      123,
+      212,
+      194,
+      195,
+      198,
+      211,
+      225,
+      227
     ],
     "vert-feuille": [
-      27,28,37,38,69,70,71,79,80,199,120,121,126,240,127,298,183,184,200,215,223,224,226
+      27,
+      28,
+      37,
+      38,
+      69,
+      70,
+      71,
+      79,
+      80,
+      199,
+      120,
+      121,
+      126,
+      240,
+      127,
+      298,
+      183,
+      184,
+      200,
+      215,
+      223,
+      224,
+      226
     ]
   },
   "versions": {
@@ -228,7 +246,8 @@
       "id": "champion",
       "icon": "🏆",
       "unlocksZones": [
-        "cerulean-cave"
+        "cerulean-cave",
+        "birth-island"
       ],
       "unlocksItems": []
     }

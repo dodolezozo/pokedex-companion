@@ -186,7 +186,7 @@ function getCurrentState() {
 }
 
 // Priorité des sources : wild > surfing > fishing > npc-trade > buy > fossil > gift > static
-const SOURCE_PRIORITY = { wild:7, surfing:6, fishing:5, 'npc-trade':4, buy:3, fossil:2, gift:1, static:0 };
+const SOURCE_PRIORITY = { wild:7, surfing:6, fishing:5, 'npc-trade':4, buy:3, fossil:2, static:2, gift:1 };
 
 function getZonePokemon(unlockedZones, unlockedMethods) {
   const found = new Map(); // id → { source, priority }
@@ -244,7 +244,8 @@ function getSpawnZones(id, unlockedZones, unlockedMethods) {
       if (zoneData.includes(id)) zones.push({ zone, method: 'wild' });
     } else {
       for (const [method, ids] of Object.entries(zoneData)) {
-        if (unlockedMethods.has(method) && ids.includes(id)) zones.push({ zone, method });
+        const methodOk = unlockedMethods.has(method) || ['gift','fossil','buy','npc-trade','static'].includes(method);
+        if (methodOk && ids.includes(id)) zones.push({ zone, method });
       }
     }
   }
@@ -269,26 +270,47 @@ function categorizePokemon() {
   const giftIds     = getGiftPokemon();
   const starterIds  = new Set(state.meta.starters ?? []);
   const maxGen      = gameMaxGen();
-  const result      = { available: [], locked: [] };
-  const seen        = new Set();
-
   const unavailable = new Set(state.meta.unavailableMechanics ?? []);
+
+  // ── Étape 1 : construire allSources (source directe de chaque Pokémon) ──
+  const GIFT_PRIORITY = { starter: 8, gift: 1 };
+  const allSources    = new Map(); // id → { source, priority }
+
+  for (const id of starterIds) {
+    allSources.set(id, { source: 'starter', priority: GIFT_PRIORITY.starter });
+  }
+  for (const id of giftIds) {
+    const p = GIFT_PRIORITY.gift;
+    if (!allSources.has(id) || allSources.get(id).priority < p)
+      allSources.set(id, { source: 'gift', priority: p });
+  }
+  for (const [id, source] of zonePokemon) {
+    const p = SOURCE_PRIORITY[source] ?? 0;
+    if (!allSources.has(id) || allSources.get(id).priority < p)
+      allSources.set(id, { source, priority: p });
+  }
+
+  // ── Étape 2 : traiter chaque Pokémon avec sa source définitive ──
+  const result = { available: [], locked: [] };
+  const seen   = new Set();
 
   function addPokemon(id, source, evolutionFrom, evolution) {
     if (pokemonGen(id) > maxGen) return;
     if (seen.has(id)) return;
+    // Toujours utiliser la meilleure source connue pour ce Pokémon
+    const best = allSources.get(id);
+    const finalSource = (best && best.priority > (SOURCE_PRIORITY['evolution'] ?? -1))
+      ? best.source : source;
     seen.add(id);
 
-    const spawnZones = ['wild','surfing','fishing'].includes(source)
+    const spawnZones = ['wild','surfing','fishing','static'].includes(finalSource)
       ? getSpawnZones(id, unlockedZones, unlockedMethods) : [];
 
-    result.available.push({ id, source, evolutionFrom: evolutionFrom ?? null,
+    result.available.push({ id, source: finalSource, evolutionFrom: evolutionFrom ?? null,
       evolution: evolution ?? null, exclusiveVersion: getExclusiveVersion(id), spawnZones });
 
-    // Explorer toutes les branches d'évolution
     for (const { nextId, evolution: evo } of getEvolutions(id)) {
       if (seen.has(nextId) || pokemonGen(nextId) > maxGen) continue;
-      // Si l'évolution est bloquée par un mécanisme indisponible, on ignore
       if (evo && unavailable.has(evo.type)) continue;
 
       const itemLocked = (evo?.type === 'stone' && !unlockedItems.has(evo.item))
@@ -304,9 +326,7 @@ function categorizePokemon() {
     }
   }
 
-  for (const id of starterIds)             addPokemon(id, 'starter');
-  for (const id of giftIds)               addPokemon(id, 'gift');
-  for (const [id, source] of zonePokemon) addPokemon(id, source);
+  for (const [id, { source }] of allSources) addPokemon(id, source);
 
   result.available.sort((a, b) => a.id - b.id);
   result.locked.sort((a, b) => a.id - b.id);
