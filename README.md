@@ -1,8 +1,10 @@
+This is work in progress now, most of the data is placeholder, and the sites has some bugs, please come later!
+
 # Pokédex Companion
 
 An interactive progression guide for Pokémon games — shows available Pokémon based on your story progress.
 
-**[→ Open the site](https://dodolezozo.github.io/pokedex-companion)**
+**[Open the site](https://dodolezozo.github.io/pokedex-companion)**
 
 ---
 
