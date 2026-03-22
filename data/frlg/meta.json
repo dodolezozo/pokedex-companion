@@ -1,28 +1,249 @@
 {
-  "starters": [1, 4, 7],
+  "starters": [
+    1,
+    4,
+    7
+  ],
   "gifts": [
-    { "id": 129, "milestone": "gym1", "zone": "mt-moon" }
+    {
+      "id": 129,
+      "milestone": "gym1",
+      "zone": "route-4"
+    },
+    {
+      "id": 131,
+      "milestone": "gym6",
+      "zone": "silph-co"
+    },
+    {
+      "id": 133,
+      "milestone": "gym4",
+      "zone": "celadon-city"
+    },
+    {
+      "id": 106,
+      "milestone": "gym4",
+      "zone": "fighting-dojo"
+    },
+    {
+      "id": 107,
+      "milestone": "gym4",
+      "zone": "fighting-dojo"
+    },
+    {
+      "id": 138,
+      "milestone": "gym7",
+      "zone": "cinnabar-island"
+    },
+    {
+      "id": 140,
+      "milestone": "gym7",
+      "zone": "cinnabar-island"
+    },
+    {
+      "id": 142,
+      "milestone": "gym7",
+      "zone": "cinnabar-island"
+    },
+    {
+      "id": 143,
+      "milestone": "hm-surf",
+      "zone": "route-12"
+    },
+    {
+      "id": 143,
+      "milestone": "gym4",
+      "zone": "route-16"
+    },
+    {
+      "id": 144,
+      "milestone": "gym7",
+      "zone": "seafoam-islands"
+    },
+    {
+      "id": 145,
+      "milestone": "gym6",
+      "zone": "power-plant"
+    },
+    {
+      "id": 150,
+      "milestone": "champion",
+      "zone": "cerulean-cave"
+    }
   ],
   "exclusives": {
-    "rouge-feu": [16, 17, 18, 21, 22, 37, 38, 52, 53, 56, 57, 58, 59, 107, 125, 126],
-    "vert-feuille": [10, 11, 12, 13, 14, 15, 27, 28, 39, 40, 66, 67, 68, 106, 124, 127]
+    "rouge-feu": [
+      23,
+      24,
+      56,
+      57,
+      58,
+      59,
+      43,
+      44,
+      45,
+      123,
+      125
+    ],
+    "vert-feuille": [
+      27,
+      28,
+      52,
+      53,
+      69,
+      70,
+      71,
+      37,
+      38,
+      127,
+      124
+    ]
   },
   "versions": {
-    "rouge-feu": { "fr": "Rouge Feu", "en": "FireRed", "ja": "ファイアレッド" },
-    "vert-feuille": { "fr": "Vert Feuille", "en": "LeafGreen", "ja": "リーフグリーン" }
+    "rouge-feu": {
+      "fr": "Rouge Feu",
+      "en": "FireRed",
+      "ja": "ファイアレッド"
+    },
+    "vert-feuille": {
+      "fr": "Vert Feuille",
+      "en": "LeafGreen",
+      "ja": "リーフグリーン"
+    }
   },
   "milestones": [
-    { "id": "start",    "icon": "🏠", "unlocksZones": ["route-1", "route-2", "viridian-forest"], "unlocksItems": [] },
-    { "id": "gym1",     "icon": "🥋", "unlocksZones": ["route-3", "route-4", "mt-moon"], "unlocksItems": [] },
-    { "id": "gym2",     "icon": "💧", "unlocksZones": ["route-24", "route-25"], "unlocksItems": [] },
-    { "id": "hm-cut",   "icon": "✂️", "unlocksZones": [], "unlocksItems": [] },
-    { "id": "gym3",     "icon": "⚡", "unlocksZones": ["route-5", "route-6", "route-9", "route-10", "route-11", "rock-tunnel"], "unlocksItems": ["thunder-stone"] },
-    { "id": "gym4",     "icon": "🌿", "unlocksZones": ["route-7", "route-8", "route-16", "route-17", "route-18", "pokemon-tower"], "unlocksItems": ["moon-stone", "fire-stone", "water-stone", "leaf-stone"] },
-    { "id": "hm-surf",  "icon": "🌊", "unlocksZones": ["route-12", "route-13", "route-14", "route-15", "route-19", "route-20", "route-21", "safari-zone", "seafoam-islands", "route-22", "route-23"], "unlocksItems": [] },
-    { "id": "gym5",     "icon": "💊", "unlocksZones": [], "unlocksItems": [] },
-    { "id": "gym6",     "icon": "🔮", "unlocksZones": ["silph-co", "power-plant"], "unlocksItems": [] },
-    { "id": "gym7",     "icon": "🔥", "unlocksZones": ["pokemon-mansion", "seafoam-islands"], "unlocksItems": [] },
-    { "id": "gym8",     "icon": "🧊", "unlocksZones": ["victory-road"], "unlocksItems": [] },
-    { "id": "champion", "icon": "🏆", "unlocksZones": ["cerulean-cave"], "unlocksItems": [] }
+    {
+      "id": "start",
+      "icon": "🏠",
+      "unlocksZones": [
+        "pallet-town",
+        "route-1",
+        "route-2",
+        "viridian-forest"
+      ],
+      "unlocksItems": []
+    },
+    {
+      "id": "gym1",
+      "icon": "🥋",
+      "unlocksZones": [
+        "route-3",
+        "route-4",
+        "mt-moon"
+      ],
+      "unlocksItems": []
+    },
+    {
+      "id": "gym2",
+      "icon": "💧",
+      "unlocksZones": [
+        "route-24",
+        "route-25",
+        "cerulean-city"
+      ],
+      "unlocksItems": []
+    },
+    {
+      "id": "hm-cut",
+      "icon": "✂️",
+      "unlocksZones": [
+        "digletts-cave",
+        "route-9",
+        "route-10",
+        "route-11",
+        "rock-tunnel",
+        "vermilion-city"
+      ],
+      "unlocksItems": []
+    },
+    {
+      "id": "gym3",
+      "icon": "⚡",
+      "unlocksZones": [
+        "route-5",
+        "route-6"
+      ],
+      "unlocksItems": [
+        "thunder-stone"
+      ]
+    },
+    {
+      "id": "gym4",
+      "icon": "🌿",
+      "unlocksZones": [
+        "route-7",
+        "route-8",
+        "route-16",
+        "route-17",
+        "route-18",
+        "pokemon-tower",
+        "celadon-city",
+        "fighting-dojo"
+      ],
+      "unlocksItems": [
+        "moon-stone",
+        "fire-stone",
+        "water-stone",
+        "leaf-stone"
+      ]
+    },
+    {
+      "id": "hm-surf",
+      "icon": "🌊",
+      "unlocksZones": [
+        "route-12",
+        "route-13",
+        "route-14",
+        "route-15",
+        "route-19",
+        "route-20",
+        "route-21",
+        "safari-zone",
+        "route-22",
+        "route-23"
+      ],
+      "unlocksItems": []
+    },
+    {
+      "id": "gym5",
+      "icon": "💊",
+      "unlocksZones": [],
+      "unlocksItems": []
+    },
+    {
+      "id": "gym6",
+      "icon": "🔮",
+      "unlocksZones": [
+        "silph-co",
+        "power-plant"
+      ],
+      "unlocksItems": []
+    },
+    {
+      "id": "gym7",
+      "icon": "🔥",
+      "unlocksZones": [
+        "pokemon-mansion",
+        "seafoam-islands",
+        "cinnabar-island"
+      ],
+      "unlocksItems": []
+    },
+    {
+      "id": "gym8",
+      "icon": "🧊",
+      "unlocksZones": [
+        "victory-road"
+      ],
+      "unlocksItems": []
+    },
+    {
+      "id": "champion",
+      "icon": "🏆",
+      "unlocksZones": [
+        "cerulean-cave"
+      ],
+      "unlocksItems": []
+    }
   ]
 }
