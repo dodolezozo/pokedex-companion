@@ -247,7 +247,8 @@
       "icon": "🏆",
       "unlocksZones": [
         "cerulean-cave",
-        "birth-island"
+        "birth-island",
+        "mt-ember"
       ],
       "unlocksItems": []
     }
