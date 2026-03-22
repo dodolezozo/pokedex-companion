@@ -188,8 +188,8 @@
       ]
     },
     {
-      "id": "hm-surf",
-      "icon": "🌊",
+      "id": "pokeflute",
+      "icon": "🪈",
       "unlocksZones": [
         "route-12",
         "route-13",
@@ -202,12 +202,20 @@
         "route-22",
         "route-23"
       ],
-      "unlocksItems": []
+      "unlocksItems": [
+      ]
     },
     {
       "id": "gym5",
       "icon": "💊",
       "unlocksZones": [],
+      "unlocksItems": []
+    },
+    {
+      "id": "hm-surf",
+      "icon": "🌊",
+      "unlocksZones": [
+      ],
       "unlocksItems": []
     },
     {

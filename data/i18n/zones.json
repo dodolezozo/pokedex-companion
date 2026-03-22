@@ -39,6 +39,16 @@
     "en": "Route 8",
     "ja": "8番道路"
   },
+  "route-9": {
+    "fr": "Route 9",
+    "en": "Route 9",
+    "ja": "9番道路"
+  },
+  "route-10": {
+    "fr": "Route 10",
+    "en": "Route 10",
+    "ja": "10番道路"
+  },
   "route-11": {
     "fr": "Route 11",
     "en": "Route 11",
@@ -64,10 +74,45 @@
     "en": "Route 15",
     "ja": "15番道路"
   },
+  "route-16": {
+    "fr": "Route 16",
+    "en": "Route 16",
+    "ja": "16番道路"
+  },
+  "route-17": {
+    "fr": "Route 17",
+    "en": "Route 17",
+    "ja": "17番道路"
+  },
+  "route-18": {
+    "fr": "Route 18",
+    "en": "Route 18",
+    "ja": "18番道路"
+  },
+  "route-19": {
+    "fr": "Route 19",
+    "en": "Route 19",
+    "ja": "19番道路"
+  },
+  "route-20": {
+    "fr": "Route 20",
+    "en": "Route 20",
+    "ja": "20番道路"
+  },
+  "route-21": {
+    "fr": "Route 21",
+    "en": "Route 21",
+    "ja": "21番道路"
+  },
   "route-22": {
     "fr": "Route 22",
     "en": "Route 22",
     "ja": "22番道路"
+  },
+  "route-23": {
+    "fr": "Route 23",
+    "en": "Route 23",
+    "ja": "23番道路"
   },
   "route-24": {
     "fr": "Route 24",
@@ -78,6 +123,296 @@
     "fr": "Route 25",
     "en": "Route 25",
     "ja": "25番道路"
+  },
+  "route-101": {
+    "fr": "Route 101",
+    "en": "Route 101",
+    "ja": "101番道路"
+  },
+  "route-102": {
+    "fr": "Route 102",
+    "en": "Route 102",
+    "ja": "102番道路"
+  },
+  "route-103": {
+    "fr": "Route 103",
+    "en": "Route 103",
+    "ja": "103番道路"
+  },
+  "route-104": {
+    "fr": "Route 104",
+    "en": "Route 104",
+    "ja": "104番道路"
+  },
+  "route-105": {
+    "fr": "Route 105",
+    "en": "Route 105",
+    "ja": "105番道路"
+  },
+  "route-106": {
+    "fr": "Route 106",
+    "en": "Route 106",
+    "ja": "106番道路"
+  },
+  "route-107": {
+    "fr": "Route 107",
+    "en": "Route 107",
+    "ja": "107番道路"
+  },
+  "route-110": {
+    "fr": "Route 110",
+    "en": "Route 110",
+    "ja": "110番道路"
+  },
+  "route-111": {
+    "fr": "Route 111",
+    "en": "Route 111",
+    "ja": "111番道路"
+  },
+  "route-112": {
+    "fr": "Route 112",
+    "en": "Route 112",
+    "ja": "112番道路"
+  },
+  "route-113": {
+    "fr": "Route 113",
+    "en": "Route 113",
+    "ja": "113番道路"
+  },
+  "route-114": {
+    "fr": "Route 114",
+    "en": "Route 114",
+    "ja": "114番道路"
+  },
+  "route-115": {
+    "fr": "Route 115",
+    "en": "Route 115",
+    "ja": "115番道路"
+  },
+  "route-116": {
+    "fr": "Route 116",
+    "en": "Route 116",
+    "ja": "116番道路"
+  },
+  "route-117": {
+    "fr": "Route 117",
+    "en": "Route 117",
+    "ja": "117番道路"
+  },
+  "route-118": {
+    "fr": "Route 118",
+    "en": "Route 118",
+    "ja": "118番道路"
+  },
+  "route-119": {
+    "fr": "Route 119",
+    "en": "Route 119",
+    "ja": "119番道路"
+  },
+  "route-120": {
+    "fr": "Route 120",
+    "en": "Route 120",
+    "ja": "120番道路"
+  },
+  "route-121": {
+    "fr": "Route 121",
+    "en": "Route 121",
+    "ja": "121番道路"
+  },
+  "route-122": {
+    "fr": "Route 122",
+    "en": "Route 122",
+    "ja": "122番道路"
+  },
+  "route-123": {
+    "fr": "Route 123",
+    "en": "Route 123",
+    "ja": "123番道路"
+  },
+  "route-124": {
+    "fr": "Route 124",
+    "en": "Route 124",
+    "ja": "124番道路"
+  },
+  "route-125": {
+    "fr": "Route 125",
+    "en": "Route 125",
+    "ja": "125番道路"
+  },
+  "route-126": {
+    "fr": "Route 126",
+    "en": "Route 126",
+    "ja": "126番道路"
+  },
+  "route-127": {
+    "fr": "Route 127",
+    "en": "Route 127",
+    "ja": "127番道路"
+  },
+  "route-128": {
+    "fr": "Route 128",
+    "en": "Route 128",
+    "ja": "128番道路"
+  },
+  "route-129": {
+    "fr": "Route 129",
+    "en": "Route 129",
+    "ja": "129番道路"
+  },
+  "route-130": {
+    "fr": "Route 130",
+    "en": "Route 130",
+    "ja": "130番道路"
+  },
+  "route-201": {
+    "fr": "Route 201",
+    "en": "Route 201",
+    "ja": "201番道路"
+  },
+  "route-202": {
+    "fr": "Route 202",
+    "en": "Route 202",
+    "ja": "202番道路"
+  },
+  "route-203": {
+    "fr": "Route 203",
+    "en": "Route 203",
+    "ja": "203番道路"
+  },
+  "route-204": {
+    "fr": "Route 204",
+    "en": "Route 204",
+    "ja": "204番道路"
+  },
+  "route-205": {
+    "fr": "Route 205",
+    "en": "Route 205",
+    "ja": "205番道路"
+  },
+  "route-206": {
+    "fr": "Route 206",
+    "en": "Route 206",
+    "ja": "206番道路"
+  },
+  "route-207": {
+    "fr": "Route 207",
+    "en": "Route 207",
+    "ja": "207番道路"
+  },
+  "route-208": {
+    "fr": "Route 208",
+    "en": "Route 208",
+    "ja": "208番道路"
+  },
+  "route-209": {
+    "fr": "Route 209",
+    "en": "Route 209",
+    "ja": "209番道路"
+  },
+  "route-210": {
+    "fr": "Route 210",
+    "en": "Route 210",
+    "ja": "210番道路"
+  },
+  "route-211": {
+    "fr": "Route 211",
+    "en": "Route 211",
+    "ja": "211番道路"
+  },
+  "route-212": {
+    "fr": "Route 212",
+    "en": "Route 212",
+    "ja": "212番道路"
+  },
+  "route-213": {
+    "fr": "Route 213",
+    "en": "Route 213",
+    "ja": "213番道路"
+  },
+  "route-214": {
+    "fr": "Route 214",
+    "en": "Route 214",
+    "ja": "214番道路"
+  },
+  "route-215": {
+    "fr": "Route 215",
+    "en": "Route 215",
+    "ja": "215番道路"
+  },
+  "route-216": {
+    "fr": "Route 216",
+    "en": "Route 216",
+    "ja": "216番道路"
+  },
+  "route-217": {
+    "fr": "Route 217",
+    "en": "Route 217",
+    "ja": "217番道路"
+  },
+  "route-218": {
+    "fr": "Route 218",
+    "en": "Route 218",
+    "ja": "218番道路"
+  },
+  "route-219": {
+    "fr": "Route 219",
+    "en": "Route 219",
+    "ja": "219番道路"
+  },
+  "route-220": {
+    "fr": "Route 220",
+    "en": "Route 220",
+    "ja": "220番道路"
+  },
+  "route-221": {
+    "fr": "Route 221",
+    "en": "Route 221",
+    "ja": "221番道路"
+  },
+  "route-222": {
+    "fr": "Route 222",
+    "en": "Route 222",
+    "ja": "222番道路"
+  },
+  "route-224": {
+    "fr": "Route 224",
+    "en": "Route 224",
+    "ja": "224番道路"
+  },
+  "route-225": {
+    "fr": "Route 225",
+    "en": "Route 225",
+    "ja": "225番道路"
+  },
+  "route-226": {
+    "fr": "Route 226",
+    "en": "Route 226",
+    "ja": "226番道路"
+  },
+  "route-227": {
+    "fr": "Route 227",
+    "en": "Route 227",
+    "ja": "227番道路"
+  },
+  "route-228": {
+    "fr": "Route 228",
+    "en": "Route 228",
+    "ja": "228番道路"
+  },
+  "route-229": {
+    "fr": "Route 229",
+    "en": "Route 229",
+    "ja": "229番道路"
+  },
+  "route-230": {
+    "fr": "Route 230",
+    "en": "Route 230",
+    "ja": "230番道路"
+  },
+  "pallet-town": {
+    "fr": "Bourg Palette",
+    "en": "Pallet Town",
+    "ja": "マサラタウン"
   },
   "viridian-city": {
     "fr": "Jadielle",
@@ -129,6 +464,26 @@
     "en": "Mt. Moon",
     "ja": "おつきみやま"
   },
+  "digletts-cave": {
+    "fr": "Grotte de Taupiqueur",
+    "en": "Diglett's Cave",
+    "ja": "ディグダのあな"
+  },
+  "rock-tunnel": {
+    "fr": "Tunnel Rocheux",
+    "en": "Rock Tunnel",
+    "ja": "イワヤマトンネル"
+  },
+  "pokemon-tower": {
+    "fr": "Tour Pokémon",
+    "en": "Pokémon Tower",
+    "ja": "ポケモンタワー"
+  },
+  "power-plant": {
+    "fr": "Centrale Électrique",
+    "en": "Power Plant",
+    "ja": "はつでんしょ"
+  },
   "safari-zone": {
     "fr": "Zone Safari",
     "en": "Safari Zone",
@@ -149,6 +504,11 @@
     "en": "Seafoam Islands",
     "ja": "たんぱじま"
   },
+  "fighting-dojo": {
+    "fr": "Dojo de Combat",
+    "en": "Fighting Dojo",
+    "ja": "かくとうどうじょう"
+  },
   "victory-road": {
     "fr": "Route Victoire",
     "en": "Victory Road",
@@ -158,11 +518,6 @@
     "fr": "Grotte Azurée",
     "en": "Cerulean Cave",
     "ja": "ハナダのどうくつ"
-  },
-  "sevii-islands": {
-    "fr": "Îles Épices",
-    "en": "Sevii Islands",
-    "ja": "ナナシマ"
   },
   "s-s-anne": {
     "fr": "S.S. Anne",
@@ -174,80 +529,10 @@
     "en": "Rocket Hideout",
     "ja": "ロケットだんアジト"
   },
-  "route-101": {
-    "fr": "Route 101",
-    "en": "Route 101",
-    "ja": "101番道路"
-  },
-  "route-102": {
-    "fr": "Route 102",
-    "en": "Route 102",
-    "ja": "102番道路"
-  },
-  "route-103": {
-    "fr": "Route 103",
-    "en": "Route 103",
-    "ja": "103番道路"
-  },
-  "route-104": {
-    "fr": "Route 104",
-    "en": "Route 104",
-    "ja": "104番道路"
-  },
-  "route-110": {
-    "fr": "Route 110",
-    "en": "Route 110",
-    "ja": "110番道路"
-  },
-  "route-111": {
-    "fr": "Route 111",
-    "en": "Route 111",
-    "ja": "111番道路"
-  },
-  "route-112": {
-    "fr": "Route 112",
-    "en": "Route 112",
-    "ja": "112番道路"
-  },
-  "route-113": {
-    "fr": "Route 113",
-    "en": "Route 113",
-    "ja": "113番道路"
-  },
-  "route-114": {
-    "fr": "Route 114",
-    "en": "Route 114",
-    "ja": "114番道路"
-  },
-  "route-115": {
-    "fr": "Route 115",
-    "en": "Route 115",
-    "ja": "115番道路"
-  },
-  "route-119": {
-    "fr": "Route 119",
-    "en": "Route 119",
-    "ja": "119番道路"
-  },
-  "route-120": {
-    "fr": "Route 120",
-    "en": "Route 120",
-    "ja": "120番道路"
-  },
-  "route-121": {
-    "fr": "Route 121",
-    "en": "Route 121",
-    "ja": "121番道路"
-  },
-  "route-124": {
-    "fr": "Route 124",
-    "en": "Route 124",
-    "ja": "124番道路"
-  },
-  "route-126": {
-    "fr": "Route 126",
-    "en": "Route 126",
-    "ja": "126番道路"
+  "sevii-islands": {
+    "fr": "Îles Épices",
+    "en": "Sevii Islands",
+    "ja": "ナナシマ"
   },
   "oldale-town": {
     "fr": "Bourg en Vol",
@@ -334,95 +619,25 @@
     "en": "Shoal Cave",
     "ja": "あさせのどうくつ"
   },
+  "fiery-path": {
+    "fr": "Chemin Volcanique",
+    "en": "Fiery Path",
+    "ja": "ほのおのぬけみち"
+  },
+  "meteor-falls": {
+    "fr": "Chutes Météores",
+    "en": "Meteor Falls",
+    "ja": "りゅうせいのたき"
+  },
+  "victory-road-rse": {
+    "fr": "Route Victoire (Hoenn)",
+    "en": "Victory Road (Hoenn)",
+    "ja": "チャンピオンロード（ホウエン）"
+  },
   "battle-frontier": {
     "fr": "Zone de Combat",
     "en": "Battle Frontier",
     "ja": "バトルフロンティア"
-  },
-  "route-201": {
-    "fr": "Route 201",
-    "en": "Route 201",
-    "ja": "201番道路"
-  },
-  "route-202": {
-    "fr": "Route 202",
-    "en": "Route 202",
-    "ja": "202番道路"
-  },
-  "route-203": {
-    "fr": "Route 203",
-    "en": "Route 203",
-    "ja": "203番道路"
-  },
-  "route-204": {
-    "fr": "Route 204",
-    "en": "Route 204",
-    "ja": "204番道路"
-  },
-  "route-205": {
-    "fr": "Route 205",
-    "en": "Route 205",
-    "ja": "205番道路"
-  },
-  "route-206": {
-    "fr": "Route 206",
-    "en": "Route 206",
-    "ja": "206番道路"
-  },
-  "route-207": {
-    "fr": "Route 207",
-    "en": "Route 207",
-    "ja": "207番道路"
-  },
-  "route-208": {
-    "fr": "Route 208",
-    "en": "Route 208",
-    "ja": "208番道路"
-  },
-  "route-209": {
-    "fr": "Route 209",
-    "en": "Route 209",
-    "ja": "209番道路"
-  },
-  "route-210": {
-    "fr": "Route 210",
-    "en": "Route 210",
-    "ja": "210番道路"
-  },
-  "route-212": {
-    "fr": "Route 212",
-    "en": "Route 212",
-    "ja": "212番道路"
-  },
-  "route-213": {
-    "fr": "Route 213",
-    "en": "Route 213",
-    "ja": "213番道路"
-  },
-  "route-214": {
-    "fr": "Route 214",
-    "en": "Route 214",
-    "ja": "214番道路"
-  },
-  "route-216": {
-    "fr": "Route 216",
-    "en": "Route 216",
-    "ja": "216番道路"
-  },
-  "route-217": {
-    "fr": "Route 217",
-    "en": "Route 217",
-    "ja": "217番道路"
-  },
-  "route-218": {
-    "fr": "Route 218",
-    "en": "Route 218",
-    "ja": "218番道路"
-  },
-  "route-222": {
-    "fr": "Route 222",
-    "en": "Route 222",
-    "ja": "222番道路"
   },
   "sandgem-town": {
     "fr": "Bonaugure",
@@ -469,6 +684,11 @@
     "en": "Sunyshore City",
     "ja": "ナギサシティ"
   },
+  "solaceon-town": {
+    "fr": "Bonheur",
+    "en": "Solaceon Town",
+    "ja": "ズイタウン"
+  },
   "oreburgh-mine": {
     "fr": "Mine de Joliberges",
     "en": "Oreburgh Mine",
@@ -489,20 +709,50 @@
     "en": "Great Marsh",
     "ja": "だいしつげん"
   },
-  "solaceon-town": {
-    "fr": "Bonheur",
-    "en": "Solaceon Town",
-    "ja": "ズイタウン"
-  },
   "iron-island": {
     "fr": "Île Acier",
     "en": "Iron Island",
     "ja": "コウテツじま"
   },
+  "mt-coronet": {
+    "fr": "Mont Couronné",
+    "en": "Mt. Coronet",
+    "ja": "テンガンざん"
+  },
+  "lake-verity": {
+    "fr": "Lac Vérité",
+    "en": "Lake Verity",
+    "ja": "シンジこ"
+  },
+  "lake-valor": {
+    "fr": "Lac Bravoure",
+    "en": "Lake Valor",
+    "ja": "ダイヤこ"
+  },
   "lake-acuity": {
     "fr": "Lac Sagesse",
     "en": "Lake Acuity",
     "ja": "エイチこ"
+  },
+  "wayward-cave": {
+    "fr": "Grotte Égarée",
+    "en": "Wayward Cave",
+    "ja": "まよいのどうくつ"
+  },
+  "sandgem-beach": {
+    "fr": "Plage de Bonaugure",
+    "en": "Sandgem Beach",
+    "ja": "マサゴのなぎさ"
+  },
+  "snowpoint-temple": {
+    "fr": "Temple de Blanche-Neige",
+    "en": "Snowpoint Temple",
+    "ja": "キッサキしんでん"
+  },
+  "solaceon-ruins": {
+    "fr": "Ruines de Bonheur",
+    "en": "Solaceon Ruins",
+    "ja": "ズイのいせき"
   },
   "victory-road-sinnoh": {
     "fr": "Route Victoire (Sinnoh)",
@@ -528,240 +778,5 @@
     "fr": "Mont Stark",
     "en": "Stark Mountain",
     "ja": "ハードマウンテン"
-  },
-  "route-9": {
-    "fr": "Route 9",
-    "en": "Route 9",
-    "ja": "9番道路"
-  },
-  "route-10": {
-    "fr": "Route 10",
-    "en": "Route 10",
-    "ja": "10番道路"
-  },
-  "route-16": {
-    "fr": "Route 16",
-    "en": "Route 16",
-    "ja": "16番道路"
-  },
-  "route-17": {
-    "fr": "Route 17",
-    "en": "Route 17",
-    "ja": "17番道路"
-  },
-  "route-18": {
-    "fr": "Route 18",
-    "en": "Route 18",
-    "ja": "18番道路"
-  },
-  "route-19": {
-    "fr": "Route 19",
-    "en": "Route 19",
-    "ja": "19番道路"
-  },
-  "route-20": {
-    "fr": "Route 20",
-    "en": "Route 20",
-    "ja": "20番道路"
-  },
-  "route-21": {
-    "fr": "Route 21",
-    "en": "Route 21",
-    "ja": "21番道路"
-  },
-  "route-23": {
-    "fr": "Route 23",
-    "en": "Route 23",
-    "ja": "23番道路"
-  },
-  "route-105": {
-    "fr": "Route 105",
-    "en": "Route 105",
-    "ja": "105番道路"
-  },
-  "route-106": {
-    "fr": "Route 106",
-    "en": "Route 106",
-    "ja": "106番道路"
-  },
-  "route-107": {
-    "fr": "Route 107",
-    "en": "Route 107",
-    "ja": "107番道路"
-  },
-  "route-116": {
-    "fr": "Route 116",
-    "en": "Route 116",
-    "ja": "116番道路"
-  },
-  "route-117": {
-    "fr": "Route 117",
-    "en": "Route 117",
-    "ja": "117番道路"
-  },
-  "route-118": {
-    "fr": "Route 118",
-    "en": "Route 118",
-    "ja": "118番道路"
-  },
-  "route-122": {
-    "fr": "Route 122",
-    "en": "Route 122",
-    "ja": "122番道路"
-  },
-  "route-123": {
-    "fr": "Route 123",
-    "en": "Route 123",
-    "ja": "123番道路"
-  },
-  "route-125": {
-    "fr": "Route 125",
-    "en": "Route 125",
-    "ja": "125番道路"
-  },
-  "route-127": {
-    "fr": "Route 127",
-    "en": "Route 127",
-    "ja": "127番道路"
-  },
-  "route-128": {
-    "fr": "Route 128",
-    "en": "Route 128",
-    "ja": "128番道路"
-  },
-  "route-129": {
-    "fr": "Route 129",
-    "en": "Route 129",
-    "ja": "129番道路"
-  },
-  "route-130": {
-    "fr": "Route 130",
-    "en": "Route 130",
-    "ja": "130番道路"
-  },
-  "route-211": {
-    "fr": "Route 211",
-    "en": "Route 211",
-    "ja": "211番道路"
-  },
-  "route-215": {
-    "fr": "Route 215",
-    "en": "Route 215",
-    "ja": "215番道路"
-  },
-  "route-219": {
-    "fr": "Route 219",
-    "en": "Route 219",
-    "ja": "219番道路"
-  },
-  "route-220": {
-    "fr": "Route 220",
-    "en": "Route 220",
-    "ja": "220番道路"
-  },
-  "route-221": {
-    "fr": "Route 221",
-    "en": "Route 221",
-    "ja": "221番道路"
-  },
-  "route-224": {
-    "fr": "Route 224",
-    "en": "Route 224",
-    "ja": "224番道路"
-  },
-  "route-225": {
-    "fr": "Route 225",
-    "en": "Route 225",
-    "ja": "225番道路"
-  },
-  "route-226": {
-    "fr": "Route 226",
-    "en": "Route 226",
-    "ja": "226番道路"
-  },
-  "route-227": {
-    "fr": "Route 227",
-    "en": "Route 227",
-    "ja": "227番道路"
-  },
-  "route-228": {
-    "fr": "Route 228",
-    "en": "Route 228",
-    "ja": "228番道路"
-  },
-  "route-229": {
-    "fr": "Route 229",
-    "en": "Route 229",
-    "ja": "229番道路"
-  },
-  "route-230": {
-    "fr": "Route 230",
-    "en": "Route 230",
-    "ja": "230番道路"
-  },
-  "pokemon-tower": {
-    "fr": "Tour Pokémon",
-    "en": "Pokémon Tower",
-    "ja": "ポケモンタワー"
-  },
-  "power-plant": {
-    "fr": "Centrale Électrique",
-    "en": "Power Plant",
-    "ja": "はつでんしょ"
-  },
-  "rock-tunnel": {
-    "fr": "Tunnel Rocheux",
-    "en": "Rock Tunnel",
-    "ja": "イワヤマトンネル"
-  },
-  "fiery-path": {
-    "fr": "Chemin Volcanique",
-    "en": "Fiery Path",
-    "ja": "ほのおのぬけみち"
-  },
-  "meteor-falls": {
-    "fr": "Chutes Météores",
-    "en": "Meteor Falls",
-    "ja": "りゅうせいのたき"
-  },
-  "mt-coronet": {
-    "fr": "Mont Couronné",
-    "en": "Mt. Coronet",
-    "ja": "テンガンざん"
-  },
-  "lake-verity": {
-    "fr": "Lac Vérité",
-    "en": "Lake Verity",
-    "ja": "シンジこ"
-  },
-  "lake-valor": {
-    "fr": "Lac Bravoure",
-    "en": "Lake Valor",
-    "ja": "ダイヤこ"
-  },
-  "sandgem-beach": {
-    "fr": "Plage de Bonaugure",
-    "en": "Sandgem Beach",
-    "ja": "マサゴのなぎさ"
-  },
-  "snowpoint-temple": {
-    "fr": "Temple de Blanche-Neige",
-    "en": "Snowpoint Temple",
-    "ja": "キッサキしんでん"
-  },
-  "solaceon-ruins": {
-    "fr": "Ruines de Bonheur",
-    "en": "Solaceon Ruins",
-    "ja": "ズイのいせき"
-  },
-  "wayward-cave": {
-    "fr": "Grotte Égarée",
-    "en": "Wayward Cave",
-    "ja": "まよいのどうくつ"
-  },
-  "victory-road-rse": {
-    "fr": "Route Victoire (Hoenn)",
-    "en": "Victory Road (Hoenn)",
-    "ja": "チャンピオンロード（ホウエン）"
   }
 }
