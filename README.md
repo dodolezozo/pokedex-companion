@@ -1,4 +1,5 @@
 This is work in progress now, most of the data is placeholder, and the sites has some bugs, please come later!
+currently only FRLG is working and some data may be incorrect or missing
 
 # Pokédex Companion
 
