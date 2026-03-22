@@ -6,22 +6,22 @@
       "ja": "マサラタウン"
     },
     "gym1": {
-      "fr": "Arène 1 — Pierre Grise",
+      "fr": "Arène 1 — Argenta",
       "en": "Gym 1 — Pewter City",
       "ja": "ジム1 — ニビシティ"
     },
     "gym2": {
-      "fr": "Arène 2 — Cerulean",
+      "fr": "Arène 2 — Azuria",
       "en": "Gym 2 — Cerulean City",
       "ja": "ジム2 — ハナダシティ"
     },
     "gym3": {
-      "fr": "Arène 3 — Vermilion",
+      "fr": "Arène 3 — Carmin sur Mer",
       "en": "Gym 3 — Vermilion City",
       "ja": "ジム3 — クチバシティ"
     },
     "gym4": {
-      "fr": "Arène 4 — Celadonia",
+      "fr": "Arène 4 — Céladopole",
       "en": "Gym 4 — Celadon City",
       "ja": "ジム4 — タマムシシティ"
     },
@@ -31,12 +31,12 @@
       "ja": "ジム5 — セキチクシティ"
     },
     "gym6": {
-      "fr": "Arène 6 — Cramois'Île",
+      "fr": "Arène 6 — Safrania",
       "en": "Gym 6 — Saffron City",
       "ja": "ジム6 — ヤマブキシティ"
     },
     "gym7": {
-      "fr": "Arène 7 — Carmin sur Mer",
+      "fr": "Arène 7 — Cramois'Île",
       "en": "Gym 7 — Cinnabar Island",
       "ja": "ジム7 — グレンタウン"
     },
@@ -51,18 +51,18 @@
       "ja": "チャンピオン — セキエイこうげん"
     },
     "hm-cut": {
-      "fr": "CS Coupe obtenue",
-      "en": "HM Cut obtained",
+      "fr": "CS Coupe",
+      "en": "HM Cut",
       "ja": "ひでん「いあいぎり」入手"
     },
     "hm-surf": {
-      "fr": "CS Surf obtenue",
-      "en": "HM Surf obtained",
+      "fr": "CS Surf",
+      "en": "HM Surf",
       "ja": "ひでん「なみのり」入手"
     },
     "pokeflute": {
-      "fr": "Poké Flûte obtenue",
-      "en": "Poké Flute obtained",
+      "fr": "Poké Flûte",
+      "en": "Poké Flute",
       "ja": "「ポケモンのふえ」入手"
     }
   },
