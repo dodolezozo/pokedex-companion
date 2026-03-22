@@ -240,19 +240,15 @@ function getSpawnZones(id, unlockedZones, unlockedMethods) {
 }
 
 // Retourne toutes les branches d'évolution depuis un Pokémon
+// Cherche dans tout le pokedex les Pokémon avec evolvesFrom === id (gère les branches multiples)
 function getEvolutions(id) {
-  const data = state.pokedex[String(id)];
-  if (!data?.evolvesInto && data?.evolvesInto !== 0) return [];
-  const into = Array.isArray(data.evolvesInto) ? data.evolvesInto : [data.evolvesInto];
-  // Pour les branches multiples, chaque branche peut avoir sa propre condition d'évolution
-  // Chercher dans le pokedex les Pokémon qui ont evolvesFrom = id
-  if (into.length > 1 || Array.isArray(data.evolvesInto)) {
-    return into.map(nextId => {
-      const nextData = state.pokedex[String(nextId)];
-      return { nextId, evolution: nextData?.evolution ?? data.evolution ?? null };
-    });
+  const branches = [];
+  for (const [nextId, data] of Object.entries(state.pokedex)) {
+    if (data.evolvesFrom === id) {
+      branches.push({ nextId: Number(nextId), evolution: data.evolution ?? null });
+    }
   }
-  return into.map(nextId => ({ nextId, evolution: data.evolution ?? null }));
+  return branches;
 }
 
 function categorizePokemon() {
@@ -264,9 +260,13 @@ function categorizePokemon() {
   const result      = { available: [], locked: [] };
   const seen        = new Set();
 
+  const unavailable = new Set(state.meta.unavailableMechanics ?? []);
+
   function addPokemon(id, source, evolutionFrom, evolution) {
     if (pokemonGen(id) > maxGen) return;
     if (seen.has(id)) return;
+    // Bloquer les évolutions par mécanisme non disponible dans ce jeu
+    if (evolution && unavailable.has(evolution.type)) return;
     seen.add(id);
 
     const spawnZones = ['wild','surfing','fishing'].includes(source)

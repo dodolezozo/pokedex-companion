@@ -139,9 +139,10 @@
       "unlocksZones": [
         "route-24",
         "route-25",
-        "cerulean-city"
+        "cerulean-city",
       ],
-      "unlocksItems": []
+      "unlocksItems": [],
+      "unlocksMethod": "fishing"
     },
     {
       "id": "hm-cut",
@@ -202,8 +203,7 @@
         "route-22",
         "route-23"
       ],
-      "unlocksItems": [
-      ]
+      "unlocksItems": []
     },
     {
       "id": "gym5",
@@ -214,8 +214,7 @@
     {
       "id": "hm-surf",
       "icon": "🌊",
-      "unlocksZones": [
-      ],
+      "unlocksZones": [],
       "unlocksItems": []
     },
     {
@@ -253,5 +252,11 @@
       ],
       "unlocksItems": []
     }
+  ],
+  "unavailableMechanics": [
+    "happiness-day",
+    "happiness-night",
+    "sun",
+    "moon"
   ]
 }
