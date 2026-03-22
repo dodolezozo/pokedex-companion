@@ -240,7 +240,7 @@
   "239": { "evolvesInto": 125, "evolution": { "type": "level", "level": 30 } },
   "240": { "evolvesInto": 126, "evolution": { "type": "level", "level": 30 } },
   "241": {},
-  "242": { "evolvesFrom": 113 },
+  "242": { "evolvesFrom": 113, "evolution": { "type": "stone", "item": "Oval Stone"} },
   "243": {},
   "244": {},
   "245": {},

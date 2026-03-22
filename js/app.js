@@ -185,21 +185,33 @@ function getCurrentState() {
   return { unlockedZones, unlockedItems, unlockedMethods };
 }
 
+// Priorité des sources : wild > surfing > fishing > npc-trade > buy > fossil > gift > static
+const SOURCE_PRIORITY = { wild:7, surfing:6, fishing:5, 'npc-trade':4, buy:3, fossil:2, gift:1, static:0 };
+
 function getZonePokemon(unlockedZones, unlockedMethods) {
-  const found = new Map();
+  const found = new Map(); // id → { source, priority }
   for (const zone of unlockedZones) {
     const zoneData = state.zones[zone];
     if (!zoneData) continue;
     if (Array.isArray(zoneData)) {
-      zoneData.forEach(id => { if (!found.has(id)) found.set(id, 'wild'); });
+      zoneData.forEach(id => {
+        const p = SOURCE_PRIORITY['wild'];
+        if (!found.has(id) || found.get(id).priority < p) found.set(id, { source: 'wild', priority: p });
+      });
     } else {
       for (const [method, ids] of Object.entries(zoneData)) {
-        if (!unlockedMethods.has(method)) continue;
-        ids.forEach(id => { if (!found.has(id)) found.set(id, method); });
+        if (!unlockedMethods.has(method) && !['gift','fossil','buy','npc-trade','static'].includes(method)) continue;
+        const p = SOURCE_PRIORITY[method] ?? 0;
+        ids.forEach(id => {
+          if (!found.has(id) || found.get(id).priority < p) found.set(id, { source: method, priority: p });
+        });
       }
     }
   }
-  return found;
+  // Retourne Map id → source (string)
+  const result = new Map();
+  found.forEach(({ source }, id) => result.set(id, source));
+  return result;
 }
 
 function getGiftPokemon() {
@@ -265,8 +277,6 @@ function categorizePokemon() {
   function addPokemon(id, source, evolutionFrom, evolution) {
     if (pokemonGen(id) > maxGen) return;
     if (seen.has(id)) return;
-    // Bloquer les évolutions par mécanisme non disponible dans ce jeu
-    if (evolution && unavailable.has(evolution.type)) return;
     seen.add(id);
 
     const spawnZones = ['wild','surfing','fishing'].includes(source)
@@ -278,6 +288,8 @@ function categorizePokemon() {
     // Explorer toutes les branches d'évolution
     for (const { nextId, evolution: evo } of getEvolutions(id)) {
       if (seen.has(nextId) || pokemonGen(nextId) > maxGen) continue;
+      // Si l'évolution est bloquée par un mécanisme indisponible, on ignore
+      if (evo && unavailable.has(evo.type)) continue;
 
       const itemLocked = (evo?.type === 'stone' && !unlockedItems.has(evo.item))
                       || (evo?.type === 'trade' && evo.item && !unlockedItems.has(evo.item));
@@ -317,7 +329,8 @@ function getTagInfo(entry) {
   if (source === 'npc-trade')return { label: t('tagLabels.npcTrade'), cls: 'tag-npc-trade' };
   if (source === 'buy')      return { label: t('tagLabels.buy'),       cls: 'tag-buy'       };
   if (source === 'fossil')   return { label: t('tagLabels.fossil'),    cls: 'tag-fossil'    };
-  if (source === 'evolution' && evolution) {
+  if (source === 'evolution') {
+    if (!evolution) return { label: t('tagLabels.evolution'), cls: 'tag-evolution' };
     switch (evolution.type) {
       case 'level':   return { label: `${t('levelLabel')} ${evolution.level}`, cls: 'tag-evolution' };
       case 'stone':   return { label: itemName(evolution.item), cls: 'tag-stone' };
@@ -331,7 +344,7 @@ function getTagInfo(entry) {
       default: return { label: t('tagLabels.evolution'), cls: 'tag-evolution' };
     }
   }
-  return { label: '?', cls: 'tag-special' };
+  return { label: t('tagLabels.evolution'), cls: 'tag-evolution' };
 }
 
 function getSubline(entry) {
