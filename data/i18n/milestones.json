@@ -59,6 +59,11 @@
       "fr": "CS Surf obtenue",
       "en": "HM Surf obtained",
       "ja": "ひでん「なみのり」入手"
+    },
+    "pokeflute": {
+      "fr": "Poké Flûte obtenue",
+      "en": "Poké Flute obtained",
+      "ja": "「ポケモンのふえ」入手"
     }
   },
   "rse": {
