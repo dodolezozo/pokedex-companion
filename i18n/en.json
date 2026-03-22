@@ -34,6 +34,7 @@
     "versionFilter": "Version:",
     "resetTitle": "Reset captures",
     "resetConfirm": "Reset all your captures for this game?",
-    "tooltipTitle": "Accessible areas"
+    "tooltipTitle": "Accessible areas",
+    "selectGame": "Select Game"
   }
 }

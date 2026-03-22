@@ -34,6 +34,7 @@
     "versionFilter": "バージョン：",
     "resetTitle": "捕獲データをリセット",
     "resetConfirm": "このゲームの捕獲データをリセットしますか？",
-    "tooltipTitle": "出現エリア"
+    "tooltipTitle": "出現エリア",
+    "selectGame": "ゲームを選択"
   }
 }

@@ -34,6 +34,7 @@
     "versionFilter": "Version :",
     "resetTitle": "Réinitialiser les captures",
     "resetConfirm": "Réinitialiser toutes tes captures pour ce jeu ?",
-    "tooltipTitle": "Zones accessibles"
+    "tooltipTitle": "Zones accessibles",
+    "selectGame": "Sélectionner un jeu"
   }
 }
