@@ -22,7 +22,8 @@
       "buy": "購入",
       "surfing": "なみのり",
       "fishing": "つり",
-      "fossil": "かせき"
+      "fossil": "かせき",
+      "static": "固定"
     },
     "lockLabel": {
       "stone": "必要：",

@@ -22,7 +22,8 @@
       "buy": "Purchase",
       "surfing": "Surfing",
       "fishing": "Fishing",
-      "fossil": "Fossil"
+      "fossil": "Fossil",
+      "static": "Static"
     },
     "lockLabel": {
       "stone": "Requires:",

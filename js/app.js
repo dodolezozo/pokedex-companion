@@ -349,6 +349,7 @@ function getTagInfo(entry) {
   if (source === 'npc-trade')return { label: t('tagLabels.npcTrade'), cls: 'tag-npc-trade' };
   if (source === 'buy')      return { label: t('tagLabels.buy'),       cls: 'tag-buy'       };
   if (source === 'fossil')   return { label: t('tagLabels.fossil'),    cls: 'tag-fossil'    };
+  if (source === 'static')   return { label: t('tagLabels.static'),    cls: 'tag-static'    };
   if (source === 'evolution') {
     if (!evolution) return { label: t('tagLabels.evolution'), cls: 'tag-evolution' };
     switch (evolution.type) {
