@@ -1,13 +1,35 @@
 [
   {
-    "id": "frlg",
-    "icon": "🔥",
-    "color": "#E8401C",
-    "spriteSet": "generation-iii/firered-leafgreen",
+    "id": "rgb_jp",
+    "icon": "🎮",
+    "color": "#FF3B3B",
+    "spriteSet": "generation-i/red-green",
     "names": {
-      "fr": "Rouge Feu / Vert Feuille",
-      "en": "FireRed / LeafGreen",
-      "ja": "ファイアレッド / リーフグリーン"
+      "fr": "Rouge (JP) / Vert (JP)",
+      "en": "Red / Green (JP)",
+      "ja": "ポケットモンスター 赤 / 緑"
+    }
+  },
+  {
+    "id": "rby",
+    "icon": "🎮",
+    "color": "#FF3B3B",
+    "spriteSet": "generation-i/red-blue",
+    "names": {
+      "fr": "Rouge / Bleu / Jaune",
+      "en": "Red / Blue / Yellow",
+      "ja": "赤 / 青 / ピカチュウ"
+    }
+  },
+  {
+    "id": "gsc",
+    "icon": "🥇",
+    "color": "#C9A100",
+    "spriteSet": "generation-ii/gold-silver",
+    "names": {
+      "fr": "Or / Argent / Cristal",
+      "en": "Gold / Silver / Crystal",
+      "ja": "金 / 銀 / クリスタル"
     }
   },
   {
@@ -22,6 +44,17 @@
     }
   },
   {
+    "id": "frlg",
+    "icon": "🔥",
+    "color": "#E8401C",
+    "spriteSet": "generation-iii/firered-leafgreen",
+    "names": {
+      "fr": "Rouge Feu / Vert Feuille",
+      "en": "FireRed / LeafGreen",
+      "ja": "ファイアレッド / リーフグリーン"
+    }
+  },
+  {
     "id": "dp",
     "icon": "🌟",
     "color": "#5B8CFF",
@@ -30,6 +63,127 @@
       "fr": "Diamant / Perle / Platine",
       "en": "Diamond / Pearl / Platinum",
       "ja": "ダイヤモンド / パール / プラチナ"
+    }
+  },
+  {
+    "id": "hgss",
+    "icon": "❤️",
+    "color": "#FF6B6B",
+    "spriteSet": "generation-iv/heartgold-soulsilver",
+    "names": {
+      "fr": "HeartGold / SoulSilver",
+      "en": "HeartGold / SoulSilver",
+      "ja": "ハートゴールド / ソウルシルバー"
+    }
+  },
+  {
+    "id": "bw",
+    "icon": "⚫",
+    "color": "#333333",
+    "spriteSet": "generation-v/black-white",
+    "names": {
+      "fr": "Noir / Blanc",
+      "en": "Black / White",
+      "ja": "ブラック / ホワイト"
+    }
+  },
+  {
+    "id": "bw2",
+    "icon": "⚫",
+    "color": "#555555",
+    "spriteSet": "generation-v/black2-white2",
+    "names": {
+      "fr": "Noir 2 / Blanc 2",
+      "en": "Black 2 / White 2",
+      "ja": "ブラック2 / ホワイト2"
+    }
+  },
+  {
+    "id": "xy",
+    "icon": "❌",
+    "color": "#FF4F70",
+    "spriteSet": "generation-vi/x-y",
+    "names": {
+      "fr": "X / Y",
+      "en": "X / Y",
+      "ja": "X / Y"
+    }
+  },
+  {
+    "id": "oras",
+    "icon": "🔷",
+    "color": "#00AEEF",
+    "spriteSet": "generation-vi/omega-ruby-alpha-sapphire",
+    "names": {
+      "fr": "Rubis Oméga / Saphir Alpha",
+      "en": "Omega Ruby / Alpha Sapphire",
+      "ja": "オメガルビー / アルファサファイア"
+    }
+  },
+  {
+    "id": "sm",
+    "icon": "🌞",
+    "color": "#FFB347",
+    "spriteSet": "generation-vii/sun-moon",
+    "names": {
+      "fr": "Soleil / Lune",
+      "en": "Sun / Moon",
+      "ja": "サン / ムーン"
+    }
+  },
+  {
+    "id": "usum",
+    "icon": "🌙",
+    "color": "#6A5ACD",
+    "spriteSet": "generation-vii/ultra-sun-ultra-moon",
+    "names": {
+      "fr": "Ultra-Soleil / Ultra-Lune",
+      "en": "Ultra Sun / Ultra Moon",
+      "ja": "ウルトラサン / ウルトラムーン"
+    }
+  },
+  {
+    "id": "lgpe",
+    "icon": "⚡",
+    "color": "#FFD700",
+    "spriteSet": "generation-vii/lets-go",
+    "names": {
+      "fr": "Let’s Go Pikachu / Let’s Go Évoli",
+      "en": "Let's Go Pikachu / Eevee",
+      "ja": "ピカチュウ / イーブイ"
+    }
+  },
+  {
+    "id": "swsh",
+    "icon": "🗡️",
+    "color": "#8A2BE2",
+    "spriteSet": "generation-viii/sword-shield",
+    "names": {
+      "fr": "Épée / Bouclier",
+      "en": "Sword / Shield",
+      "ja": "ソード / シールド"
+    }
+  },
+  {
+    "id": "bdsp",
+    "icon": "💠",
+    "color": "#4FC3F7",
+    "spriteSet": "generation-viii/brilliant-diamond-shining-pearl",
+    "names": {
+      "fr": "Diamant Étincelant / Perle Scintillante",
+      "en": "Brilliant Diamond / Shining Pearl",
+      "ja": "ブリリアントダイヤモンド / シャイニングパール"
+    }
+  },
+  {
+    "id": "sv",
+    "icon": "🍇",
+    "color": "#FF6347",
+    "spriteSet": "generation-ix/scarlet-violet",
+    "names": {
+      "fr": "Écarlate / Violet",
+      "en": "Scarlet / Violet",
+      "ja": "スカーレット / バイオレット"
     }
   }
 ]
