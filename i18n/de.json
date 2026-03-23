@@ -1,0 +1,41 @@
+{
+  "ui": {
+    "title": "Pokédex Companion",
+    "available": "in diesem Abschnitt verfügbar",
+    "locked": "noch nicht freischaltbar",
+    "statAvailable": "Verfügbar",
+    "statLocked": "Gesperrt",
+    "statTotal": "Gesamt",
+    "statCaptured": "Gefangen",
+    "tagLabels": {
+      "starter": "Starter",
+      "wild": "Wildnis",
+      "evolution": "Entwicklung",
+      "stone": "Stein",
+      "trade": "Tausch",
+      "gift": "Geschenk",
+      "special": "Besonders",
+      "happiness": "Freundschaft",
+      "time": "Tageszeit",
+      "locked": "Gesperrt",
+      "npcTrade": "NPC-Tausch",
+      "buy": "Kaufen",
+      "surfing": "Surfen",
+      "fishing": "Angeln",
+      "fossil": "Fossil",
+      "static": "Einmalig"
+    },
+    "lockLabel": {
+      "stone": "Benötigt:",
+      "trade": "Tausch erforderlich"
+    },
+    "levelLabel": "Lv.",
+    "evolvesFrom": "Entwickelt sich von",
+    "noGame": "Wähle ein Spiel aus",
+    "versionFilter": "Version:",
+    "resetTitle": "Fänge zurücksetzen",
+    "resetConfirm": "Alle Fänge für dieses Spiel zurücksetzen?",
+    "tooltipTitle": "Zugängliche Gebiete",
+    "selectGame": "Spiel auswählen"
+  }
+}

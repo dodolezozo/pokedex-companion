@@ -1,0 +1,41 @@
+{
+  "ui": {
+    "title": "Pokédex Companion",
+    "available": "이 단계에서 획득 가능",
+    "locked": "아직 해금되지 않음",
+    "statAvailable": "획득 가능",
+    "statLocked": "잠김",
+    "statTotal": "합계",
+    "statCaptured": "포획 완료",
+    "tagLabels": {
+      "starter": "스타터",
+      "wild": "야생",
+      "evolution": "진화",
+      "stone": "돌",
+      "trade": "교환",
+      "gift": "선물",
+      "special": "특수",
+      "happiness": "친밀도",
+      "time": "시간대",
+      "locked": "잠김",
+      "npcTrade": "NPC 교환",
+      "buy": "구매",
+      "surfing": "파도타기",
+      "fishing": "낚시",
+      "fossil": "화석",
+      "static": "고정"
+    },
+    "lockLabel": {
+      "stone": "필요:",
+      "trade": "교환 필요"
+    },
+    "levelLabel": "Lv.",
+    "evolvesFrom": "진화 전",
+    "noGame": "게임을 선택하세요",
+    "versionFilter": "버전:",
+    "resetTitle": "포획 데이터 초기화",
+    "resetConfirm": "이 게임의 포획 데이터를 초기화하시겠습니까?",
+    "tooltipTitle": "접근 가능한 구역",
+    "selectGame": "게임 선택"
+  }
+}
