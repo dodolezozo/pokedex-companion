@@ -551,7 +551,7 @@ function setStep(i) {
 async function init() {
   try {
     const saved = localStorage.getItem(LS_KEY_LANG());
-    if (saved && ['fr','en','ja'].includes(saved)) state.lang = saved;
+    if (saved && ['fr','en','ja','de','kr'].includes(saved)) state.lang = saved;
   } catch {}
 
   await Promise.all([loadI18n(), loadGames(), loadPokedex()]);
