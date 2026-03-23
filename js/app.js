@@ -427,7 +427,7 @@ function renderHeader() {
   const resetBtn = document.getElementById('reset-btn');
   if (resetBtn) resetBtn.title = t('resetTitle');
   document.getElementById('lang-switcher').innerHTML =
-    ['fr','en','ja'].map(l =>
+    ['fr','en','ja','de','kr'].map(l =>
       `<button class="lang-btn ${l === state.lang ? 'active' : ''}"
         onclick="switchLang('${l}')">${l.toUpperCase()}</button>`
     ).join('');
