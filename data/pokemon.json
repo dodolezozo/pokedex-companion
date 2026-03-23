@@ -123,7 +123,7 @@
     "evolvesFrom": 25,
     "evolution": {
       "type": "stone",
-      "item": "83"
+      "item": "thunder-stone"
     }
   },
   "27": {},
@@ -146,7 +146,7 @@
     "evolvesFrom": 30,
     "evolution": {
       "type": "stone",
-      "item": "81"
+      "item": "moon-stone"
     }
   },
   "32": {},
@@ -161,7 +161,7 @@
     "evolvesFrom": 33,
     "evolution": {
       "type": "stone",
-      "item": "81"
+      "item": "moon-stone"
     }
   },
   "35": {
@@ -174,7 +174,7 @@
     "evolvesFrom": 35,
     "evolution": {
       "type": "stone",
-      "item": "81"
+      "item": "moon-stone"
     }
   },
   "37": {},
@@ -182,7 +182,7 @@
     "evolvesFrom": 37,
     "evolution": {
       "type": "stone",
-      "item": "82"
+      "item": "fire-stone"
     }
   },
   "39": {
@@ -195,7 +195,7 @@
     "evolvesFrom": 39,
     "evolution": {
       "type": "stone",
-      "item": "81"
+      "item": "moon-stone"
     }
   },
   "41": {},
@@ -218,7 +218,7 @@
     "evolvesFrom": 44,
     "evolution": {
       "type": "stone",
-      "item": "85"
+      "item": "leaf-stone"
     }
   },
   "46": {},
@@ -274,7 +274,7 @@
     "evolvesFrom": 58,
     "evolution": {
       "type": "stone",
-      "item": "82"
+      "item": "fire-stone"
     }
   },
   "60": {},
@@ -289,7 +289,7 @@
     "evolvesFrom": 61,
     "evolution": {
       "type": "stone",
-      "item": "84"
+      "item": "water-stone"
     }
   },
   "63": {},
@@ -332,7 +332,7 @@
     "evolvesFrom": 70,
     "evolution": {
       "type": "stone",
-      "item": "85"
+      "item": "leaf-stone"
     }
   },
   "72": {},
@@ -411,7 +411,7 @@
     "evolvesFrom": 90,
     "evolution": {
       "type": "stone",
-      "item": "84"
+      "item": "water-stone"
     }
   },
   "92": {},
@@ -458,7 +458,7 @@
     "evolvesFrom": 102,
     "evolution": {
       "type": "stone",
-      "item": "85"
+      "item": "leaf-stone"
     }
   },
   "104": {},
@@ -504,7 +504,7 @@
     "evolvesFrom": 440,
     "evolution": {
       "type": "level-held",
-      "item": "110",
+      "item": "oval-stone",
       "time": "day"
     }
   },
@@ -531,7 +531,7 @@
     "evolvesFrom": 120,
     "evolution": {
       "type": "stone",
-      "item": "84"
+      "item": "water-stone"
     }
   },
   "122": {
@@ -580,21 +580,21 @@
     "evolvesFrom": 133,
     "evolution": {
       "type": "stone",
-      "item": "84"
+      "item": "water-stone"
     }
   },
   "135": {
     "evolvesFrom": 133,
     "evolution": {
       "type": "stone",
-      "item": "83"
+      "item": "thunder-stone"
     }
   },
   "136": {
     "evolvesFrom": 133,
     "evolution": {
       "type": "stone",
-      "item": "82"
+      "item": "fire-stone"
     }
   },
   "137": {},
@@ -769,7 +769,7 @@
     "evolvesFrom": 44,
     "evolution": {
       "type": "stone",
-      "item": "80"
+      "item": "sun-stone"
     }
   },
   "183": {
@@ -796,7 +796,7 @@
     "evolvesFrom": 61,
     "evolution": {
       "type": "trade",
-      "item": "198"
+      "item": "kings-rock"
     }
   },
   "187": {},
@@ -820,7 +820,7 @@
     "evolvesFrom": 191,
     "evolution": {
       "type": "stone",
-      "item": "80"
+      "item": "sun-stone"
     }
   },
   "193": {},
@@ -849,7 +849,7 @@
     "evolvesFrom": 79,
     "evolution": {
       "type": "trade",
-      "item": "198"
+      "item": "kings-rock"
     }
   },
   "200": {},
@@ -876,7 +876,7 @@
     "evolvesFrom": 95,
     "evolution": {
       "type": "trade",
-      "item": "210"
+      "item": "metal-coat"
     }
   },
   "209": {},
@@ -892,7 +892,7 @@
     "evolvesFrom": 123,
     "evolution": {
       "type": "trade",
-      "item": "210"
+      "item": "metal-coat"
     }
   },
   "213": {},
@@ -952,7 +952,7 @@
     "evolvesFrom": 117,
     "evolution": {
       "type": "trade",
-      "item": "212"
+      "item": "dragon-scale"
     }
   },
   "231": {},
@@ -967,7 +967,7 @@
     "evolvesFrom": 137,
     "evolution": {
       "type": "trade",
-      "item": "229"
+      "item": "up-grade"
     }
   },
   "234": {},
@@ -1113,7 +1113,7 @@
     "evolvesFrom": 271,
     "evolution": {
       "type": "stone",
-      "item": "84"
+      "item": "water-stone"
     }
   },
   "273": {},
@@ -1128,7 +1128,7 @@
     "evolvesFrom": 274,
     "evolution": {
       "type": "stone",
-      "item": "85"
+      "item": "leaf-stone"
     }
   },
   "276": {},
@@ -1237,7 +1237,7 @@
     "evolvesFrom": 300,
     "evolution": {
       "type": "stone",
-      "item": "81"
+      "item": "moon-stone"
     }
   },
   "302": {},
@@ -1463,14 +1463,14 @@
     "evolvesFrom": 366,
     "evolution": {
       "type": "trade",
-      "item": "203"
+      "item": "deep-sea-tooth"
     }
   },
   "368": {
     "evolvesFrom": 366,
     "evolution": {
       "type": "trade",
-      "item": "204"
+      "item": "deep-sea-scale"
     }
   },
   "369": {},
@@ -1611,7 +1611,7 @@
     "evolvesFrom": 315,
     "evolution": {
       "type": "stone",
-      "item": "107"
+      "item": "shiny-stone"
     }
   },
   "408": {},
@@ -1704,14 +1704,14 @@
     "evolvesFrom": 200,
     "evolution": {
       "type": "stone",
-      "item": "108"
+      "item": "dusk-stone"
     }
   },
   "430": {
     "evolvesFrom": 198,
     "evolution": {
       "type": "stone",
-      "item": "108"
+      "item": "dusk-stone"
     }
   },
   "431": {},
@@ -1813,7 +1813,7 @@
     "evolvesFrom": 215,
     "evolution": {
       "type": "level-held",
-      "item": "303",
+      "item": "razor-claw",
       "time": "night"
     }
   },
@@ -1835,7 +1835,7 @@
     "evolvesFrom": 112,
     "evolution": {
       "type": "trade",
-      "item": "298"
+      "item": "protector"
     }
   },
   "465": {
@@ -1849,21 +1849,21 @@
     "evolvesFrom": 125,
     "evolution": {
       "type": "trade",
-      "item": "299"
+      "item": "electirizer"
     }
   },
   "467": {
     "evolvesFrom": 126,
     "evolution": {
       "type": "trade",
-      "item": "300"
+      "item": "magmarizer"
     }
   },
   "468": {
     "evolvesFrom": 176,
     "evolution": {
       "type": "stone",
-      "item": "107"
+      "item": "shiny-stone"
     }
   },
   "469": {
@@ -1891,7 +1891,7 @@
     "evolvesFrom": 207,
     "evolution": {
       "type": "level-held",
-      "item": "304",
+      "item": "razor-fang",
       "time": "night"
     }
   },
@@ -1906,14 +1906,14 @@
     "evolvesFrom": 233,
     "evolution": {
       "type": "trade",
-      "item": "301"
+      "item": "dubious-disc"
     }
   },
   "475": {
     "evolvesFrom": 281,
     "evolution": {
       "type": "stone",
-      "item": "109"
+      "item": "dawn-stone"
     }
   },
   "476": {
@@ -1927,14 +1927,14 @@
     "evolvesFrom": 356,
     "evolution": {
       "type": "trade",
-      "item": "302"
+      "item": "reaper-cloth"
     }
   },
   "478": {
     "evolvesFrom": 361,
     "evolution": {
       "type": "stone",
-      "item": "109"
+      "item": "dawn-stone"
     }
   },
   "479": {},
@@ -2036,7 +2036,7 @@
     "evolvesFrom": 511,
     "evolution": {
       "type": "stone",
-      "item": "85"
+      "item": "leaf-stone"
     }
   },
   "513": {},
@@ -2044,7 +2044,7 @@
     "evolvesFrom": 513,
     "evolution": {
       "type": "stone",
-      "item": "82"
+      "item": "fire-stone"
     }
   },
   "515": {},
@@ -2052,7 +2052,7 @@
     "evolvesFrom": 515,
     "evolution": {
       "type": "stone",
-      "item": "84"
+      "item": "water-stone"
     }
   },
   "517": {},
@@ -2060,7 +2060,7 @@
     "evolvesFrom": 517,
     "evolution": {
       "type": "stone",
-      "item": "81"
+      "item": "moon-stone"
     }
   },
   "519": {},
@@ -2181,7 +2181,7 @@
     "evolvesFrom": 546,
     "evolution": {
       "type": "stone",
-      "item": "80"
+      "item": "sun-stone"
     }
   },
   "548": {},
@@ -2189,7 +2189,7 @@
     "evolvesFrom": 548,
     "evolution": {
       "type": "stone",
-      "item": "80"
+      "item": "sun-stone"
     }
   },
   "550": {},
@@ -2279,7 +2279,7 @@
     "evolvesFrom": 572,
     "evolution": {
       "type": "stone",
-      "item": "107"
+      "item": "shiny-stone"
     }
   },
   "574": {},
@@ -2411,7 +2411,7 @@
     "evolvesFrom": 603,
     "evolution": {
       "type": "stone",
-      "item": "83"
+      "item": "thunder-stone"
     }
   },
   "605": {},
@@ -2434,7 +2434,7 @@
     "evolvesFrom": 608,
     "evolution": {
       "type": "stone",
-      "item": "108"
+      "item": "dusk-stone"
     }
   },
   "610": {},
@@ -2651,7 +2651,7 @@
     "evolvesFrom": 670,
     "evolution": {
       "type": "stone",
-      "item": "107"
+      "item": "shiny-stone"
     }
   },
   "672": {},
@@ -2691,7 +2691,7 @@
     "evolvesFrom": 680,
     "evolution": {
       "type": "stone",
-      "item": "108"
+      "item": "dusk-stone"
     }
   },
   "682": {},
@@ -2699,7 +2699,7 @@
     "evolvesFrom": 682,
     "evolution": {
       "type": "trade",
-      "item": "687"
+      "item": "sachet"
     }
   },
   "684": {},
@@ -2707,7 +2707,7 @@
     "evolvesFrom": 684,
     "evolution": {
       "type": "trade",
-      "item": "686"
+      "item": "whipped-dream"
     }
   },
   "686": {},
@@ -2747,7 +2747,7 @@
     "evolvesFrom": 694,
     "evolution": {
       "type": "stone",
-      "item": "80"
+      "item": "sun-stone"
     }
   },
   "696": {},
@@ -3105,5 +3105,770 @@
   "806": {},
   "807": {},
   "808": {},
-  "809": {}
+  "809": {},
+  "810": {},
+  "811": {
+    "evolvesFrom": 810,
+    "evolution": {
+      "type": "level",
+      "level": 16
+    }
+  },
+  "812": {
+    "evolvesFrom": 811,
+    "evolution": {
+      "type": "level",
+      "level": 35
+    }
+  },
+  "813": {},
+  "814": {
+    "evolvesFrom": 813,
+    "evolution": {
+      "type": "level",
+      "level": 16
+    }
+  },
+  "815": {
+    "evolvesFrom": 814,
+    "evolution": {
+      "type": "level",
+      "level": 35
+    }
+  },
+  "816": {},
+  "817": {
+    "evolvesFrom": 816,
+    "evolution": {
+      "type": "level",
+      "level": 16
+    }
+  },
+  "818": {
+    "evolvesFrom": 817,
+    "evolution": {
+      "type": "level",
+      "level": 35
+    }
+  },
+  "819": {},
+  "820": {
+    "evolvesFrom": 819,
+    "evolution": {
+      "type": "level",
+      "level": 24
+    }
+  },
+  "821": {},
+  "822": {
+    "evolvesFrom": 821,
+    "evolution": {
+      "type": "level",
+      "level": 18
+    }
+  },
+  "823": {
+    "evolvesFrom": 822,
+    "evolution": {
+      "type": "level",
+      "level": 38
+    }
+  },
+  "824": {},
+  "825": {
+    "evolvesFrom": 824,
+    "evolution": {
+      "type": "level",
+      "level": 10
+    }
+  },
+  "826": {
+    "evolvesFrom": 825,
+    "evolution": {
+      "type": "level",
+      "level": 30
+    }
+  },
+  "827": {},
+  "828": {
+    "evolvesFrom": 827,
+    "evolution": {
+      "type": "level",
+      "level": 18
+    }
+  },
+  "829": {},
+  "830": {
+    "evolvesFrom": 829,
+    "evolution": {
+      "type": "level",
+      "level": 20
+    }
+  },
+  "831": {},
+  "832": {
+    "evolvesFrom": 831,
+    "evolution": {
+      "type": "level",
+      "level": 24
+    }
+  },
+  "833": {},
+  "834": {
+    "evolvesFrom": 833,
+    "evolution": {
+      "type": "level",
+      "level": 22
+    }
+  },
+  "835": {},
+  "836": {
+    "evolvesFrom": 835,
+    "evolution": {
+      "type": "level",
+      "level": 25
+    }
+  },
+  "837": {},
+  "838": {
+    "evolvesFrom": 837,
+    "evolution": {
+      "type": "level",
+      "level": 18
+    }
+  },
+  "839": {
+    "evolvesFrom": 838,
+    "evolution": {
+      "type": "level",
+      "level": 34
+    }
+  },
+  "840": {},
+  "841": {
+    "evolvesFrom": 840,
+    "evolution": {
+      "type": "stone",
+      "item": "tart-apple"
+    }
+  },
+  "842": {
+    "evolvesFrom": 840,
+    "evolution": {
+      "type": "stone",
+      "item": "sweet-apple"
+    }
+  },
+  "843": {},
+  "844": {
+    "evolvesFrom": 843,
+    "evolution": {
+      "type": "level",
+      "level": 36
+    }
+  },
+  "845": {},
+  "846": {},
+  "847": {
+    "evolvesFrom": 846,
+    "evolution": {
+      "type": "level",
+      "level": 26
+    }
+  },
+  "848": {},
+  "849": {
+    "evolvesFrom": 848,
+    "evolution": {
+      "type": "level",
+      "level": 30
+    }
+  },
+  "850": {},
+  "851": {
+    "evolvesFrom": 850,
+    "evolution": {
+      "type": "level",
+      "level": 28
+    }
+  },
+  "852": {},
+  "853": {
+    "evolvesFrom": 852,
+    "evolution": {
+      "type": "move",
+      "move": "taunt"
+    }
+  },
+  "854": {},
+  "855": {
+    "evolvesFrom": 854,
+    "evolution": {
+      "type": "stone",
+      "item": "cracked-pot"
+    }
+  },
+  "856": {},
+  "857": {
+    "evolvesFrom": 856,
+    "evolution": {
+      "type": "level",
+      "level": 32
+    }
+  },
+  "858": {
+    "evolvesFrom": 857,
+    "evolution": {
+      "type": "level",
+      "level": 42
+    }
+  },
+  "859": {},
+  "860": {
+    "evolvesFrom": 859,
+    "evolution": {
+      "type": "level",
+      "level": 32
+    }
+  },
+  "861": {
+    "evolvesFrom": 860,
+    "evolution": {
+      "type": "level",
+      "level": 42
+    }
+  },
+  "862": {
+    "evolvesFrom": 264,
+    "evolution": {
+      "type": "level-night",
+      "level": 35
+    }
+  },
+  "863": {
+    "evolvesFrom": 52,
+    "evolution": {
+      "type": "level",
+      "level": 28
+    }
+  },
+  "864": {
+    "evolvesFrom": 222,
+    "evolution": {
+      "type": "level",
+      "level": 38
+    }
+  },
+  "865": {
+    "evolvesFrom": 83,
+    "evolution": {
+      "type": "three-critical-hits"
+    }
+  },
+  "866": {
+    "evolvesFrom": 122,
+    "evolution": {
+      "type": "level",
+      "level": 42
+    }
+  },
+  "867": {
+    "evolvesFrom": 562,
+    "evolution": {
+      "type": "take-damage"
+    }
+  },
+  "868": {},
+  "869": {
+    "evolvesFrom": 868,
+    "evolution": {
+      "type": "spin"
+    }
+  },
+  "870": {},
+  "871": {},
+  "872": {},
+  "873": {
+    "evolvesFrom": 872,
+    "evolution": {
+      "type": "happiness-night"
+    }
+  },
+  "874": {},
+  "875": {},
+  "876": {},
+  "877": {},
+  "878": {},
+  "879": {
+    "evolvesFrom": 878,
+    "evolution": {
+      "type": "level",
+      "level": 34
+    }
+  },
+  "880": {},
+  "881": {},
+  "882": {},
+  "883": {},
+  "884": {},
+  "885": {},
+  "886": {
+    "evolvesFrom": 885,
+    "evolution": {
+      "type": "level",
+      "level": 50
+    }
+  },
+  "887": {
+    "evolvesFrom": 886,
+    "evolution": {
+      "type": "level",
+      "level": 60
+    }
+  },
+  "888": {},
+  "889": {},
+  "890": {},
+  "891": {},
+  "892": {
+    "evolvesFrom": 891,
+    "evolution": {
+      "type": "tower-of-darkness"
+    }
+  },
+  "893": {},
+  "894": {},
+  "895": {},
+  "896": {},
+  "897": {},
+  "898": {},
+  "899": {
+    "evolvesFrom": 234,
+    "evolution": {
+      "type": "agile-style"
+    }
+  },
+  "900": {
+    "evolvesFrom": 123,
+    "evolution": {
+      "type": "stone",
+      "item": "black-augurite"
+    }
+  },
+  "901": {
+    "evolvesFrom": 217,
+    "evolution": {
+      "type": "stone",
+      "item": "peat-block"
+    }
+  },
+  "902": {
+    "evolvesFrom": 550,
+    "evolution": {
+      "type": "recoil-damage"
+    }
+  },
+  "903": {
+    "evolvesFrom": 215,
+    "evolution": {
+      "type": "level-held",
+      "item": "razor-claw",
+      "time": "day"
+    }
+  },
+  "904": {
+    "evolvesFrom": 211,
+    "evolution": {
+      "type": "strong-style"
+    }
+  },
+  "905": {},
+  "906": {},
+  "907": {
+    "evolvesFrom": 906,
+    "evolution": {
+      "type": "level",
+      "level": 16
+    }
+  },
+  "908": {
+    "evolvesFrom": 907,
+    "evolution": {
+      "type": "level",
+      "level": 36
+    }
+  },
+  "909": {},
+  "910": {
+    "evolvesFrom": 909,
+    "evolution": {
+      "type": "level",
+      "level": 16
+    }
+  },
+  "911": {
+    "evolvesFrom": 910,
+    "evolution": {
+      "type": "level",
+      "level": 36
+    }
+  },
+  "912": {},
+  "913": {
+    "evolvesFrom": 912,
+    "evolution": {
+      "type": "level",
+      "level": 16
+    }
+  },
+  "914": {
+    "evolvesFrom": 913,
+    "evolution": {
+      "type": "level",
+      "level": 36
+    }
+  },
+  "915": {},
+  "916": {
+    "evolvesFrom": 915,
+    "evolution": {
+      "type": "level",
+      "level": 18
+    }
+  },
+  "917": {},
+  "918": {
+    "evolvesFrom": 917,
+    "evolution": {
+      "type": "level",
+      "level": 15
+    }
+  },
+  "919": {},
+  "920": {
+    "evolvesFrom": 919,
+    "evolution": {
+      "type": "level",
+      "level": 24
+    }
+  },
+  "921": {},
+  "922": {
+    "evolvesFrom": 921,
+    "evolution": {
+      "type": "level",
+      "level": 18
+    }
+  },
+  "923": {
+    "evolvesFrom": 922,
+    "evolution": {
+      "type": "level",
+      "level": null
+    }
+  },
+  "924": {},
+  "925": {
+    "evolvesFrom": 924,
+    "evolution": {
+      "type": "other"
+    }
+  },
+  "926": {},
+  "927": {
+    "evolvesFrom": 926,
+    "evolution": {
+      "type": "level",
+      "level": 26
+    }
+  },
+  "928": {},
+  "929": {
+    "evolvesFrom": 928,
+    "evolution": {
+      "type": "level",
+      "level": 25
+    }
+  },
+  "930": {
+    "evolvesFrom": 929,
+    "evolution": {
+      "type": "level",
+      "level": 35
+    }
+  },
+  "931": {},
+  "932": {},
+  "933": {
+    "evolvesFrom": 932,
+    "evolution": {
+      "type": "level",
+      "level": 24
+    }
+  },
+  "934": {
+    "evolvesFrom": 933,
+    "evolution": {
+      "type": "level",
+      "level": 38
+    }
+  },
+  "935": {},
+  "936": {
+    "evolvesFrom": 935,
+    "evolution": {
+      "type": "stone",
+      "item": "auspicious-armor"
+    }
+  },
+  "937": {
+    "evolvesFrom": 935,
+    "evolution": {
+      "type": "stone",
+      "item": "malicious-armor"
+    }
+  },
+  "938": {},
+  "939": {
+    "evolvesFrom": 938,
+    "evolution": {
+      "type": "stone",
+      "item": "thunder-stone"
+    }
+  },
+  "940": {},
+  "941": {
+    "evolvesFrom": 940,
+    "evolution": {
+      "type": "level",
+      "level": 25
+    }
+  },
+  "942": {},
+  "943": {
+    "evolvesFrom": 942,
+    "evolution": {
+      "type": "level",
+      "level": 30
+    }
+  },
+  "944": {},
+  "945": {
+    "evolvesFrom": 944,
+    "evolution": {
+      "type": "level",
+      "level": 28
+    }
+  },
+  "946": {},
+  "947": {
+    "evolvesFrom": 946,
+    "evolution": {
+      "type": "level",
+      "level": null
+    }
+  },
+  "948": {},
+  "949": {
+    "evolvesFrom": 948,
+    "evolution": {
+      "type": "level",
+      "level": 30
+    }
+  },
+  "950": {},
+  "951": {},
+  "952": {
+    "evolvesFrom": 951,
+    "evolution": {
+      "type": "stone",
+      "item": "fire-stone"
+    }
+  },
+  "953": {},
+  "954": {
+    "evolvesFrom": 953,
+    "evolution": {
+      "type": "level",
+      "level": null
+    }
+  },
+  "955": {},
+  "956": {
+    "evolvesFrom": 955,
+    "evolution": {
+      "type": "level",
+      "level": 35
+    }
+  },
+  "957": {},
+  "958": {
+    "evolvesFrom": 957,
+    "evolution": {
+      "type": "level",
+      "level": 24
+    }
+  },
+  "959": {
+    "evolvesFrom": 958,
+    "evolution": {
+      "type": "level",
+      "level": 38
+    }
+  },
+  "960": {},
+  "961": {
+    "evolvesFrom": 960,
+    "evolution": {
+      "type": "level",
+      "level": 26
+    }
+  },
+  "962": {},
+  "963": {},
+  "964": {
+    "evolvesFrom": 963,
+    "evolution": {
+      "type": "level",
+      "level": 38
+    }
+  },
+  "965": {},
+  "966": {
+    "evolvesFrom": 965,
+    "evolution": {
+      "type": "level",
+      "level": 40
+    }
+  },
+  "967": {},
+  "968": {},
+  "969": {},
+  "970": {
+    "evolvesFrom": 969,
+    "evolution": {
+      "type": "level",
+      "level": 35
+    }
+  },
+  "971": {},
+  "972": {
+    "evolvesFrom": 971,
+    "evolution": {
+      "type": "level-night",
+      "level": 30
+    }
+  },
+  "973": {},
+  "974": {},
+  "975": {
+    "evolvesFrom": 974,
+    "evolution": {
+      "type": "stone",
+      "item": "ice-stone"
+    }
+  },
+  "976": {},
+  "977": {},
+  "978": {},
+  "979": {
+    "evolvesFrom": 57,
+    "evolution": {
+      "type": "use-move"
+    }
+  },
+  "980": {
+    "evolvesFrom": 194,
+    "evolution": {
+      "type": "level",
+      "level": 20
+    }
+  },
+  "981": {
+    "evolvesFrom": 203,
+    "evolution": {
+      "type": "move",
+      "move": "twin-beam"
+    }
+  },
+  "982": {
+    "evolvesFrom": 206,
+    "evolution": {
+      "type": "move",
+      "move": "hyper-drill"
+    }
+  },
+  "983": {
+    "evolvesFrom": 625,
+    "evolution": {
+      "type": "three-defeated-bisharp"
+    }
+  },
+  "984": {},
+  "985": {},
+  "986": {},
+  "987": {},
+  "988": {},
+  "989": {},
+  "990": {},
+  "991": {},
+  "992": {},
+  "993": {},
+  "994": {},
+  "995": {},
+  "996": {},
+  "997": {
+    "evolvesFrom": 996,
+    "evolution": {
+      "type": "level",
+      "level": 35
+    }
+  },
+  "998": {
+    "evolvesFrom": 997,
+    "evolution": {
+      "type": "level",
+      "level": 54
+    }
+  },
+  "999": {},
+  "1000": {
+    "evolvesFrom": 999,
+    "evolution": {
+      "type": "gimmmighoul-coins"
+    }
+  },
+  "1001": {},
+  "1002": {},
+  "1003": {},
+  "1004": {},
+  "1005": {},
+  "1006": {},
+  "1007": {},
+  "1008": {},
+  "1009": {},
+  "1010": {},
+  "1011": {
+    "evolvesFrom": 840
+  },
+  "1012": {},
+  "1013": {
+    "evolvesFrom": 1012
+  },
+  "1014": {},
+  "1015": {},
+  "1016": {},
+  "1017": {},
+  "1018": {
+    "evolvesFrom": 884
+  },
+  "1019": {
+    "evolvesFrom": 1011
+  },
+  "1020": {},
+  "1021": {},
+  "1022": {},
+  "1023": {},
+  "1024": {},
+  "1025": {}
 }
