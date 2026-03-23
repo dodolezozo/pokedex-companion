@@ -130,64 +130,188 @@
   },
   "dp": {
     "start": {
-      "fr": "Lac Flegme",
-      "en": "Twinleaf Town",
-      "ja": "フタバタウン"
+      "fr": "Départ",
+      "en": "Start",
+      "ja": "スタート",
+      "de": "Start",
+      "kr": "시작"
     },
     "gym1": {
       "fr": "Arène 1 — Joliberges",
       "en": "Gym 1 — Oreburgh City",
-      "ja": "ジム1 — クロガネシティ"
-    },
-    "gym2": {
-      "fr": "Arène 2 — Vestigion",
-      "en": "Gym 2 — Eterna City",
-      "ja": "ジム2 — ハクタイシティ"
-    },
-    "gym3": {
-      "fr": "Arène 3 — Veilstone",
-      "en": "Gym 3 — Veilstone City",
-      "ja": "ジム3 — トバリシティ"
-    },
-    "gym4": {
-      "fr": "Arène 4 — Coeur-Nacre",
-      "en": "Gym 4 — Pastoria City",
-      "ja": "ジム4 — ノモセシティ"
-    },
-    "gym5": {
-      "fr": "Arène 5 — Onixi",
-      "en": "Gym 5 — Hearthome City",
-      "ja": "ジム5 — ヨスガシティ"
-    },
-    "gym6": {
-      "fr": "Arène 6 — Joliberges (port)",
-      "en": "Gym 6 — Canalave City",
-      "ja": "ジム6 — コテブキシティ"
-    },
-    "gym7": {
-      "fr": "Arène 7 — Blanche-Neige",
-      "en": "Gym 7 — Snowpoint City",
-      "ja": "ジム7 — キッサキシティ"
-    },
-    "gym8": {
-      "fr": "Arène 8 — Pivoine",
-      "en": "Gym 8 — Sunyshore City",
-      "ja": "ジム8 — ナギサシティ"
-    },
-    "champion": {
-      "fr": "Champion — Ligue Sinnoh",
-      "en": "Champion — Sinnoh League",
-      "ja": "チャンピオン — シンオウリーグ"
+      "ja": "ジム1 — クロガネシティ",
+      "de": "Arena 1 — Floaroma City",
+      "kr": "체육관1 — 검은철시티"
     },
     "hm-cut": {
       "fr": "CS Coupe obtenue",
       "en": "HM Cut obtained",
-      "ja": "ひでん「いあいぎり」入手"
+      "ja": "ひでんわざ「いあいぎり」入手",
+      "de": "Tarnkapsel-VM erhalten",
+      "kr": "비전기술 「베어내기」 입수"
+    },
+    "gym2": {
+      "fr": "Arène 2 — Vestigion",
+      "en": "Gym 2 — Eterna City",
+      "ja": "ジム2 — ハクタイシティ",
+      "de": "Arena 2 — Ewigenau",
+      "kr": "체육관2 — 영원시티"
+    },
+    "gym3": {
+      "fr": "Arène 3 — Veilstone",
+      "en": "Gym 3 — Veilstone City",
+      "ja": "ジム3 — トバリシティ",
+      "de": "Arena 3 — Schleierfels",
+      "kr": "체육관3 — 안개비시티"
+    },
+    "gym4": {
+      "fr": "Arène 4 — Coeur-Nacre",
+      "en": "Gym 4 — Pastoria City",
+      "ja": "ジム4 — ノモセシティ",
+      "de": "Arena 4 — Perelkis",
+      "kr": "체육관4 — 수홍시티"
     },
     "hm-surf": {
       "fr": "CS Surf obtenue",
       "en": "HM Surf obtained",
-      "ja": "ひでん「なみのり」入手"
+      "ja": "ひでんわざ「なみのり」入手",
+      "de": "Surfer-VM erhalten",
+      "kr": "비전기술 「파도타기」 입수"
+    },
+    "gym5": {
+      "fr": "Arène 5 — Onixi",
+      "en": "Gym 5 — Hearthome City",
+      "ja": "ジム5 — ヨスガシティ",
+      "de": "Arena 5 — Herzhofen",
+      "kr": "체육관5 — 유탄시티"
+    },
+    "gym6": {
+      "fr": "Arène 6 — Joliberges (port)",
+      "en": "Gym 6 — Canalave City",
+      "ja": "ジム6 — コテブキシティ",
+      "de": "Arena 6 — Kanaletal",
+      "kr": "체육관6 — 물빛시티"
+    },
+    "gym7": {
+      "fr": "Arène 7 — Blanche-Neige",
+      "en": "Gym 7 — Snowpoint City",
+      "ja": "ジム7 — キッサキシティ",
+      "de": "Arena 7 — Blizzach",
+      "kr": "체육관7 — 설백시티"
+    },
+    "gym8": {
+      "fr": "Arène 8 — Pivoine",
+      "en": "Gym 8 — Sunyshore City",
+      "ja": "ジム8 — ナギサシティ",
+      "de": "Arena 8 — Sonnewik",
+      "kr": "체육관8 — 맑음시티"
+    },
+    "hm-waterfall": {
+      "fr": "CS Cascade obtenue",
+      "en": "HM Waterfall obtained",
+      "ja": "ひでんわざ「たきのぼり」入手",
+      "de": "Wasserfall-VM erhalten",
+      "kr": "비전기술 「폭포오르기」 입수"
+    },
+    "champion": {
+      "fr": "Champion — Ligue Sinnoh",
+      "en": "Champion — Sinnoh League",
+      "ja": "チャンピオン — シンオウリーグ",
+      "de": "Champion — Sinnoh-Liga",
+      "kr": "챔피언 — 신오리그"
+    }
+  },
+  "pt": {
+    "start": {
+      "fr": "Départ",
+      "en": "Start",
+      "ja": "スタート",
+      "de": "Start",
+      "kr": "시작"
+    },
+    "gym1": {
+      "fr": "Arène 1 — Joliberges",
+      "en": "Gym 1 — Oreburgh City",
+      "ja": "ジム1 — クロガネシティ",
+      "de": "Arena 1 — Floaroma City",
+      "kr": "체육관1 — 검은철시티"
+    },
+    "hm-cut": {
+      "fr": "CS Coupe obtenue",
+      "en": "HM Cut obtained",
+      "ja": "ひでんわざ「いあいぎり」入手",
+      "de": "Tarnkapsel-VM erhalten",
+      "kr": "비전기술 「베어내기」 입수"
+    },
+    "gym2": {
+      "fr": "Arène 2 — Vestigion",
+      "en": "Gym 2 — Eterna City",
+      "ja": "ジム2 — ハクタイシティ",
+      "de": "Arena 2 — Ewigenau",
+      "kr": "체육관2 — 영원시티"
+    },
+    "gym3": {
+      "fr": "Arène 3 — Veilstone",
+      "en": "Gym 3 — Veilstone City",
+      "ja": "ジム3 — トバリシティ",
+      "de": "Arena 3 — Schleierfels",
+      "kr": "체육관3 — 안개비시티"
+    },
+    "gym4": {
+      "fr": "Arène 4 — Coeur-Nacre",
+      "en": "Gym 4 — Pastoria City",
+      "ja": "ジム4 — ノモセシティ",
+      "de": "Arena 4 — Perelkis",
+      "kr": "체육관4 — 수홍시티"
+    },
+    "gym5": {
+      "fr": "Arène 5 — Onixi",
+      "en": "Gym 5 — Hearthome City",
+      "ja": "ジム5 — ヨスガシティ",
+      "de": "Arena 5 — Herzhofen",
+      "kr": "체육관5 — 유탄시티"
+    },
+    "hm-surf": {
+      "fr": "CS Surf obtenue",
+      "en": "HM Surf obtained",
+      "ja": "ひでんわざ「なみのり」入手",
+      "de": "Surfer-VM erhalten",
+      "kr": "비전기술 「파도타기」 입수"
+    },
+    "gym6": {
+      "fr": "Arène 6 — Joliberges (port)",
+      "en": "Gym 6 — Canalave City",
+      "ja": "ジム6 — コテブキシティ",
+      "de": "Arena 6 — Kanaletal",
+      "kr": "체육관6 — 물빛시티"
+    },
+    "gym7": {
+      "fr": "Arène 7 — Blanche-Neige",
+      "en": "Gym 7 — Snowpoint City",
+      "ja": "ジム7 — キッサキシティ",
+      "de": "Arena 7 — Blizzach",
+      "kr": "체육관7 — 설백시티"
+    },
+    "gym8": {
+      "fr": "Arène 8 — Pivoine",
+      "en": "Gym 8 — Sunyshore City",
+      "ja": "ジム8 — ナギサシティ",
+      "de": "Arena 8 — Sonnewik",
+      "kr": "체육관8 — 맑음시티"
+    },
+    "hm-waterfall": {
+      "fr": "CS Cascade obtenue",
+      "en": "HM Waterfall obtained",
+      "ja": "ひでんわざ「たきのぼり」入手",
+      "de": "Wasserfall-VM erhalten",
+      "kr": "비전기술 「폭포오르기」 입수"
+    },
+    "champion": {
+      "fr": "Champion — Ligue Sinnoh",
+      "en": "Champion — Sinnoh League",
+      "ja": "チャンピオン — シンオウリーグ",
+      "de": "Champion — Sinnoh-Liga",
+      "kr": "챔피언 — 신오리그"
     }
   }
 }

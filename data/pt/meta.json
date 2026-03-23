@@ -4,24 +4,13 @@
     { "id": 440, "milestone": "start",    "zone": "sandgem-town" },
     { "id": 447, "milestone": "gym6",     "zone": "iron-island" },
     { "id": 137, "milestone": "gym6",     "zone": "veilstone-city" },
-    { "id": 133, "milestone": "champion", "zone": "trophy-garden" }
+    { "id": 133, "milestone": "champion", "zone": "trophy-garden" },
+    { "id": 480, "milestone": "champion", "zone": "lake-verity" },
+    { "id": 481, "milestone": "champion", "zone": "lake-acuity" },
+    { "id": 482, "milestone": "champion", "zone": "lake-valor" }
   ],
-  "exclusives": {
-    "diamant": [
-      408, 409, 065, 066, 067, 088, 089, 203, 208,
-      169, 167, 168, 214, 207, 237, 246, 247, 248,
-      443, 444, 445
-    ],
-    "perle": [
-      410, 411, 042, 169, 198, 200, 215, 223, 224,
-      226, 228, 229, 261, 262, 316, 317, 453, 454,
-      193, 469
-    ]
-  },
-  "versions": {
-    "diamant": { "fr": "Diamant", "en": "Diamond", "ja": "ダイヤモンド", "de": "Diamant", "kr": "다이아몬드" },
-    "perle":   { "fr": "Perle",   "en": "Pearl",   "ja": "パール",       "de": "Perl",    "kr": "펄" }
-  },
+  "exclusives": {},
+  "versions": {},
   "unavailableMechanics": [],
   "milestones": [
     {
@@ -105,6 +94,13 @@
       "unlocksItems": []
     },
     {
+      "id": "gym5",
+      "icon": "👻",
+      "location": "hearthome-city",
+      "unlocksZones": [],
+      "unlocksItems": []
+    },
+    {
       "id": "hm-surf",
       "icon": "🌊",
       "item": "hm03",
@@ -122,13 +118,6 @@
       ],
       "unlocksItems": [],
       "unlocksMethod": "surfing"
-    },
-    {
-      "id": "gym5",
-      "icon": "👻",
-      "location": "hearthome-city",
-      "unlocksZones": [],
-      "unlocksItems": []
     },
     {
       "id": "gym6",
@@ -162,7 +151,8 @@
         "route-222",
         "sunyshore-city",
         "route-223",
-        "victory-road-sinnoh"
+        "victory-road-sinnoh",
+        "distortion-world"
       ],
       "unlocksItems": ["thunder-stone"]
     },
@@ -194,7 +184,8 @@
         "sendoff-spring",
         "turnback-cave",
         "spring-path",
-        "trophy-garden"
+        "trophy-garden",
+        "battle-frontier-sinnoh"
       ],
       "unlocksItems": [
         "fire-stone", "water-stone", "leaf-stone",

@@ -60,9 +60,20 @@
     "color": "#5B8CFF",
     "spriteSet": "generation-iv/diamond-pearl",
     "names": {
-      "fr": "Diamant / Perle / Platine",
-      "en": "Diamond / Pearl / Platinum",
-      "ja": "ダイヤモンド / パール / プラチナ"
+      "fr": "Diamant / Perle",
+      "en": "Diamond / Pearl",
+      "ja": "ダイヤモンド / パール"
+    }
+  },
+  {
+    "id": "pt",
+    "icon": "🌟",
+    "color": "#5B8CFF",
+    "spriteSet": "generation-iv/diamond-pearl",
+    "names": {
+      "fr": "Platine",
+      "en": "Platinum",
+      "ja": "プラチナ"
     }
   },
   {
