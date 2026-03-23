@@ -1,0 +1,657 @@
+{
+  "slateport-city-contest-hall": {
+    "gift": [
+      25
+    ]
+  },
+  "verdanturf-town-contest-hall": {
+    "gift": [
+      25
+    ]
+  },
+  "fallarbor-town-contest-hall": {
+    "gift": [
+      25
+    ]
+  },
+  "lilycove-city-contest-hall": {
+    "gift": [
+      25
+    ]
+  },
+  "route-111": {
+    "wild": [
+      27
+    ]
+  },
+  "mt-pyre-outside": {
+    "wild": [
+      37,
+      307,
+      353
+    ]
+  },
+  "mt-pyre-summit": {
+    "wild": [
+      37,
+      307,
+      353
+    ]
+  },
+  "mirage-spot-forest-north-of-route-124": {
+    "wild": [
+      37,
+      114,
+      191,
+      432
+    ]
+  },
+  "meteor-falls": {
+    "wild": [
+      41
+    ]
+  },
+  "meteor-falls-back": {
+    "wild": [
+      41
+    ]
+  },
+  "meteor-falls-b1f": {
+    "wild": [
+      41
+    ]
+  },
+  "meteor-falls-backsmall-room": {
+    "wild": [
+      41,
+      371
+    ]
+  },
+  "granite-cave-1f": {
+    "wild": [
+      41,
+      74,
+      296
+    ]
+  },
+  "granite-cave-b1f": {
+    "wild": [
+      41,
+      304
+    ]
+  },
+  "granite-cave-b2f": {
+    "wild": [
+      41,
+      302,
+      303,
+      304
+    ]
+  },
+  "seafloor-cavern": {
+    "wild": [
+      41
+    ]
+  },
+  "cave-of-origin-entrance": {
+    "wild": [
+      41
+    ]
+  },
+  "cave-of-origin-1f": {
+    "wild": [
+      41
+    ]
+  },
+  "cave-of-origin-b1f": {
+    "wild": [
+      41
+    ]
+  },
+  "cave-of-origin-b2f": {
+    "wild": [
+      41
+    ]
+  },
+  "cave-of-origin-b3f": {
+    "wild": [
+      41
+    ]
+  },
+  "victory-road-1f": {
+    "wild": [
+      41,
+      294,
+      304
+    ]
+  },
+  "victory-road-b1f": {
+    "wild": [
+      41,
+      294,
+      304
+    ]
+  },
+  "shoal-cave-high-tide": {
+    "wild": [
+      41,
+      363
+    ]
+  },
+  "shoal-cave-b1f": {
+    "wild": [
+      41,
+      363
+    ]
+  },
+  "scorched-slab-b1f": {
+    "wild": [
+      41
+    ]
+  },
+  "scorched-slab-b2f": {
+    "wild": [
+      41
+    ]
+  },
+  "scorched-slab-b3f": {
+    "wild": [
+      41
+    ],
+    "static": [
+      485
+    ]
+  },
+  "shoal-cave-low-tide": {
+    "wild": [
+      41,
+      363
+    ]
+  },
+  "shoal-cave-b2f": {
+    "wild": [
+      41,
+      363
+    ]
+  },
+  "shoal-cave-b3f": {
+    "wild": [
+      41,
+      361,
+      363
+    ]
+  },
+  "sky-pillar-1f": {
+    "wild": [
+      42,
+      168,
+      333
+    ]
+  },
+  "sky-pillar-3f": {
+    "wild": [
+      42,
+      168,
+      333
+    ]
+  },
+  "sky-pillar-5f": {
+    "wild": [
+      42,
+      168,
+      333
+    ]
+  },
+  "route-117": {
+    "wild": [
+      43,
+      183,
+      263,
+      315
+    ]
+  },
+  "route-119": {
+    "wild": [
+      43,
+      352
+    ]
+  },
+  "route-120": {
+    "wild": [
+      43,
+      183,
+      352
+    ]
+  },
+  "safari-zone-nwmach-bike": {
+    "wild": [
+      43,
+      54,
+      84
+    ]
+  },
+  "safari-zone-neacro-bike": {
+    "wild": [
+      43,
+      54,
+      84
+    ]
+  },
+  "safari-zone-sw": {
+    "wild": [
+      43,
+      54,
+      84
+    ]
+  },
+  "safari-zone-se": {
+    "wild": [
+      43,
+      54,
+      84
+    ]
+  },
+  "mirage-spot-island-west-of-dewford-town": {
+    "wild": [
+      49,
+      114,
+      178,
+      523
+    ]
+  },
+  "mirage-spot-island-west-of-route-104": {
+    "wild": [
+      49,
+      178,
+      523,
+      555
+    ]
+  },
+  "mirage-spot-island-route-124": {
+    "wild": [
+      49,
+      53,
+      178,
+      523
+    ]
+  },
+  "mirage-spot-island-south-of-route-134": {
+    "wild": [
+      49,
+      75,
+      178,
+      523,
+      556,
+      688
+    ]
+  },
+  "jagged-pass": {
+    "wild": [
+      66,
+      325
+    ]
+  },
+  "route-112": {
+    "wild": [
+      66,
+      322
+    ]
+  },
+  "mirage-spot-island-south-of-pacifidlog": {
+    "wild": [
+      75,
+      178,
+      531,
+      688
+    ]
+  },
+  "mirage-spot-forest-west-of-route-105": {
+    "wild": [
+      75,
+      205,
+      440
+    ]
+  },
+  "new-mauville": {
+    "wild": [
+      81,
+      100
+    ],
+    "static": [
+      100
+    ]
+  },
+  "route-110": {
+    "wild": [
+      81,
+      311,
+      312
+    ]
+  },
+  "fiery-path": {
+    "wild": [
+      88,
+      109,
+      218,
+      322
+    ]
+  },
+  "team-aqua-hideout": {
+    "static": [
+      101
+    ]
+  },
+  "team-magma-hideout": {
+    "static": [
+      101
+    ]
+  },
+  "mirage-spot-forest-north-of-lilycove": {
+    "wild": [
+      114,
+      191,
+      421,
+      432
+    ]
+  },
+  "mirage-spot-forest-east-of-mossdeep": {
+    "wild": [
+      114,
+      191,
+      431,
+      572
+    ]
+  },
+  "mirage-spot-forest-west-of-route-114": {
+    "wild": [
+      114,
+      191,
+      432,
+      548
+    ]
+  },
+  "mirage-spot-island-route-132": {
+    "wild": [
+      132,
+      517
+    ]
+  },
+  "mirage-spot-island-east-of-shoal-cave": {
+    "wild": [
+      137,
+      432
+    ]
+  },
+  "route-101": {
+    "gift": [
+      152,
+      155,
+      158,
+      252,
+      255,
+      258,
+      387,
+      390,
+      393,
+      495,
+      498,
+      501
+    ],
+    "wild": [
+      261,
+      263
+    ]
+  },
+  "lavaridge-town": {
+    "gift": [
+      175,
+      360
+    ],
+    "wild": [
+      352
+    ]
+  },
+  "mirage-spot-forest-south-of-route-132": {
+    "wild": [
+      191,
+      531,
+      548
+    ]
+  },
+  "mirage-spot-forest-south-of-route-109": {
+    "wild": [
+      191,
+      531
+    ]
+  },
+  "route-113": {
+    "wild": [
+      227,
+      327
+    ]
+  },
+  "trackless-forest": {
+    "static": [
+      243,
+      244,
+      245
+    ]
+  },
+  "sea-mauville-inside": {
+    "static": [
+      249,
+      250,
+      442
+    ]
+  },
+  "route-103": {
+    "wild": [
+      261,
+      263,
+      278
+    ]
+  },
+  "petalburg-woods": {
+    "wild": [
+      263,
+      265,
+      285
+    ]
+  },
+  "route-102": {
+    "wild": [
+      263,
+      270,
+      273,
+      280
+    ]
+  },
+  "route-116": {
+    "wild": [
+      263,
+      290,
+      300
+    ]
+  },
+  "route-104-north-oras": {
+    "wild": [
+      263,
+      276
+    ]
+  },
+  "route-104-south-oras": {
+    "wild": [
+      263,
+      278
+    ]
+  },
+  "route-114": {
+    "wild": [
+      270,
+      273,
+      333
+    ]
+  },
+  "route-118": {
+    "wild": [
+      278,
+      309,
+      352
+    ]
+  },
+  "route-121": {
+    "wild": [
+      278,
+      352,
+      353
+    ]
+  },
+  "route-123": {
+    "wild": [
+      278,
+      352,
+      353
+    ]
+  },
+  "rusturf-tunnel": {
+    "wild": [
+      293
+    ]
+  },
+  "battle-resort": {
+    "gift": [
+      319,
+      323
+    ]
+  },
+  "route-115": {
+    "wild": [
+      333
+    ]
+  },
+  "route-119-weather-institute": {
+    "gift": [
+      351
+    ]
+  },
+  "mossdeep-space-center": {
+    "wild": [
+      352
+    ]
+  },
+  "mt-pyre-1f": {
+    "wild": [
+      353
+    ]
+  },
+  "mt-pyre-2f": {
+    "wild": [
+      353
+    ]
+  },
+  "mt-pyre-3f": {
+    "wild": [
+      353
+    ]
+  },
+  "mt-pyre-4f": {
+    "wild": [
+      353
+    ]
+  },
+  "mossdeep-city-stevens-house": {
+    "gift": [
+      374
+    ]
+  },
+  "desert-ruins": {
+    "static": [
+      377
+    ]
+  },
+  "island-cave": {
+    "static": [
+      378,
+      486
+    ]
+  },
+  "ancient-tomb": {
+    "static": [
+      379
+    ]
+  },
+  "southern-island": {
+    "static": [
+      380,
+      381
+    ],
+    "gift": [
+      380,
+      381
+    ]
+  },
+  "cave-of-origin-b4f": {
+    "static": [
+      382,
+      383
+    ]
+  },
+  "sky-pillar-apex": {
+    "static": [
+      384,
+      386
+    ]
+  },
+  "mirage-spot-forest-south-of-route-111": {
+    "wild": [
+      402,
+      636
+    ]
+  },
+  "nameless-cavern": {
+    "static": [
+      480,
+      481,
+      482
+    ]
+  },
+  "soaring-in-the-sky": {
+    "static": [
+      483,
+      484,
+      487,
+      641,
+      642,
+      645
+    ]
+  },
+  "crescent-isle": {
+    "static": [
+      488
+    ]
+  },
+  "mirage-spot-island-route-114": {
+    "wild": [
+      555,
+      636
+    ]
+  },
+  "pathless-plain": {
+    "static": [
+      638,
+      639,
+      640
+    ]
+  },
+  "fabled-cave": {
+    "static": [
+      643,
+      644
+    ]
+  },
+  "gnarled-den": {
+    "static": [
+      646
+    ]
+  }
+}

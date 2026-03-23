@@ -1,42 +1,1337 @@
 {
-  "route-101":        { "wild": [261, 263, 278] },
-  "route-102":        { "wild": [261, 263, 270, 273, 280], "fishing": [129] },
-  "route-103":        { "wild": [261, 263, 278, 280], "surfing": [278], "fishing": [129] },
-  "route-104":        { "wild": [261, 263, 278], "surfing": [278], "fishing": [129] },
-  "route-105":        { "surfing": [278, 320, 363], "fishing": [129, 318] },
-  "route-106":        { "surfing": [278, 320], "fishing": [129, 318] },
-  "route-107":        { "surfing": [278, 320], "fishing": [129, 318] },
-  "route-110":        { "wild": [263, 276, 278, 309, 311, 312], "surfing": [278], "fishing": [129] },
-  "route-111":        { "wild": [27, 28, 261, 262, 293] },
-  "route-112":        { "wild": [66, 322] },
-  "route-113":        { "wild": [27, 28, 293, 335, 336] },
-  "route-114":        { "wild": [190, 293, 333, 352], "fishing": [129, 339] },
-  "route-115":        { "wild": [333], "surfing": [278], "fishing": [129] },
-  "route-116":        { "wild": [263, 278, 290, 293] },
-  "route-117":        { "wild": [263, 278, 280, 285] },
-  "route-118":        { "wild": [263, 278, 283, 352], "surfing": [278], "fishing": [129, 318] },
-  "route-119":        { "wild": [263, 278, 283, 285, 352], "surfing": [278], "fishing": [129] },
-  "route-120":        { "wild": [283, 285, 352, 353], "surfing": [278], "fishing": [129] },
-  "route-121":        { "wild": [263, 278, 333, 352] },
-  "route-122":        { "surfing": [278, 279], "fishing": [129] },
-  "route-123":        { "wild": [278, 283, 285, 311, 312, 352], "surfing": [278], "fishing": [129] },
-  "route-124":        { "surfing": [278, 279, 363], "fishing": [129, 318, 320] },
-  "route-125":        { "surfing": [278, 279, 363], "fishing": [129, 318] },
-  "route-126":        { "surfing": [278, 320, 363], "fishing": [129, 318, 341] },
-  "route-127":        { "surfing": [320, 363], "fishing": [129, 318, 341] },
-  "route-128":        { "surfing": [320, 363], "fishing": [129, 318, 341] },
-  "route-129":        { "surfing": [320, 321, 363, 364], "fishing": [129] },
-  "route-130":        { "surfing": [320, 363], "fishing": [129] },
-  "petalburg-woods":  { "wild": [263, 270, 273, 285, 290] },
-  "granite-cave":     { "wild": [74, 296, 302, 303, 304] },
-  "mt-chimney":       { "wild": [322] },
-  "jagged-pass":      { "wild": [322, 325, 326] },
-  "new-mauville":     { "wild": [81, 82, 100, 101, 309, 310] },
-  "fiery-path":       { "wild": [322, 323, 324] },
-  "meteor-falls":     { "wild": [333, 334], "fishing": [129] },
-  "safari-zone":      { "wild": [43, 44, 45, 111, 112, 283, 284, 341, 342, 352], "fishing": [129, 339] },
-  "shoal-cave":       { "wild": [361, 363, 364] },
-  "cave-of-origin":   { "wild": [304, 335, 336] },
-  "sky-pillar":       { "wild": [333, 335, 336, 353, 354] },
-  "victory-road-rse": { "wild": [296, 297, 304, 305, 306, 335, 336, 337, 338] }
+  "safari-zone-sw": {
+    "wild": [
+      25,
+      43,
+      44,
+      84,
+      177,
+      202,
+      203
+    ],
+    "surfing": [
+      54
+    ],
+    "fishing": [
+      118,
+      119,
+      129
+    ]
+  },
+  "safari-zone-se": {
+    "wild": [
+      25,
+      43,
+      44,
+      84,
+      177,
+      202,
+      203
+    ]
+  },
+  "pokecenter": {
+    "wild": [
+      25,
+      251,
+      385
+    ]
+  },
+  "route-111": {
+    "wild": [
+      27,
+      74,
+      328,
+      331,
+      343
+    ],
+    "fishing": [
+      118,
+      129,
+      339
+    ],
+    "surfing": [
+      118,
+      183,
+      283
+    ]
+  },
+  "route-113": {
+    "wild": [
+      27,
+      218,
+      227,
+      327
+    ]
+  },
+  "mirage-tower": {
+    "wild": [
+      27,
+      328
+    ]
+  },
+  "mt-pyre-outside": {
+    "wild": [
+      37,
+      278,
+      307,
+      353,
+      355
+    ]
+  },
+  "route-115": {
+    "wild": [
+      39,
+      276,
+      277,
+      278,
+      333
+    ],
+    "fishing": [
+      72,
+      129,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "meteor-falls": {
+    "surfing": [
+      41,
+      337,
+      338
+    ],
+    "wild": [
+      41,
+      337,
+      338
+    ],
+    "fishing": [
+      118,
+      129,
+      339
+    ]
+  },
+  "granite-cave-1f": {
+    "wild": [
+      41,
+      63,
+      74,
+      296
+    ]
+  },
+  "granite-cave-b1f": {
+    "wild": [
+      41,
+      63,
+      296,
+      302,
+      303,
+      304
+    ]
+  },
+  "granite-cave-b2f": {
+    "wild": [
+      41,
+      63,
+      74,
+      299,
+      302,
+      303,
+      304
+    ]
+  },
+  "granite-cave-1fsmall-room": {
+    "wild": [
+      41,
+      63,
+      296,
+      304
+    ]
+  },
+  "seafloor-cavern": {
+    "surfing": [
+      41,
+      42,
+      72
+    ],
+    "wild": [
+      41,
+      42
+    ],
+    "fishing": [
+      72,
+      129,
+      320
+    ]
+  },
+  "cave-of-origin-entrance": {
+    "wild": [
+      41,
+      42
+    ]
+  },
+  "cave-of-origin-1f": {
+    "wild": [
+      41,
+      42,
+      302,
+      303
+    ]
+  },
+  "cave-of-origin-b1f": {
+    "wild": [
+      41,
+      42,
+      302,
+      303
+    ]
+  },
+  "cave-of-origin-b2f": {
+    "wild": [
+      41,
+      42,
+      302,
+      303
+    ]
+  },
+  "cave-of-origin-b3f": {
+    "wild": [
+      41,
+      42,
+      302,
+      303
+    ]
+  },
+  "victory-road-1f": {
+    "wild": [
+      41,
+      42,
+      293,
+      294,
+      296,
+      297,
+      304,
+      305
+    ]
+  },
+  "shoal-cave-high-tide": {
+    "surfing": [
+      41,
+      72,
+      363
+    ],
+    "wild": [
+      41,
+      42,
+      363
+    ],
+    "fishing": [
+      72,
+      129,
+      320
+    ]
+  },
+  "shoal-cave-b1f": {
+    "wild": [
+      41,
+      42,
+      363
+    ]
+  },
+  "altering-cave-a": {
+    "wild": [
+      41
+    ]
+  },
+  "shoal-cave-low-tide": {
+    "wild": [
+      41,
+      42,
+      363
+    ]
+  },
+  "shoal-cave-b2f": {
+    "wild": [
+      41,
+      42,
+      363
+    ]
+  },
+  "shoal-cave-b3f": {
+    "wild": [
+      41,
+      42,
+      361,
+      363
+    ]
+  },
+  "meteor-falls-back": {
+    "surfing": [
+      42,
+      337,
+      338
+    ],
+    "wild": [
+      42,
+      337,
+      338
+    ],
+    "fishing": [
+      118,
+      129,
+      339,
+      340
+    ]
+  },
+  "meteor-falls-b1f": {
+    "surfing": [
+      42,
+      337,
+      338
+    ],
+    "wild": [
+      42,
+      337,
+      338
+    ],
+    "fishing": [
+      118,
+      129,
+      339,
+      340
+    ]
+  },
+  "meteor-falls-backsmall-room": {
+    "surfing": [
+      42,
+      337,
+      338
+    ],
+    "wild": [
+      42,
+      337,
+      338,
+      371
+    ],
+    "fishing": [
+      118,
+      129,
+      339,
+      340
+    ]
+  },
+  "victory-road-b1f": {
+    "wild": [
+      42,
+      74,
+      75,
+      297,
+      303,
+      305,
+      307,
+      308
+    ]
+  },
+  "victory-road-b2f": {
+    "surfing": [
+      42
+    ],
+    "wild": [
+      42,
+      302,
+      303,
+      305,
+      308
+    ],
+    "fishing": [
+      118,
+      129,
+      339,
+      340
+    ]
+  },
+  "sky-pillar-1f": {
+    "wild": [
+      42,
+      302,
+      303,
+      344,
+      354,
+      356
+    ]
+  },
+  "sky-pillar-3f": {
+    "wild": [
+      42,
+      302,
+      303,
+      344,
+      354,
+      356
+    ]
+  },
+  "sky-pillar-5f": {
+    "wild": [
+      42,
+      302,
+      303,
+      334,
+      344,
+      354,
+      356
+    ]
+  },
+  "route-110": {
+    "wild": [
+      43,
+      261,
+      263,
+      278,
+      309,
+      311,
+      312,
+      316
+    ],
+    "fishing": [
+      72,
+      129,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-117": {
+    "wild": [
+      43,
+      183,
+      261,
+      263,
+      273,
+      283,
+      313,
+      314,
+      315
+    ],
+    "fishing": [
+      118,
+      129,
+      341
+    ],
+    "surfing": [
+      118,
+      183,
+      283
+    ]
+  },
+  "route-119": {
+    "wild": [
+      43,
+      263,
+      264,
+      349,
+      352,
+      357
+    ],
+    "fishing": [
+      72,
+      129,
+      318
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-120": {
+    "wild": [
+      43,
+      183,
+      261,
+      262,
+      263,
+      264,
+      273,
+      283,
+      352,
+      359
+    ],
+    "fishing": [
+      118,
+      129,
+      339
+    ],
+    "surfing": [
+      118,
+      183,
+      283
+    ]
+  },
+  "route-121": {
+    "wild": [
+      43,
+      44,
+      261,
+      262,
+      263,
+      264,
+      278,
+      352,
+      353,
+      355
+    ],
+    "fishing": [
+      72,
+      129,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-123": {
+    "wild": [
+      43,
+      44,
+      261,
+      262,
+      263,
+      264,
+      278,
+      352,
+      353,
+      355
+    ],
+    "fishing": [
+      72,
+      129,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "safari-zone-nwmach-bike": {
+    "wild": [
+      43,
+      44,
+      84,
+      85,
+      111,
+      127
+    ],
+    "surfing": [
+      54,
+      55
+    ],
+    "fishing": [
+      118,
+      119,
+      129
+    ]
+  },
+  "safari-zone-neacro-bike": {
+    "wild": [
+      43,
+      44,
+      74,
+      177,
+      178,
+      214,
+      231
+    ]
+  },
+  "route-116": {
+    "wild": [
+      63,
+      261,
+      263,
+      276,
+      290,
+      293,
+      300
+    ]
+  },
+  "jagged-pass": {
+    "wild": [
+      66,
+      322,
+      325
+    ]
+  },
+  "fiery-path": {
+    "wild": [
+      66,
+      88,
+      109,
+      218,
+      322,
+      324
+    ]
+  },
+  "route-112": {
+    "wild": [
+      66,
+      183,
+      322
+    ]
+  },
+  "slateport-city": {
+    "fishing": [
+      72,
+      129,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "lilycove-city": {
+    "fishing": [
+      72,
+      120,
+      129,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "mossdeep-city": {
+    "fishing": [
+      72,
+      129,
+      319,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "sootopolis-city": {
+    "fishing": [
+      72,
+      129,
+      130
+    ],
+    "surfing": [
+      129
+    ]
+  },
+  "ever-grande-city": {
+    "fishing": [
+      72,
+      129,
+      222,
+      320,
+      370
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "abandoned-ship": {
+    "fishing": [
+      72,
+      73,
+      129
+    ],
+    "surfing": [
+      72,
+      73
+    ]
+  },
+  "route-103": {
+    "fishing": [
+      72,
+      129,
+      319,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ],
+    "wild": [
+      261,
+      263,
+      278
+    ]
+  },
+  "route-105": {
+    "fishing": [
+      72,
+      129,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-106": {
+    "fishing": [
+      72,
+      129,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-107": {
+    "fishing": [
+      72,
+      129,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-108": {
+    "fishing": [
+      72,
+      129,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-109": {
+    "fishing": [
+      72,
+      129,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-118": {
+    "fishing": [
+      72,
+      129,
+      318,
+      319
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ],
+    "wild": [
+      263,
+      264,
+      278,
+      309,
+      310,
+      352
+    ]
+  },
+  "route-122": {
+    "fishing": [
+      72,
+      129,
+      319,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-124": {
+    "fishing": [
+      72,
+      129,
+      319,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-125": {
+    "fishing": [
+      72,
+      129,
+      319,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-126": {
+    "fishing": [
+      72,
+      129,
+      319,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-127": {
+    "fishing": [
+      72,
+      129,
+      319,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-128": {
+    "fishing": [
+      72,
+      129,
+      222,
+      320,
+      370
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-129": {
+    "fishing": [
+      72,
+      129,
+      319,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279,
+      321
+    ]
+  },
+  "route-130": {
+    "fishing": [
+      72,
+      129,
+      319,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ],
+    "wild": [
+      360
+    ]
+  },
+  "route-131": {
+    "fishing": [
+      72,
+      129,
+      319,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-132": {
+    "fishing": [
+      72,
+      116,
+      129,
+      319,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-133": {
+    "fishing": [
+      72,
+      116,
+      129,
+      319,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-134": {
+    "fishing": [
+      72,
+      116,
+      129,
+      319,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "dewford-town": {
+    "fishing": [
+      72,
+      129,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "pacifidlog-town": {
+    "fishing": [
+      72,
+      129,
+      319,
+      320
+    ],
+    "surfing": [
+      72,
+      278,
+      279
+    ]
+  },
+  "route-114": {
+    "wild": [
+      74,
+      270,
+      271,
+      273,
+      274,
+      283,
+      333,
+      335,
+      336
+    ],
+    "fishing": [
+      118,
+      129,
+      339
+    ],
+    "surfing": [
+      118,
+      183,
+      283
+    ]
+  },
+  "magma-hideout": {
+    "wild": [
+      74,
+      75,
+      324
+    ]
+  },
+  "new-mauville-entrance": {
+    "wild": [
+      81,
+      100
+    ]
+  },
+  "new-mauville": {
+    "wild": [
+      81,
+      82,
+      100,
+      101
+    ],
+    "static": [
+      100,
+      101
+    ]
+  },
+  "team-aqua-hideout": {
+    "static": [
+      101
+    ]
+  },
+  "team-magma-hideout": {
+    "static": [
+      101
+    ]
+  },
+  "liberty-garden-lighthouse-basement": {
+    "static": [
+      101
+    ]
+  },
+  "petalburg-city": {
+    "fishing": [
+      118,
+      129,
+      341
+    ],
+    "surfing": [
+      183
+    ]
+  },
+  "route-102": {
+    "fishing": [
+      118,
+      129,
+      341
+    ],
+    "surfing": [
+      118,
+      183,
+      283
+    ],
+    "wild": [
+      261,
+      263,
+      265,
+      270,
+      273,
+      280,
+      283
+    ]
+  },
+  "safari-zone-expansion-south": {
+    "fishing": [
+      118,
+      129,
+      223,
+      224
+    ],
+    "wild": [
+      163,
+      167,
+      179,
+      190,
+      191,
+      207,
+      209,
+      234
+    ],
+    "surfing": [
+      183,
+      194,
+      195
+    ]
+  },
+  "route-104": {
+    "fishing": [
+      129
+    ],
+    "wild": [
+      183,
+      261,
+      263,
+      265,
+      276,
+      278
+    ],
+    "surfing": [
+      278,
+      279
+    ]
+  },
+  "desert-underpass": {
+    "wild": [
+      132,
+      293,
+      294
+    ]
+  },
+  "faraway-island": {
+    "static": [
+      151
+    ]
+  },
+  "littleroot-town": {
+    "gift": [
+      152,
+      155,
+      158
+    ]
+  },
+  "safari-zone-expansion-north": {
+    "wild": [
+      163,
+      165,
+      190,
+      191,
+      204,
+      213,
+      216,
+      228,
+      241
+    ]
+  },
+  "route-124-underwater": {
+    "wild": [
+      170,
+      366,
+      369
+    ]
+  },
+  "route-126-underwater": {
+    "wild": [
+      170,
+      366,
+      369
+    ]
+  },
+  "altering-cave-b": {
+    "wild": [
+      179
+    ]
+  },
+  "battle-frontier": {
+    "wild": [
+      185
+    ]
+  },
+  "altering-cave-f": {
+    "wild": [
+      190
+    ]
+  },
+  "altering-cave-c": {
+    "wild": [
+      204
+    ]
+  },
+  "altering-cave-g": {
+    "wild": [
+      213
+    ]
+  },
+  "altering-cave-e": {
+    "wild": [
+      216
+    ]
+  },
+  "altering-cave-d": {
+    "wild": [
+      228
+    ]
+  },
+  "altering-cave-h": {
+    "wild": [
+      234
+    ]
+  },
+  "artisan-cave": {
+    "wild": [
+      235
+    ]
+  },
+  "altering-cave-i": {
+    "wild": [
+      235
+    ]
+  },
+  "navel-rock": {
+    "static": [
+      249,
+      250
+    ]
+  },
+  "route-101": {
+    "gift": [
+      252,
+      255,
+      258
+    ],
+    "wild": [
+      261,
+      263,
+      265
+    ]
+  },
+  "petalburg-woods": {
+    "wild": [
+      261,
+      263,
+      265,
+      266,
+      268,
+      276,
+      285,
+      287
+    ]
+  },
+  "rusturf-tunnel": {
+    "wild": [
+      293
+    ]
+  },
+  "rustboro-city": {
+    "gift": [
+      345,
+      347
+    ]
+  },
+  "route-119-weather-institute": {
+    "gift": [
+      351
+    ]
+  },
+  "mt-pyre-1f": {
+    "wild": [
+      353,
+      355
+    ]
+  },
+  "mt-pyre-2f": {
+    "wild": [
+      353,
+      355
+    ]
+  },
+  "mt-pyre-3f": {
+    "wild": [
+      353,
+      355
+    ]
+  },
+  "mt-pyre-4f": {
+    "wild": [
+      353,
+      355
+    ]
+  },
+  "mt-pyre-5f": {
+    "wild": [
+      353,
+      355
+    ]
+  },
+  "mt-pyre-6f": {
+    "wild": [
+      353,
+      355
+    ]
+  },
+  "mt-pyre-summit": {
+    "wild": [
+      353,
+      355,
+      358
+    ]
+  },
+  "lavaridge-town": {
+    "gift": [
+      360
+    ]
+  },
+  "mirage-island": {
+    "wild": [
+      360
+    ]
+  },
+  "mossdeep-city-stevens-house": {
+    "gift": [
+      374
+    ]
+  },
+  "desert-ruins": {
+    "static": [
+      377
+    ]
+  },
+  "island-cave": {
+    "static": [
+      378
+    ]
+  },
+  "ancient-tomb": {
+    "static": [
+      379
+    ]
+  },
+  "southern-island": {
+    "static": [
+      380,
+      381
+    ]
+  },
+  "roaming-hoenn": {
+    "wild": [
+      380,
+      381
+    ]
+  },
+  "cave-of-origin-b4f": {
+    "static": [
+      382,
+      383
+    ]
+  },
+  "marine-cave": {
+    "static": [
+      382
+    ]
+  },
+  "terra-cave": {
+    "static": [
+      383
+    ]
+  },
+  "sky-pillar-apex": {
+    "static": [
+      384
+    ]
+  },
+  "birth-island": {
+    "static": [
+      386
+    ]
+  }
 }
