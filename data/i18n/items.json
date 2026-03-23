@@ -1,29 +1,1847 @@
 {
-  "thunder-stone":  { "fr": "Pierre Foudre",   "en": "Thunder Stone",   "ja": "かみなりのいし" },
-  "fire-stone":     { "fr": "Pierre Feu",       "en": "Fire Stone",      "ja": "ほのおのいし" },
-  "water-stone":    { "fr": "Pierre Eau",       "en": "Water Stone",     "ja": "みずのいし" },
-  "leaf-stone":     { "fr": "Pierre Plante",    "en": "Leaf Stone",      "ja": "くさのいし" },
-  "moon-stone":     { "fr": "Pierre Lune",      "en": "Moon Stone",      "ja": "つきのいし" },
-  "sun-stone":      { "fr": "Pierre Soleil",    "en": "Sun Stone",       "ja": "たいようのいし" },
-  "dawn-stone":     { "fr": "Pierre Aube",      "en": "Dawn Stone",      "ja": "めざめのいし" },
-  "dusk-stone":     { "fr": "Pierre Nuit",      "en": "Dusk Stone",      "ja": "やみのいし" },
-  "shiny-stone":    { "fr": "Pierre Éclat",     "en": "Shiny Stone",     "ja": "ひかりのいし" },
-  "oval-stone":     { "fr": "Pierre Ovale",     "en": "Oval Stone",      "ja": "まんまるいし" },
-  "kings-rock":     { "fr": "Roche Royale",     "en": "King's Rock",     "ja": "おうじゃのしるし" },
-  "metal-coat":     { "fr": "Revêtement Métal", "en": "Metal Coat",      "ja": "メタルコート" },
-  "dragon-scale":   { "fr": "Écaille Draco",    "en": "Dragon Scale",    "ja": "りゅうのウロコ" },
-  "upgrade":        { "fr": "Mise à Niveau",    "en": "Up-Grade",        "ja": "アップグレード" },
-  "deep-sea-tooth": { "fr": "Dent Abyssale",    "en": "DeepSeaTooth",    "ja": "しんかいのキバ" },
-  "deep-sea-scale": { "fr": "Écaille Abyssale", "en": "DeepSeaScale",    "ja": "しんかいのウロコ" },
-  "old-rod":        { "fr": "Vieille Canne",    "en": "Old Rod",         "ja": "いいつりざお" },
-  "good-rod":       { "fr": "Super Canne",      "en": "Good Rod",        "ja": "いいつりざお" },
-  "super-rod":      { "fr": "Méga Canne",       "en": "Super Rod",       "ja": "すごいつりざお" },
-  "hm-surf":        { "fr": "CS Surf",          "en": "HM Surf",         "ja": "ひでんマシン「なみのり」" },
-  "hm-cut":         { "fr": "CS Coupe",         "en": "HM Cut",          "ja": "ひでんマシン「いあいぎり」" },
-  "hm-fly":         { "fr": "CS Vol",           "en": "HM Fly",          "ja": "ひでんマシン「そらをとぶ」" },
-  "hm-strength":    { "fr": "CS Force",         "en": "HM Strength",     "ja": "ひでんマシン「かいりき」" },
-  "hm-flash":       { "fr": "CS Flash",         "en": "HM Flash",        "ja": "ひでんマシン「フラッシュ」" },
-  "hm-rock-smash":  { "fr": "CS Éclate-Roc",    "en": "HM Rock Smash",   "ja": "ひでんマシン「いわくだき」" },
-  "hm-waterfall":   { "fr": "CS Cascade",       "en": "HM Waterfall",    "ja": "ひでんマシン「たきのぼり」" },
-  "honey":          { "fr": "Miel",             "en": "Honey",           "ja": "あまいみつ" }
+  "ability-shield": {
+    "fr": "Garde-Talent",
+    "en": "Ability Shield",
+    "ja": "とくせいガード"
+  },
+  "absorb-bulb": {
+    "kr": "구근",
+    "fr": "Bulbe",
+    "de": "Knolle",
+    "en": "Absorb Bulb",
+    "ja": "きゅうこん"
+  },
+  "adamant-orb": {
+    "kr": "금강옥",
+    "fr": "Orbe Adamant",
+    "de": "Adamant-Orb",
+    "en": "Adamant Orb",
+    "ja": "こんごうだま"
+  },
+  "adrenaline-orb": {
+    "kr": "주눅구슬",
+    "fr": "Orbe Frousse",
+    "de": "Zitterorb",
+    "en": "Adrenaline Orb",
+    "ja": "ビビリだま"
+  },
+  "air-balloon": {
+    "kr": "풍선",
+    "fr": "Ballon",
+    "de": "Luftballon",
+    "en": "Air Balloon",
+    "ja": "ふうせん"
+  },
+  "amulet-coin": {
+    "kr": "부적금화",
+    "fr": "Pièce Rune",
+    "de": "Münzamulett",
+    "en": "Amulet Coin",
+    "ja": "おまもりこばん"
+  },
+  "aspear-berry": {
+    "kr": "배리열매",
+    "fr": "Baie Willia",
+    "de": "Wilbirbeere",
+    "en": "Aspear Berry",
+    "ja": "ナナシのみ"
+  },
+  "assault-vest": {
+    "kr": "돌격조끼",
+    "fr": "Veste de Combat",
+    "de": "Offensivweste",
+    "en": "Assault Vest",
+    "ja": "とつげきチョッキ"
+  },
+  "balm-mushroom": {
+    "kr": "향기버섯",
+    "fr": "Champi Suave",
+    "de": "Duftpilz",
+    "en": "Balm Mushroom",
+    "ja": "かおるキノコ"
+  },
+  "beach-glass": {
+    "kr": "바닷가유리",
+    "fr": "Galet de Verre",
+    "de": "Strandscherbe",
+    "en": "Beach Glass",
+    "ja": "うみべのガラス"
+  },
+  "berry-sweet": {
+    "kr": "베리사탕공예",
+    "fr": "Baie en Sucre",
+    "de": "Zucker-Beere",
+    "en": "Berry Sweet",
+    "ja": "ベリーアメざいく"
+  },
+  "big-bamboo-shoot": {
+    "fr": "Gros Bambou",
+    "en": "Big Bamboo Shoot",
+    "ja": "おおきなタケノコ"
+  },
+  "big-mushroom": {
+    "kr": "큰버섯",
+    "fr": "Gros Champi",
+    "de": "Riesenpilz",
+    "en": "Big Mushroom",
+    "ja": "おおきなキノコ"
+  },
+  "big-nugget": {
+    "kr": "큰금구슬",
+    "fr": "Maxi Pépite",
+    "de": "Riesennugget",
+    "en": "Big Nugget",
+    "ja": "でかいきんのたま"
+  },
+  "big-pearl": {
+    "kr": "큰진주",
+    "fr": "Grande Perle",
+    "de": "Riesenperle",
+    "en": "Big Pearl",
+    "ja": "おおきなしんじゅ"
+  },
+  "big-root": {
+    "kr": "큰뿌리",
+    "fr": "Grosse Racine",
+    "de": "Großwurzel",
+    "en": "Big Root",
+    "ja": "おおきなねっこ"
+  },
+  "binding-band": {
+    "kr": "조임밴드",
+    "fr": "Bande Étreinte",
+    "de": "Klammerband",
+    "en": "Binding Band",
+    "ja": "しめつけバンド"
+  },
+  "black-augurite": {
+    "en": "Black Augurite"
+  },
+  "black-belt": {
+    "kr": "검은띠",
+    "fr": "Ceinture Noire",
+    "de": "Schwarzgurt",
+    "en": "Black Belt",
+    "ja": "くろおび"
+  },
+  "black-glasses": {
+    "kr": "검은안경",
+    "fr": "Lunettes Noires",
+    "de": "Schattenbrille",
+    "en": "Black Glasses",
+    "ja": "くろいメガネ"
+  },
+  "black-sludge": {
+    "kr": "검은진흙",
+    "fr": "Boue Noire",
+    "de": "Giftschleim",
+    "en": "Black Sludge",
+    "ja": "くろいヘドロ"
+  },
+  "blank-plate": {
+    "fr": "Plaque Renouveau",
+    "en": "Blank Plate",
+    "ja": "まっさらプレート"
+  },
+  "blunder-policy": {
+    "kr": "허탕보험",
+    "fr": "Assurance Échec",
+    "de": "Fehlschlagschutz",
+    "en": "Blunder Policy",
+    "ja": "からぶりほけん"
+  },
+  "booster-energy": {
+    "fr": "Énergie Booster",
+    "en": "Booster Energy",
+    "ja": "ブーストエナジー"
+  },
+  "bottle-cap": {
+    "kr": "은왕관",
+    "fr": "Capsule d’Argent",
+    "de": "Silberkronkorken",
+    "en": "Bottle Cap",
+    "ja": "ぎんのおうかん"
+  },
+  "bright-powder": {
+    "kr": "반짝가루",
+    "fr": "Poudre Claire",
+    "de": "Blendpuder",
+    "en": "Bright Powder",
+    "ja": "ひかりのこな"
+  },
+  "burn-drive": {
+    "kr": "블레이즈카세트",
+    "fr": "Module Pyro",
+    "de": "Flammenmodul",
+    "en": "Burn Drive",
+    "ja": "ブレイズカセット"
+  },
+  "cell-battery": {
+    "kr": "충전지",
+    "fr": "Pile",
+    "de": "Akku",
+    "en": "Cell Battery",
+    "ja": "じゅうでんち"
+  },
+  "chalky-stone": {
+    "kr": "초크돌",
+    "fr": "Craie",
+    "de": "Kreidestein",
+    "en": "Chalky Stone",
+    "ja": "チョークいし"
+  },
+  "charcoal": {
+    "kr": "목탄",
+    "fr": "Charbon",
+    "de": "Holzkohle",
+    "en": "Charcoal",
+    "ja": "もくたん"
+  },
+  "cheri-berry": {
+    "kr": "버치열매",
+    "fr": "Baie Ceriz",
+    "de": "Amrenabeere",
+    "en": "Cheri Berry",
+    "ja": "クラボのみ"
+  },
+  "chesto-berry": {
+    "kr": "유루열매",
+    "fr": "Baie Maron",
+    "de": "Maronbeere",
+    "en": "Chesto Berry",
+    "ja": "カゴのみ"
+  },
+  "chill-drive": {
+    "kr": "프리즈카세트",
+    "fr": "Module Cryo",
+    "de": "Gefriermodul",
+    "en": "Chill Drive",
+    "ja": "フリーズカセット"
+  },
+  "chipped-pot": {
+    "kr": "이빠진포트",
+    "fr": "Théière Ébréchée",
+    "de": "Löchrige Kanne",
+    "en": "Chipped Pot",
+    "ja": "かけたポット"
+  },
+  "cleanse-tag": {
+    "kr": "순결의부적",
+    "fr": "Rune Purifiante",
+    "de": "Schutzband",
+    "en": "Cleanse Tag",
+    "ja": "きよめのおふだ"
+  },
+  "clear-amulet": {
+    "fr": "Talisman Sain",
+    "en": "Clear Amulet",
+    "ja": "クリアチャーム"
+  },
+  "clover-sweet": {
+    "kr": "네잎사탕공예",
+    "fr": "Trèfle en Sucre",
+    "de": "Zucker-Kleeblatt",
+    "en": "Clover Sweet",
+    "ja": "よつばアメざいく"
+  },
+  "comet-shard": {
+    "kr": "혜성조각",
+    "fr": "Morceau Comète",
+    "de": "Kometstück",
+    "en": "Comet Shard",
+    "ja": "すいせいのかけら"
+  },
+  "common-stone": {
+    "kr": "흔해빠진돌",
+    "fr": "Pierre Ordinaire",
+    "de": "Normaler Stein",
+    "en": "Common Stone",
+    "ja": "ありふれたいし"
+  },
+  "cornerstone-mask": {
+    "fr": "Masque de la Pierre",
+    "en": "Cornerstone Mask",
+    "ja": "いしずえのめん"
+  },
+  "covert-cloak": {
+    "fr": "Cape Obscure",
+    "en": "Covert Cloak",
+    "ja": "おんみつマント"
+  },
+  "cracked-pot": {
+    "kr": "깨진포트",
+    "fr": "Théière Fêlée",
+    "de": "Rissige Kanne",
+    "en": "Cracked Pot",
+    "ja": "われたポット"
+  },
+  "damp-rock": {
+    "kr": "축축한바위",
+    "fr": "Roche Humide",
+    "de": "Nassbrocken",
+    "en": "Damp Rock",
+    "ja": "しめったいわ"
+  },
+  "dark-stone": {
+    "kr": "다크스톤",
+    "fr": "Galet Noir",
+    "de": "Dunkelstein",
+    "en": "Dark Stone",
+    "ja": "ダークストーン"
+  },
+  "dawn-stone": {
+    "fr": "Pierre Aube",
+    "en": "Dawn Stone",
+    "ja": "めざめのいし"
+  },
+  "deep-sea-scale": {
+    "fr": "Écaille Abyssale",
+    "en": "DeepSeaScale",
+    "ja": "しんかいのウロコ"
+  },
+  "deep-sea-tooth": {
+    "fr": "Dent Abyssale",
+    "en": "DeepSeaTooth",
+    "ja": "しんかいのキバ"
+  },
+  "destiny-knot": {
+    "kr": "빨간실",
+    "fr": "Nœud Destin",
+    "de": "Fatumknoten",
+    "en": "Destiny Knot",
+    "ja": "あかいいと"
+  },
+  "discount-coupon": {
+    "kr": "바겐세일티켓",
+    "fr": "Bon Réduction",
+    "de": "Rabattmarke",
+    "en": "Discount Coupon",
+    "ja": "バーゲンチケット"
+  },
+  "douse-drive": {
+    "kr": "아쿠아카세트",
+    "fr": "Module Aqua",
+    "de": "Aquamodul",
+    "en": "Douse Drive",
+    "ja": "アクアカセット"
+  },
+  "draco-plate": {
+    "kr": "용의플레이트",
+    "fr": "Plaque Draco",
+    "de": "Dracotafel",
+    "en": "Draco Plate",
+    "ja": "りゅうのプレート"
+  },
+  "dragon-fang": {
+    "kr": "용의이빨",
+    "fr": "Croc Dragon",
+    "de": "Drachenzahn",
+    "en": "Dragon Fang",
+    "ja": "りゅうのキバ"
+  },
+  "dragon-scale": {
+    "fr": "Écaille Draco",
+    "en": "Dragon Scale",
+    "ja": "りゅうのウロコ"
+  },
+  "dread-plate": {
+    "kr": "공포플레이트",
+    "fr": "Plaque Ombre",
+    "de": "Furchttafel",
+    "en": "Dread Plate",
+    "ja": "こわもてプレート"
+  },
+  "dubious-disc": {
+    "kr": "괴상한패치",
+    "fr": "CD Douteux",
+    "de": "Dubiosdisc",
+    "en": "Dubious Disc",
+    "ja": "あやしいパッチ"
+  },
+  "dusk-stone": {
+    "fr": "Pierre Nuit",
+    "en": "Dusk Stone",
+    "ja": "やみのいし"
+  },
+  "earth-plate": {
+    "kr": "대지플레이트",
+    "fr": "Plaque Terre",
+    "de": "Erdtafel",
+    "en": "Earth Plate",
+    "ja": "だいちのプレート"
+  },
+  "eject-button": {
+    "kr": "탈출버튼",
+    "fr": "Bouton Fuite",
+    "de": "Fluchtknopf",
+    "en": "Eject Button",
+    "ja": "だっしゅつボタン"
+  },
+  "eject-pack": {
+    "kr": "탈출팩",
+    "fr": "Sac Fuite",
+    "de": "Fluchttasche",
+    "en": "Eject Pack",
+    "ja": "だっしゅつパック"
+  },
+  "electirizer": {
+    "kr": "에레키부스터",
+    "fr": "Électriseur",
+    "de": "Stromisierer",
+    "en": "Electirizer",
+    "ja": "エレキブースター"
+  },
+  "electric-seed": {
+    "kr": "일렉트릭시드",
+    "fr": "Graine Électrik",
+    "de": "Elektro-Samen",
+    "en": "Electric Seed",
+    "ja": "エレキシード"
+  },
+  "enigma-berry": {
+    "kr": "의문열매",
+    "fr": "Baie Enigma",
+    "de": "Enigmabeere",
+    "en": "Enigma Berry",
+    "ja": "ナゾのみ"
+  },
+  "enigma-stone": {
+    "kr": "수수께끼의수정",
+    "fr": "Mystécristal",
+    "de": "Mytokristall",
+    "en": "Enigma Stone",
+    "ja": "なぞのすいしょう"
+  },
+  "everstone": {
+    "kr": "변함없는돌",
+    "fr": "Pierre Stase",
+    "de": "Ewigstein",
+    "en": "Everstone",
+    "ja": "かわらずのいし"
+  },
+  "eviolite": {
+    "kr": "진화의휘석",
+    "fr": "Évoluroc",
+    "de": "Evolith",
+    "en": "Eviolite",
+    "ja": "しんかのきせき"
+  },
+  "exp-share": {
+    "kr": "학습장치",
+    "fr": "Multi Exp",
+    "de": "EP-Teiler",
+    "en": "Exp. Share",
+    "ja": "がくしゅうそうち"
+  },
+  "expert-belt": {
+    "kr": "달인의띠",
+    "fr": "Ceinture Pro",
+    "de": "Expertengurt",
+    "en": "Expert Belt",
+    "ja": "たつじんのおび"
+  },
+  "fairy-feather": {
+    "fr": "Plume Enchantée",
+    "en": "Fairy Feather",
+    "ja": "ようせいのハネ"
+  },
+  "fire-stone": {
+    "fr": "Pierre Feu",
+    "en": "Fire Stone",
+    "ja": "ほのおのいし"
+  },
+  "fist-plate": {
+    "kr": "주먹플레이트",
+    "fr": "Plaque Poing",
+    "de": "Fausttafel",
+    "en": "Fist Plate",
+    "ja": "こぶしのプレート"
+  },
+  "flame-orb": {
+    "kr": "화염구슬",
+    "fr": "Orbe Flamme",
+    "de": "Heiß-Orb",
+    "en": "Flame Orb",
+    "ja": "かえんだま"
+  },
+  "flame-plate": {
+    "kr": "불구슬플레이트",
+    "fr": "Plaque Flamme",
+    "de": "Feuertafel",
+    "en": "Flame Plate",
+    "ja": "ひのたまプレート"
+  },
+  "float-stone": {
+    "kr": "가벼운돌",
+    "fr": "Pierrallégée",
+    "de": "Leichtstein",
+    "en": "Float Stone",
+    "ja": "かるいし"
+  },
+  "flower-sweet": {
+    "kr": "꽃사탕공예",
+    "fr": "Fleur en Sucre",
+    "de": "Zucker-Blume",
+    "en": "Flower Sweet",
+    "ja": "おはなアメざいく"
+  },
+  "focus-band": {
+    "kr": "기합의머리띠",
+    "fr": "Bandeau",
+    "de": "Fokusband",
+    "en": "Focus Band",
+    "ja": "きあいのハチマキ"
+  },
+  "focus-sash": {
+    "kr": "기합의띠",
+    "fr": "Ceinture Force",
+    "de": "Fokusgurt",
+    "en": "Focus Sash",
+    "ja": "きあいのタスキ"
+  },
+  "full-incense": {
+    "kr": "만복향로",
+    "fr": "Encens Plein",
+    "de": "Lahmrauch",
+    "en": "Full Incense",
+    "ja": "まんぷくおこう"
+  },
+  "god-stone": {
+    "en": "god stone"
+  },
+  "gold-bottle-cap": {
+    "kr": "금왕관",
+    "fr": "Capsule d’Or",
+    "de": "Goldkronkorken",
+    "en": "Gold Bottle Cap",
+    "ja": "きんのおうかん"
+  },
+  "gold-leaf": {
+    "kr": "금빛잎사귀",
+    "fr": "Feuille Dorée",
+    "de": "Goldblatt",
+    "en": "Gold Leaf",
+    "ja": "きんのはっぱ"
+  },
+  "good-rod": {
+    "fr": "Super Canne",
+    "en": "Good Rod",
+    "ja": "いいつりざお"
+  },
+  "grassy-seed": {
+    "kr": "그래스시드",
+    "fr": "Graine Herbe",
+    "de": "Gras-Samen",
+    "en": "Grassy Seed",
+    "ja": "グラスシード"
+  },
+  "grepa-berry": {
+    "kr": "또뽀열매",
+    "fr": "Baie Résin",
+    "de": "Labrusbeere",
+    "en": "Grepa Berry",
+    "ja": "ウブのみ"
+  },
+  "grip-claw": {
+    "kr": "끈기갈고리손톱",
+    "fr": "Accro Griffe",
+    "de": "Griffklaue",
+    "en": "Grip Claw",
+    "ja": "ねばりのかぎづめ"
+  },
+  "griseous-orb": {
+    "kr": "백금옥",
+    "fr": "Orbe Platiné",
+    "de": "Platinum-Orb",
+    "en": "Griseous Orb",
+    "ja": "はっきんだま"
+  },
+  "hard-stone": {
+    "kr": "딱딱한돌",
+    "fr": "Pierre Dure",
+    "de": "Granitstein",
+    "en": "Hard Stone",
+    "ja": "かたいいし"
+  },
+  "hearthflame-mask": {
+    "fr": "Masque du Fourneau",
+    "en": "Hearthflame Mask",
+    "ja": "かまどのめん"
+  },
+  "heat-rock": {
+    "kr": "뜨거운바위",
+    "fr": "Roche Chaude",
+    "de": "Heißbrocken",
+    "en": "Heat Rock",
+    "ja": "あついいわ"
+  },
+  "heavy-duty-boots": {
+    "kr": "통굽부츠",
+    "fr": "Grosses Bottes",
+    "de": "Plateauschuhe",
+    "en": "Heavy-Duty Boots",
+    "ja": "あつぞこブーツ"
+  },
+  "hondew-berry": {
+    "kr": "로매열매",
+    "fr": "Baie Lonme",
+    "de": "Honmelbeere",
+    "en": "Hondew Berry",
+    "ja": "ロメのみ"
+  },
+  "honey": {
+    "fr": "Miel",
+    "en": "Honey",
+    "ja": "あまいみつ"
+  },
+  "ice-stone": {
+    "kr": "얼음의돌",
+    "fr": "Pierre Glace",
+    "de": "Eisstein",
+    "en": "Ice Stone",
+    "ja": "こおりのいし"
+  },
+  "icicle-plate": {
+    "kr": "고드름플레이트",
+    "fr": "Plaque Glace",
+    "de": "Frosttafel",
+    "en": "Icicle Plate",
+    "ja": "つららのプレート"
+  },
+  "icy-rock": {
+    "kr": "차가운바위",
+    "fr": "Roche Glace",
+    "de": "Eisbrocken",
+    "en": "Icy Rock",
+    "ja": "つめたいいわ"
+  },
+  "insect-plate": {
+    "kr": "비단벌레플레이트",
+    "fr": "Plaque Insecte",
+    "de": "Käfertafel",
+    "en": "Insect Plate",
+    "ja": "たまむしプレート"
+  },
+  "intriguing-stone": {
+    "kr": "대단할듯한돌",
+    "fr": "Pierre Insolite",
+    "de": "Kurioser Stein",
+    "en": "Intriguing Stone",
+    "ja": "すごそうないし"
+  },
+  "iron-ball": {
+    "kr": "검은철구",
+    "fr": "Balle Fer",
+    "de": "Eisenkugel",
+    "en": "Iron Ball",
+    "ja": "くろいてっきゅう"
+  },
+  "iron-plate": {
+    "kr": "강철플레이트",
+    "fr": "Plaque Fer",
+    "de": "Eisentafel",
+    "en": "Iron Plate",
+    "ja": "こうてつプレート"
+  },
+  "jaboca-berry": {
+    "kr": "자보열매",
+    "fr": "Baie Jaboca",
+    "de": "Jabocabeere",
+    "en": "Jaboca Berry",
+    "ja": "ジャポのみ"
+  },
+  "kee-berry": {
+    "kr": "악키열매",
+    "fr": "Baie Éka",
+    "de": "Akibeere",
+    "en": "Kee Berry",
+    "ja": "アッキのみ"
+  },
+  "kelpsy-berry": {
+    "kr": "시마열매",
+    "fr": "Baie Alga",
+    "de": "Setangbeere",
+    "en": "Kelpsy Berry",
+    "ja": "ネコブのみ"
+  },
+  "key-stone": {
+    "kr": "키스톤",
+    "fr": "Gemme Sésame",
+    "de": "Schlüssel-Stein",
+    "en": "Key Stone",
+    "ja": "キーストーン"
+  },
+  "kings-rock": {
+    "fr": "Roche Royale",
+    "en": "King's Rock",
+    "ja": "おうじゃのしるし"
+  },
+  "lagging-tail": {
+    "kr": "느림보꼬리",
+    "fr": "Ralentiqueue",
+    "de": "Schwerschweif",
+    "en": "Lagging Tail",
+    "ja": "こうこうのしっぽ"
+  },
+  "lax-incense": {
+    "kr": "무사태평향로",
+    "fr": "Encens Doux",
+    "de": "Laxrauch",
+    "en": "Lax Incense",
+    "ja": "のんきのおこう"
+  },
+  "leaf-letter--eevee": {
+    "kr": "나뭇잎편지",
+    "fr": "Lettre Végétale",
+    "de": "Blattbrief",
+    "en": "Leaf Letter",
+    "ja": "このはのおてがみ"
+  },
+  "leaf-letter--pikachu": {
+    "kr": "나뭇잎편지",
+    "fr": "Lettre Végétale",
+    "de": "Blattbrief",
+    "en": "Leaf Letter",
+    "ja": "このはのおてがみ"
+  },
+  "leaf-stone": {
+    "fr": "Pierre Plante",
+    "en": "Leaf Stone",
+    "ja": "くさのいし"
+  },
+  "leftovers": {
+    "kr": "먹다남은음식",
+    "fr": "Restes",
+    "de": "Überreste",
+    "en": "Leftovers",
+    "ja": "たべのこし"
+  },
+  "legend-plate": {
+    "fr": "Plaque Légende",
+    "en": "Legend Plate",
+    "ja": "レジェンドプレート"
+  },
+  "leppa-berry": {
+    "kr": "과사열매",
+    "fr": "Baie Mepo",
+    "de": "Jonagobeere",
+    "en": "Leppa Berry",
+    "ja": "ヒメリのみ"
+  },
+  "life-orb": {
+    "kr": "생명의구슬",
+    "fr": "Orbe Vie",
+    "de": "Leben-Orb",
+    "en": "Life Orb",
+    "ja": "いのちのたま"
+  },
+  "light-ball": {
+    "kr": "전기구슬",
+    "fr": "Balle Lumière",
+    "de": "Kugelblitz",
+    "en": "Light Ball",
+    "ja": "でんきだま"
+  },
+  "light-clay": {
+    "kr": "빛의점토",
+    "fr": "Lumargile",
+    "de": "Lichtlehm",
+    "en": "Light Clay",
+    "ja": "ひかりのねんど"
+  },
+  "light-stone": {
+    "kr": "라이트스톤",
+    "fr": "Galet Blanc",
+    "de": "Lichtstein",
+    "en": "Light Stone",
+    "ja": "ライトストーン"
+  },
+  "linking-cord": {
+    "fr": "Fil de Liaison",
+    "en": "Linking Cord",
+    "ja": "つながりのヒモ"
+  },
+  "loaded-dice": {
+    "fr": "Dé Pipé",
+    "en": "Loaded Dice",
+    "ja": "いかさまダイス"
+  },
+  "lone-earring": {
+    "kr": "한쪽귀고리",
+    "fr": "Boucle d’Oreille",
+    "de": "Ohrring",
+    "en": "Lone Earring",
+    "ja": "かたっぽピアス"
+  },
+  "love-sweet": {
+    "kr": "하트사탕공예",
+    "fr": "Cœur en Sucre",
+    "de": "Zucker-Herz",
+    "en": "Love Sweet",
+    "ja": "ハートアメざいく"
+  },
+  "luck-incense": {
+    "kr": "행운의향로",
+    "fr": "Encens Veine",
+    "de": "Glücksrauch",
+    "en": "Luck Incense",
+    "ja": "こううんのおこう"
+  },
+  "lucky-egg": {
+    "kr": "행복의알",
+    "fr": "Œuf Chance",
+    "de": "Glücks-Ei",
+    "en": "Lucky Egg",
+    "ja": "しあわせタマゴ"
+  },
+  "lucky-punch": {
+    "kr": "럭키펀치",
+    "fr": "Poing Chance",
+    "de": "Lucky Punch",
+    "en": "Lucky Punch",
+    "ja": "ラッキーパンチ"
+  },
+  "lum-berry": {
+    "kr": "리샘열매",
+    "fr": "Baie Prine",
+    "de": "Prunusbeere",
+    "en": "Lum Berry",
+    "ja": "ラムのみ"
+  },
+  "luminous-moss": {
+    "kr": "빛이끼",
+    "fr": "Lichen Lumineux",
+    "de": "Leuchtmoos",
+    "en": "Luminous Moss",
+    "ja": "ひかりごけ"
+  },
+  "lustrous-orb": {
+    "kr": "백옥",
+    "fr": "Orbe Perlé",
+    "de": "Weiß-Orb",
+    "en": "Lustrous Orb",
+    "ja": "しらたま"
+  },
+  "macho-brace": {
+    "kr": "교정깁스",
+    "fr": "Bracelet Macho",
+    "de": "Machoband",
+    "en": "Macho Brace",
+    "ja": "きょうせいギプス"
+  },
+  "magma-stone": {
+    "kr": "화산의돌",
+    "fr": "Pierre Magma",
+    "de": "Magmastein",
+    "en": "Magma Stone",
+    "ja": "かざんのおきいし"
+  },
+  "magmarizer": {
+    "kr": "마그마부스터",
+    "fr": "Magmariseur",
+    "de": "Magmaisierer",
+    "en": "Magmarizer",
+    "ja": "マグマブースター"
+  },
+  "magnet": {
+    "kr": "자석",
+    "fr": "Aimant",
+    "de": "Magnet",
+    "en": "Magnet",
+    "ja": "じしゃく"
+  },
+  "malicious-armor": {
+    "fr": "Armure de la Rancune",
+    "en": "Malicious Armor",
+    "ja": "ノロイノヨロイ"
+  },
+  "maranga-berry": {
+    "kr": "타라프열매",
+    "fr": "Baie Rangma",
+    "de": "Tarabeere",
+    "en": "Maranga Berry",
+    "ja": "タラプのみ"
+  },
+  "marble": {
+    "kr": "유리구슬",
+    "fr": "Bille",
+    "de": "Glasmurmel",
+    "en": "Marble",
+    "ja": "ビーだま"
+  },
+  "masterpiece-teacup": {
+    "fr": "Bol Exceptionnel",
+    "en": "Masterpiece Teacup",
+    "ja": "ボンサクのちゃわん"
+  },
+  "meadow-plate": {
+    "kr": "초록플레이트",
+    "fr": "Plaque Herbe",
+    "de": "Wiesentafel",
+    "en": "Meadow Plate",
+    "ja": "みどりのプレート"
+  },
+  "mental-herb": {
+    "kr": "멘탈허브",
+    "fr": "Herbe Mental",
+    "de": "Mentalkraut",
+    "en": "Mental Herb",
+    "ja": "メンタルハーブ"
+  },
+  "metal-coat": {
+    "fr": "Revêtement Métal",
+    "en": "Metal Coat",
+    "ja": "メタルコート"
+  },
+  "metal-powder": {
+    "kr": "금속파우더",
+    "fr": "Poudre Métal",
+    "de": "Metallstaub",
+    "en": "Metal Powder",
+    "ja": "メタルパウダー"
+  },
+  "metronome": {
+    "kr": "메트로놈",
+    "fr": "Métronome",
+    "de": "Metronom",
+    "en": "Metronome",
+    "ja": "メトロノーム"
+  },
+  "mind-plate": {
+    "kr": "이상한플레이트",
+    "fr": "Plaque Esprit",
+    "de": "Hirntafel",
+    "en": "Mind Plate",
+    "ja": "ふしぎのプレート"
+  },
+  "miracle-seed": {
+    "kr": "기적의씨",
+    "fr": "Graine Miracle",
+    "de": "Wundersaat",
+    "en": "Miracle Seed",
+    "ja": "きせきのタネ"
+  },
+  "mirror-herb": {
+    "fr": "Feuille Copieuse",
+    "en": "Mirror Herb",
+    "ja": "ものまねハーブ"
+  },
+  "misty-seed": {
+    "kr": "미스트시드",
+    "fr": "Graine Brume",
+    "de": "Nebel-Samen",
+    "en": "Misty Seed",
+    "ja": "ミストシード"
+  },
+  "moon-stone": {
+    "fr": "Pierre Lune",
+    "en": "Moon Stone",
+    "ja": "つきのいし"
+  },
+  "muscle-band": {
+    "kr": "힘의머리띠",
+    "fr": "Bandeau Muscle",
+    "de": "Muskelband",
+    "en": "Muscle Band",
+    "ja": "ちからのハチマキ"
+  },
+  "mystic-water": {
+    "kr": "신비의물방울",
+    "fr": "Eau Mystique",
+    "de": "Zauberwasser",
+    "en": "Mystic Water",
+    "ja": "しんぴのしずく"
+  },
+  "never-melt-ice": {
+    "kr": "녹지않는얼음",
+    "fr": "Glace Éternelle",
+    "de": "Ewiges Eis",
+    "en": "Never-Melt Ice",
+    "ja": "とけないこおり"
+  },
+  "nugget": {
+    "kr": "금구슬",
+    "fr": "Pépite",
+    "de": "Nugget",
+    "en": "Nugget",
+    "ja": "きんのたま"
+  },
+  "odd-incense": {
+    "kr": "괴상한향로",
+    "fr": "Encens Bizarre",
+    "de": "Schrägrauch",
+    "en": "Odd Incense",
+    "ja": "あやしいおこう"
+  },
+  "odd-keystone": {
+    "kr": "쐐기돌",
+    "fr": "Clé de Voûte",
+    "de": "Spiritkern",
+    "en": "Odd Keystone",
+    "ja": "かなめいし"
+  },
+  "old-rod": {
+    "fr": "Vieille Canne",
+    "en": "Old Rod",
+    "ja": "いいつりざお"
+  },
+  "oran-berry": {
+    "kr": "오랭열매",
+    "fr": "Baie Oran",
+    "de": "Sinelbeere",
+    "en": "Oran Berry",
+    "ja": "オレンのみ"
+  },
+  "oval-stone": {
+    "fr": "Pierre Ovale",
+    "en": "Oval Stone",
+    "ja": "まんまるいし"
+  },
+  "pass-orb": {
+    "kr": "딜구슬",
+    "fr": "Offrisphère",
+    "de": "Transferorb",
+    "en": "Pass Orb",
+    "ja": "デルダマ"
+  },
+  "pearl": {
+    "kr": "진주",
+    "fr": "Perle",
+    "de": "Perle",
+    "en": "Pearl",
+    "ja": "しんじゅ"
+  },
+  "pearl-string": {
+    "kr": "경단진주",
+    "fr": "Perle Triple",
+    "de": "Triperle",
+    "en": "Pearl String",
+    "ja": "おだんごしんじゅ"
+  },
+  "peat-block": {
+    "en": "Peat Block"
+  },
+  "pecha-berry": {
+    "kr": "복슝열매",
+    "fr": "Baie Pêcha",
+    "de": "Pirsifbeere",
+    "en": "Pecha Berry",
+    "ja": "モモンのみ"
+  },
+  "persim-berry": {
+    "kr": "시몬열매",
+    "fr": "Baie Kika",
+    "de": "Persimbeere",
+    "en": "Persim Berry",
+    "ja": "キーのみ"
+  },
+  "pink-nectar": {
+    "kr": "연분홍꿀",
+    "fr": "Nectar Rose",
+    "de": "Rosa Nektar",
+    "en": "Pink Nectar",
+    "ja": "うすもものミツ"
+  },
+  "pixie-plate": {
+    "kr": "정령플레이트",
+    "fr": "Plaque Pixie",
+    "de": "Feentafel",
+    "en": "Pixie Plate",
+    "ja": "せいれいプレート"
+  },
+  "poison-barb": {
+    "kr": "독바늘",
+    "fr": "Pic Venin",
+    "de": "Giftstich",
+    "en": "Poison Barb",
+    "ja": "どくバリ"
+  },
+  "poke-flute": {
+    "kr": "포켓몬피리",
+    "fr": "Poké Flûte",
+    "de": "Pokéflöte",
+    "en": "Poké Flute",
+    "ja": "ポケモンのふえ"
+  },
+  "polished-mud-ball": {
+    "kr": "반짝반짝경단",
+    "fr": "Boulette de Boue",
+    "de": "Glanzkugel",
+    "en": "Polished Mud Ball",
+    "ja": "ピカピカだんご"
+  },
+  "pomeg-berry": {
+    "kr": "유석열매",
+    "fr": "Baie Grena",
+    "de": "Granabeere",
+    "en": "Pomeg Berry",
+    "ja": "ザロクのみ"
+  },
+  "power-anklet": {
+    "kr": "파워앵클릿",
+    "fr": "Chaîne Pouvoir",
+    "de": "Machtkette",
+    "en": "Power Anklet",
+    "ja": "パワーアンクル"
+  },
+  "power-band": {
+    "kr": "파워밴드",
+    "fr": "Bandeau Pouvoir",
+    "de": "Machtband",
+    "en": "Power Band",
+    "ja": "パワーバンド"
+  },
+  "power-belt": {
+    "kr": "파워벨트",
+    "fr": "Ceinture Pouvoir",
+    "de": "Machtgurt",
+    "en": "Power Belt",
+    "ja": "パワーベルト"
+  },
+  "power-bracer": {
+    "kr": "파워리스트",
+    "fr": "Poignet Pouvoir",
+    "de": "Machtreif",
+    "en": "Power Bracer",
+    "ja": "パワーリスト"
+  },
+  "power-herb": {
+    "kr": "파워풀허브",
+    "fr": "Herbe Pouvoir",
+    "de": "Energiekraut",
+    "en": "Power Herb",
+    "ja": "パワフルハーブ"
+  },
+  "power-lens": {
+    "kr": "파워렌즈",
+    "fr": "Lentille Pouvoir",
+    "de": "Machtlinse",
+    "en": "Power Lens",
+    "ja": "パワーレンズ"
+  },
+  "power-weight": {
+    "kr": "파워웨이트",
+    "fr": "Poids Pouvoir",
+    "de": "Machtgewicht",
+    "en": "Power Weight",
+    "ja": "パワーウエイト"
+  },
+  "pretty-wing": {
+    "kr": "고운날개",
+    "fr": "Jolie Plume",
+    "de": "Prachtfeder",
+    "en": "Pretty Feather",
+    "ja": "きれいなハネ"
+  },
+  "prism-scale": {
+    "kr": "고운비늘",
+    "fr": "Bel’Écaille",
+    "de": "Schönschuppe",
+    "en": "Prism Scale",
+    "ja": "きれいなウロコ"
+  },
+  "protective-pads": {
+    "kr": "방호패드",
+    "fr": "Pare-Effet",
+    "de": "Schutzpolster",
+    "en": "Protective Pads",
+    "ja": "ぼうごパット"
+  },
+  "protector": {
+    "kr": "프로텍터",
+    "fr": "Protecteur",
+    "de": "Schützer",
+    "en": "Protector",
+    "ja": "プロテクター"
+  },
+  "psychic-seed": {
+    "kr": "사이코시드",
+    "fr": "Graine Psychique",
+    "de": "Psycho-Samen",
+    "en": "Psychic Seed",
+    "ja": "サイコシード"
+  },
+  "punching-glove": {
+    "fr": "Gant de Boxe",
+    "en": "Punching Glove",
+    "ja": "パンチグローブ"
+  },
+  "pure-incense": {
+    "kr": "순결의향로",
+    "fr": "Encens Pur",
+    "de": "Scheuchrauch",
+    "en": "Pure Incense",
+    "ja": "きよめのおこう"
+  },
+  "purple-nectar": {
+    "kr": "보라꿀",
+    "fr": "Nectar Mauve",
+    "de": "Purpurner Nektar",
+    "en": "Purple Nectar",
+    "ja": "むらさきのミツ"
+  },
+  "qualot-berry": {
+    "kr": "파비열매",
+    "fr": "Baie Qualot",
+    "de": "Qualotbeere",
+    "en": "Qualot Berry",
+    "ja": "タポルのみ"
+  },
+  "quick-claw": {
+    "kr": "선제공격손톱",
+    "fr": "Vive Griffe",
+    "de": "Flinkklaue",
+    "en": "Quick Claw",
+    "ja": "せんせいのツメ"
+  },
+  "quick-powder": {
+    "kr": "스피드파우더",
+    "fr": "Poudre Vite",
+    "de": "Flottstaub",
+    "en": "Quick Powder",
+    "ja": "スピードパウダー"
+  },
+  "rare-bone": {
+    "kr": "귀중한뼈",
+    "fr": "Os Rare",
+    "de": "Steinknochen",
+    "en": "Rare Bone",
+    "ja": "きちょうなホネ"
+  },
+  "rawst-berry": {
+    "kr": "복분열매",
+    "fr": "Baie Fraive",
+    "de": "Fragiabeere",
+    "en": "Rawst Berry",
+    "ja": "チーゴのみ"
+  },
+  "razor-claw": {
+    "kr": "예리한손톱",
+    "fr": "Griffe Rasoir",
+    "de": "Scharfklaue",
+    "en": "Razor Claw",
+    "ja": "するどいツメ"
+  },
+  "razor-fang": {
+    "kr": "예리한이빨",
+    "fr": "Croc Rasoir",
+    "de": "Scharfzahn",
+    "en": "Razor Fang",
+    "ja": "するどいキバ"
+  },
+  "reaper-cloth": {
+    "kr": "영계의천",
+    "fr": "Tissu Fauche",
+    "de": "Düsterumhang",
+    "en": "Reaper Cloth",
+    "ja": "れいかいのぬの"
+  },
+  "red-card": {
+    "kr": "레드카드",
+    "fr": "Carton Rouge",
+    "de": "Rote Karte",
+    "en": "Red Card",
+    "ja": "レッドカード"
+  },
+  "red-nectar": {
+    "kr": "다홍꿀",
+    "fr": "Nectar Rouge",
+    "de": "Roter Nektar",
+    "en": "Red Nectar",
+    "ja": "くれないのミツ"
+  },
+  "relic-band": {
+    "kr": "고대의팔찌",
+    "fr": "Vieux Bijou",
+    "de": "Alter Reif",
+    "en": "Relic Band",
+    "ja": "こだいのうでわ"
+  },
+  "relic-copper": {
+    "kr": "고대의동화",
+    "fr": "Vieux Sou",
+    "de": "Alter Heller",
+    "en": "Relic Copper",
+    "ja": "こだいのどうか"
+  },
+  "relic-crown": {
+    "kr": "고대의왕관",
+    "fr": "Vieux Tortil",
+    "de": "Alte Krone",
+    "en": "Relic Crown",
+    "ja": "こだいのおうかん"
+  },
+  "relic-gold": {
+    "kr": "고대의금화",
+    "fr": "Vieux Ducat",
+    "de": "Alter Dukat",
+    "en": "Relic Gold",
+    "ja": "こだいのきんか"
+  },
+  "relic-silver": {
+    "kr": "고대의은화",
+    "fr": "Vieil Écu",
+    "de": "Alter Taler",
+    "en": "Relic Silver",
+    "ja": "こだいのぎんか"
+  },
+  "relic-statue": {
+    "kr": "고대의석상",
+    "fr": "Vieux Santon",
+    "de": "Alte Statue",
+    "en": "Relic Statue",
+    "ja": "こだいのせきぞう"
+  },
+  "relic-vase": {
+    "kr": "고대의항아리",
+    "fr": "Vieux Vase",
+    "de": "Alte Vase",
+    "en": "Relic Vase",
+    "ja": "こだいのツボ"
+  },
+  "ribbon-sweet": {
+    "kr": "리본사탕공예",
+    "fr": "Ruban en Sucre",
+    "de": "Zucker-Schleife",
+    "en": "Ribbon Sweet",
+    "ja": "リボンアメざいく"
+  },
+  "ring-target": {
+    "kr": "겨냥표적",
+    "fr": "Point de Mire",
+    "de": "Zielscheibe",
+    "en": "Ring Target",
+    "ja": "ねらいのまと"
+  },
+  "rock-incense": {
+    "kr": "암석향로",
+    "fr": "Encens Roc",
+    "de": "Steinrauch",
+    "en": "Rock Incense",
+    "ja": "がんせきおこう"
+  },
+  "rocky-helmet": {
+    "kr": "울퉁불퉁멧",
+    "fr": "Casque Brut",
+    "de": "Beulenhelm",
+    "en": "Rocky Helmet",
+    "ja": "ゴツゴツメット"
+  },
+  "room-service": {
+    "kr": "룸서비스",
+    "fr": "Chariot Distordu",
+    "de": "Bizarroservice",
+    "en": "Room Service",
+    "ja": "ルームサービス"
+  },
+  "rose-incense": {
+    "kr": "꽃향로",
+    "fr": "Encens Fleur",
+    "de": "Rosenrauch",
+    "en": "Rose Incense",
+    "ja": "おはなのおこう"
+  },
+  "rowap-berry": {
+    "kr": "애터열매",
+    "fr": "Baie Pommo",
+    "de": "Roselbeere",
+    "en": "Rowap Berry",
+    "ja": "レンブのみ"
+  },
+  "rusted-shield": {
+    "kr": "녹슨방패",
+    "fr": "Bouclier Rouillé",
+    "de": "Rostiger Schild",
+    "en": "Rusted Shield",
+    "ja": "くちたたて"
+  },
+  "rusted-sword": {
+    "kr": "녹슨검",
+    "fr": "Épée Rouillée",
+    "de": "Rostiges Schwert",
+    "en": "Rusted Sword",
+    "ja": "くちたけん"
+  },
+  "sachet": {
+    "kr": "향기주머니",
+    "fr": "Sachet Senteur",
+    "de": "Duftbeutel",
+    "en": "Sachet",
+    "ja": "においぶくろ"
+  },
+  "safety-goggles": {
+    "kr": "방진고글",
+    "fr": "Lunettes Filtre",
+    "de": "Schutzbrille",
+    "en": "Safety Goggles",
+    "ja": "ぼうじんゴーグル"
+  },
+  "scope-lens": {
+    "kr": "초점렌즈",
+    "fr": "Lentilscope",
+    "de": "Scope-Linse",
+    "en": "Scope Lens",
+    "ja": "ピントレンズ"
+  },
+  "sea-incense": {
+    "kr": "바닷물향로",
+    "fr": "Encens Mer",
+    "de": "Seerauch",
+    "en": "Sea Incense",
+    "ja": "うしおのおこう"
+  },
+  "sharp-beak": {
+    "kr": "예리한부리",
+    "fr": "Bec Pointu",
+    "de": "Spitzer Schnabel",
+    "en": "Sharp Beak",
+    "ja": "するどいくちばし"
+  },
+  "shed-shell": {
+    "kr": "아름다운허물",
+    "fr": "Carapace Mue",
+    "de": "Wechselhülle",
+    "en": "Shed Shell",
+    "ja": "きれいなぬけがら"
+  },
+  "shell-bell": {
+    "kr": "조개껍질방울",
+    "fr": "Grelot Coque",
+    "de": "Muschelglocke",
+    "en": "Shell Bell",
+    "ja": "かいがらのすず"
+  },
+  "shiny-stone": {
+    "fr": "Pierre Éclat",
+    "en": "Shiny Stone",
+    "ja": "ひかりのいし"
+  },
+  "shock-drive": {
+    "kr": "번개카세트",
+    "fr": "Module Choc",
+    "de": "Blitzmodul",
+    "en": "Shock Drive",
+    "ja": "イナズマカセット"
+  },
+  "silk-scarf": {
+    "kr": "실크스카프",
+    "fr": "Mouchoir Soie",
+    "de": "Seidenschal",
+    "en": "Silk Scarf",
+    "ja": "シルクのスカーフ"
+  },
+  "silver-leaf": {
+    "kr": "은빛잎사귀",
+    "fr": "Feuille Argentée",
+    "de": "Silberblatt",
+    "en": "Silver Leaf",
+    "ja": "ぎんのはっぱ"
+  },
+  "silver-powder": {
+    "kr": "은빛가루",
+    "fr": "Poudre Argentée",
+    "de": "Silberstaub",
+    "en": "Silver Powder",
+    "ja": "ぎんのこな"
+  },
+  "sitrus-berry": {
+    "kr": "자뭉열매",
+    "fr": "Baie Sitrus",
+    "de": "Tsitrubeere",
+    "en": "Sitrus Berry",
+    "ja": "オボンのみ"
+  },
+  "sky-plate": {
+    "kr": "푸른하늘플레이트",
+    "fr": "Plaque Ciel",
+    "de": "Wolkentafel",
+    "en": "Sky Plate",
+    "ja": "あおぞらプレート"
+  },
+  "small-bouquet": {
+    "kr": "작은꽃다발",
+    "fr": "Petit Bouquet",
+    "de": "Ministrauß",
+    "en": "Small Bouquet",
+    "ja": "ちいさなはなたば"
+  },
+  "smoke-ball": {
+    "kr": "연막탄",
+    "fr": "Boule Fumée",
+    "de": "Rauchball",
+    "en": "Smoke Ball",
+    "ja": "けむりだま"
+  },
+  "smooth-rock": {
+    "kr": "보송보송바위",
+    "fr": "Roche Lisse",
+    "de": "Glattbrocken",
+    "en": "Smooth Rock",
+    "ja": "さらさらいわ"
+  },
+  "snowball": {
+    "kr": "눈덩이",
+    "fr": "Boule de Neige",
+    "de": "Schneeball",
+    "en": "Snowball",
+    "ja": "ゆきだま"
+  },
+  "soft-sand": {
+    "kr": "부드러운모래",
+    "fr": "Sable Doux",
+    "de": "Pudersand",
+    "en": "Soft Sand",
+    "ja": "やわらかいすな"
+  },
+  "soothe-bell": {
+    "kr": "평온의방울",
+    "fr": "Grelot Zen",
+    "de": "Sanftglocke",
+    "en": "Soothe Bell",
+    "ja": "やすらぎのすず"
+  },
+  "soul-dew": {
+    "kr": "마음의물방울",
+    "fr": "Rosée Âme",
+    "de": "Seelentau",
+    "en": "Soul Dew",
+    "ja": "こころのしずく"
+  },
+  "sparkling-stone": {
+    "kr": "빛나는돌",
+    "fr": "Gemme Lumière",
+    "de": "Glitzerstein",
+    "en": "Sparkling Stone",
+    "ja": "かがやくいし"
+  },
+  "spell-tag": {
+    "kr": "저주의부적",
+    "fr": "Rune Sort",
+    "de": "Bannsticker",
+    "en": "Spell Tag",
+    "ja": "のろいのおふだ"
+  },
+  "splash-plate": {
+    "kr": "물방울플레이트",
+    "fr": "Plaque Hydro",
+    "de": "Wassertafel",
+    "en": "Splash Plate",
+    "ja": "しずくプレート"
+  },
+  "spooky-plate": {
+    "kr": "원령플레이트",
+    "fr": "Plaque Fantôme",
+    "de": "Spuktafel",
+    "en": "Spooky Plate",
+    "ja": "もののけプレート"
+  },
+  "star-piece": {
+    "kr": "별의조각",
+    "fr": "Morceau d’Étoile",
+    "de": "Sternenstück",
+    "en": "Star Piece",
+    "ja": "ほしのかけら"
+  },
+  "star-sweet": {
+    "kr": "스타사탕공예",
+    "fr": "Étoile en Sucre",
+    "de": "Zucker-Stern",
+    "en": "Star Sweet",
+    "ja": "スターアメざいく"
+  },
+  "stardust": {
+    "kr": "별의모래",
+    "fr": "Poussière Étoile",
+    "de": "Sternenstaub",
+    "en": "Stardust",
+    "ja": "ほしのすな"
+  },
+  "stick": {
+    "kr": "대파",
+    "fr": "Poireau",
+    "de": "Lauchstange",
+    "en": "Leek",
+    "ja": "ながねぎ"
+  },
+  "sticky-barb": {
+    "kr": "끈적끈적바늘",
+    "fr": "Piquants",
+    "de": "Klettdorn",
+    "en": "Sticky Barb",
+    "ja": "くっつきバリ"
+  },
+  "stone-plate": {
+    "kr": "암석플레이트",
+    "fr": "Plaque Roc",
+    "de": "Steintafel",
+    "en": "Stone Plate",
+    "ja": "がんせきプレート"
+  },
+  "stonjourner-stone": {
+    "fr": "Roche de Dolman",
+    "en": "Stonjourner Stone",
+    "ja": "イシヘンジンのいわ"
+  },
+  "strange-souvenir": {
+    "kr": "이상한장식품",
+    "fr": "Bibelot Bizarre",
+    "de": "Skurriloskulptur",
+    "en": "Strange Souvenir",
+    "ja": "ふしぎなおきもの"
+  },
+  "strawberry-sweet": {
+    "kr": "딸기사탕공예",
+    "fr": "Fraise en Sucre",
+    "de": "Zucker-Erdbeere",
+    "en": "Strawberry Sweet",
+    "ja": "いちごアメざいく"
+  },
+  "stretchy-spring": {
+    "kr": "늘어난용수철",
+    "fr": "Ressort Détendu",
+    "de": "Spiralfeder",
+    "en": "Stretchy Spring",
+    "ja": "のびたバネ"
+  },
+  "sun-stone": {
+    "fr": "Pierre Soleil",
+    "en": "Sun Stone",
+    "ja": "たいようのいし"
+  },
+  "super-rod": {
+    "fr": "Méga Canne",
+    "en": "Super Rod",
+    "ja": "すごいつりざお"
+  },
+  "sweet-apple": {
+    "kr": "달콤한사과",
+    "fr": "Pomme Sucrée",
+    "de": "Süßer Apfel",
+    "en": "Sweet Apple",
+    "ja": "あまーいりんご"
+  },
+  "syrupy-apple": {
+    "fr": "Pomme Nectar",
+    "en": "Syrupy Apple",
+    "ja": "みついりりんご"
+  },
+  "tamato-berry": {
+    "kr": "토망열매",
+    "fr": "Baie Tamato",
+    "de": "Tamotbeere",
+    "en": "Tamato Berry",
+    "ja": "マトマのみ"
+  },
+  "tart-apple": {
+    "kr": "새콤한사과",
+    "fr": "Pomme Acidulée",
+    "de": "Saurer Apfel",
+    "en": "Tart Apple",
+    "ja": "すっぱいりんご"
+  },
+  "terrain-extender": {
+    "kr": "그라운드코트",
+    "fr": "Champ’Duit",
+    "de": "Feldbeschichtung",
+    "en": "Terrain Extender",
+    "ja": "グランドコート"
+  },
+  "thick-club": {
+    "kr": "굵은뼈",
+    "fr": "Masse Os",
+    "de": "Kampfknochen",
+    "en": "Thick Club",
+    "ja": "ふといホネ"
+  },
+  "throat-spray": {
+    "kr": "목스프레이",
+    "fr": "Spray Gorge",
+    "de": "Halsspray",
+    "en": "Throat Spray",
+    "ja": "のどスプレー"
+  },
+  "thunder-stone": {
+    "fr": "Pierre Foudre",
+    "en": "Thunder Stone",
+    "ja": "かみなりのいし"
+  },
+  "tiny-bamboo-shoot": {
+    "fr": "Petit Bambou",
+    "en": "Tiny Bamboo Shoot",
+    "ja": "ちいさなタケノコ"
+  },
+  "tiny-mushroom": {
+    "kr": "작은버섯",
+    "fr": "Petit Champi",
+    "de": "Minipilz",
+    "en": "Tiny Mushroom",
+    "ja": "ちいさなキノコ"
+  },
+  "tm-case": {
+    "kr": "기술머신케이스",
+    "fr": "Boîte CT",
+    "de": "TM-Box",
+    "en": "TM Case",
+    "ja": "わざマシンケース"
+  },
+  "toxic-orb": {
+    "kr": "맹독구슬",
+    "fr": "Orbe Toxique",
+    "de": "Toxik-Orb",
+    "en": "Toxic Orb",
+    "ja": "どくどくだま"
+  },
+  "toxic-plate": {
+    "kr": "맹독플레이트",
+    "fr": "Plaque Toxicité",
+    "de": "Gifttafel",
+    "en": "Toxic Plate",
+    "ja": "もうどくプレート"
+  },
+  "tropical-shell": {
+    "kr": "트로피컬조개껍질",
+    "fr": "Coquille du Sud",
+    "de": "Tropenmuschel",
+    "en": "Tropical Shell",
+    "ja": "なんごくかいがら"
+  },
+  "twisted-spoon": {
+    "kr": "휘어진스푼",
+    "fr": "Cuillère Tordue",
+    "de": "Krummlöffel",
+    "en": "Twisted Spoon",
+    "ja": "まがったスプーン"
+  },
+  "unremarkable-teacup": {
+    "fr": "Bol Médiocre",
+    "en": "Unremarkable Teacup",
+    "ja": "ボンサクのちゃわん"
+  },
+  "up-grade": {
+    "kr": "업그레이드",
+    "fr": "Améliorator",
+    "de": "Up-Grade",
+    "en": "Upgrade",
+    "ja": "アップグレード"
+  },
+  "utility-umbrella": {
+    "kr": "만능우산",
+    "fr": "Parapluie Solide",
+    "de": "Allzweckschirm",
+    "en": "Utility Umbrella",
+    "ja": "ばんのうがさ"
+  },
+  "water-stone": {
+    "fr": "Pierre Eau",
+    "en": "Water Stone",
+    "ja": "みずのいし"
+  },
+  "wave-incense": {
+    "kr": "잔물결향로",
+    "fr": "Encens Vague",
+    "de": "Wellenrauch",
+    "en": "Wave Incense",
+    "ja": "さざなみのおこう"
+  },
+  "weakness-policy": {
+    "kr": "약점보험",
+    "fr": "Vulné-Assurance",
+    "de": "Schwächenschutz",
+    "en": "Weakness Policy",
+    "ja": "じゃくてんほけん"
+  },
+  "wellspring-mask": {
+    "fr": "Masque du Puits",
+    "en": "Wellspring Mask",
+    "ja": "いどのめん"
+  },
+  "whipped-dream": {
+    "kr": "휘핑팝",
+    "fr": "Chantibonbon",
+    "de": "Sahnehäubchen",
+    "en": "Whipped Dream",
+    "ja": "ホイップポップ"
+  },
+  "white-herb": {
+    "kr": "하양허브",
+    "fr": "Herbe Blanche",
+    "de": "Schlohkraut",
+    "en": "White Herb",
+    "ja": "しろいハーブ"
+  },
+  "wide-lens": {
+    "kr": "광각렌즈",
+    "fr": "Loupe",
+    "de": "Großlinse",
+    "en": "Wide Lens",
+    "ja": "こうかくレンズ"
+  },
+  "wise-glasses": {
+    "kr": "박식안경",
+    "fr": "Lunettes Sages",
+    "de": "Schlaubrille",
+    "en": "Wise Glasses",
+    "ja": "ものしりメガネ"
+  },
+  "yellow-nectar": {
+    "kr": "진노랑꿀",
+    "fr": "Nectar Jaune",
+    "de": "Gelber Nektar",
+    "en": "Yellow Nectar",
+    "ja": "やまぶきのミツ"
+  },
+  "zap-plate": {
+    "kr": "우뢰플레이트",
+    "fr": "Plaque Volt",
+    "de": "Blitztafel",
+    "en": "Zap Plate",
+    "ja": "いかずちプレート"
+  },
+  "zoom-lens": {
+    "kr": "포커스렌즈",
+    "fr": "Lentille Zoom",
+    "de": "Zoomlinse",
+    "en": "Zoom Lens",
+    "ja": "フォーカスレンズ"
+  },
+  "upgrade": {
+    "fr": "Mise à Niveau",
+    "en": "Up-Grade",
+    "ja": "アップグレード"
+  },
+  "hm-surf": {
+    "fr": "CS Surf",
+    "en": "HM Surf",
+    "ja": "ひでんマシン「なみのり」"
+  },
+  "hm-cut": {
+    "fr": "CS Coupe",
+    "en": "HM Cut",
+    "ja": "ひでんマシン「いあいぎり」"
+  },
+  "hm-fly": {
+    "fr": "CS Vol",
+    "en": "HM Fly",
+    "ja": "ひでんマシン「そらをとぶ」"
+  },
+  "hm-strength": {
+    "fr": "CS Force",
+    "en": "HM Strength",
+    "ja": "ひでんマシン「かいりき」"
+  },
+  "hm-flash": {
+    "fr": "CS Flash",
+    "en": "HM Flash",
+    "ja": "ひでんマシン「フラッシュ」"
+  },
+  "hm-rock-smash": {
+    "fr": "CS Éclate-Roc",
+    "en": "HM Rock Smash",
+    "ja": "ひでんマシン「いわくだき」"
+  },
+  "hm-waterfall": {
+    "fr": "CS Cascade",
+    "en": "HM Waterfall",
+    "ja": "ひでんマシン「たきのぼり」"
+  }
 }
