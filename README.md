@@ -15,7 +15,7 @@ An interactive progression guide for Pokémon games — shows available Pokémon
 - Pokémon filtered by unlocked areas, with obtain methods (wild, surf, fishing, trades...)
 - Evolutions inferred automatically — catch Pikachu and Raichu appears, grayed out until Thunder Stone is available
 - Capture tracking saved locally per game
-- Multilingual: Français · English · 日本語
+- Multilingual: Français · English · 日本語 · Deutsch · 한국어
 
 Currently supported: FireRed / LeafGreen
 
