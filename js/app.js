@@ -18,6 +18,7 @@ const state = {
   activeVersions: new Set(),
   captured:       {},
   gameMenuOpen:   false,
+  availableGames: new Set(), // jeux avec meta.json
   games:          [],
   meta:           null,
   zones:          {},
@@ -128,7 +129,17 @@ async function loadI18n() {
   state.milestoneNames = milestoneNames;
 }
 
-async function loadGames()   { state.games   = await fetchJSON('data/games.json'); }
+async function loadGames() {
+  state.games = await fetchJSON('data/games.json');
+  // Vérifier quels jeux ont un meta.json disponible
+  const checks = state.games.map(g =>
+    fetch(`data/${g.id}/meta.json`, { method: 'HEAD' })
+      .then(r => r.ok ? g.id : null)
+      .catch(() => null)
+  );
+  const results = await Promise.all(checks);
+  state.availableGames = new Set(results.filter(Boolean));
+}
 async function loadPokedex() { state.pokedex = await fetchJSON('data/pokemon.json'); }
 
 async function loadGame(gameId) {
@@ -446,8 +457,9 @@ function renderGameSelector() {
       </button>
       ${state.gameMenuOpen ? `<div class="game-menu">
         ${state.games.map(g => `
-          <button class="game-menu-item ${g.id === state.gameId ? 'selected' : ''}" onclick="selectGame('${g.id}')">
-            ${g.icon} ${gameName(g)}
+          <button class="game-menu-item ${g.id === state.gameId ? 'selected' : ''} ${!state.availableGames.has(g.id) ? 'unavailable' : ''}"
+            onclick="${state.availableGames.has(g.id) ? `selectGame('${g.id}')` : ''}">
+            ${g.icon} <span>${gameName(g)}</span>
           </button>`).join('')}
       </div>` : ''}
     </div>`;
@@ -566,3 +578,5 @@ async function init() {
 }
 
 init();
+
+/* Injecter le style unavailable directement pour éviter de toucher style.css */

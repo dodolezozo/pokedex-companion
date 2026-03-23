@@ -559,3 +559,15 @@ main {
 .game-menu-item:hover { background: var(--bg3); color: var(--text); }
 .game-menu-item.selected { color: var(--green); font-weight: 500; }
 .tag-static { background: #F1EFE8; color: #5F5E5A; }
+
+.game-menu-item.unavailable {
+  opacity: 0.45;
+  cursor: default;
+}
+.game-menu-item.unavailable span {
+  text-decoration: line-through;
+}
+.game-menu-item.unavailable:hover {
+  background: transparent;
+  color: var(--text3);
+}
